@@ -1,0 +1,27 @@
+Merhaba {{ admin_name }},
+
+AEAT, "{{ clinic_name }}" kliniğinin {{ invoice_number }} numaralı faturasına ait Verifactu kaydını REDDETTİ.
+Bu sorunu çözene kadar yeni fatura düzenleyemezsiniz (hash zincirini bozar).
+
+Fatura: {{ invoice_number }}
+AEAT kodu: {{ codigo_error or '—' }}
+Neden: {{ friendly_message }}
+
+Adımlar:
+{% if suggested_cta == 'edit_clinic' -%}
+1. Ayarlar → Klinik bölümüne gidip CIF/NIF'i kontrol edin.
+2. Ayarlar → Verifactu → Kuyruk bölümüne dönüp "Yeniden oluştur ve gönder"e tıklayın.
+{% elif suggested_cta == 'edit_billing_party' -%}
+1. {{ invoice_number }} numaralı faturayı açıp uyarı bandındaki "Müşteri bilgilerini düzenle"ye tıklayın.
+2. Kaydettikten sonra otomatik olarak yeniden gönderilir.
+{% elif suggested_cta == 'edit_lines' -%}
+1. KDV eşleştirmesini ve fatura tutarlarını kontrol edin.
+2. Fatura zaten ödendiyse düzeltme faturası oluşturun.
+{% else -%}
+1. Ayrıntıları görmek için Ayarlar → Verifactu → Kuyruk bölümüne gidin.
+2. Net değilse destekle iletişime geçin ve hata kodunu ekleyin.
+{% endif %}
+
+{% if queue_url -%}
+Verifactu kuyruğu: {{ queue_url }}
+{%- endif %}

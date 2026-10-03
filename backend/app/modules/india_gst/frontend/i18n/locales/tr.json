@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "indiaGst": "Hindistan GST"
+  },
+  "indiaGst": {
+    "badge": {
+      "gst": "GST",
+      "irnGenerated": "IRN oluşturuldu",
+      "einvoiceIssue": "E-fatura sorunu",
+      "needsAttention": "İlgi gerekiyor",
+      "missingGst": "GST verisi eksik — GST ayrıntılarını oluşturmak için bu faturayı yeniden düzenleyin"
+    },
+    "banner": {
+      "unregisteredTitle": "GSTIN yapılandırılmadı",
+      "unregisteredDescription": "Bu arada hastalara fatura kesmeye devam edebilirsiniz — standart faturalar GSTIN olmadan çalışır.",
+      "configureAction": "GST'yi yapılandır"
+    },
+    "listFilter": {
+      "needsAttention": "İlgi gerekiyor"
+    },
+    "panel": {
+      "title": "GST ve e-fatura",
+      "correctsDocument": "Düzelttiği belge",
+      "documentNumber": "GST belge numarası",
+      "placeOfSupply": "Teslim yeri",
+      "gstinOnInvoice": "Faturadaki GSTIN",
+      "notProvided": "Belirtilmedi",
+      "calculation": "GST hesaplaması",
+      "intraState": "Eyalet içi · CGST + SGST",
+      "interState": "Eyaletler arası · IGST",
+      "einvoiceStatus": "E-fatura durumu"
+    },
+    "einvoice": {
+      "notRequired": "Gerekli değil",
+      "notConfigured": "Yapılandırılmadı",
+      "pending": "Bekliyor",
+      "generated": "IRN oluşturuldu",
+      "rejected": "Reddedildi",
+      "error": "Bağlantı hatası",
+      "notRequiredHint": "Kliniğiniz ayarlarda belirlenen ciro eşiğinin altında, bu nedenle bu fatura e-fatura portalına gönderilmez.",
+      "notConfiguredHint": "E-fatura, Hindistan GST ayarlarında belirlenen ciro eşiğinin üzerindeki klinikler için geçerlidir. Bu fatura için hiçbir şey gönderilmez.",
+      "reviewSettings": "E-fatura ayarlarını gözden geçir"
+    },
+    "form": {
+      "title": "Fatura GST ayrıntıları",
+      "clinicGstDetails": "Klinik GST ayrıntıları",
+      "placeOfSupply": "Teslim yeri",
+      "placeOfSupplyHint": "CGST+SGST mi yoksa IGST mi uygulanacağını belirler",
+      "selectState": "Bir eyalet seçin",
+      "selectPlaceOfSupplyHint": "GST'yi hesaplamak için bir teslim yeri seçin",
+      "sacCodes": "SAC kodları",
+      "sacCode": "SAC kodu",
+      "sacOverrideHint": "SAC kodları tedavi kataloğunuzdan gelir. Yalnızca muhasebeciniz önerirse değiştirin.",
+      "save": "GST ayrıntılarını kaydet",
+      "saved": "GST ayrıntıları kaydedildi",
+      "saveError": "GST ayrıntıları kaydedilemedi"
+    },
+    "settingsCards": {
+      "title": "Hindistan GST",
+      "description": "Hindistan'daki klinikler için GSTIN, varsayılan teslim yeri ve SAC kodlarını yapılandırın.",
+      "open": "Ayarları aç"
+    },
+    "settings": {
+      "title": "Hindistan GST ayarları",
+      "description": "Bu klinik için GST ayrıntılarını ve fatura varsayılanlarını yapılandırın.",
+      "loadError": "GST ayarları yüklenemedi",
+      "saved": "Ayarlar kaydedildi",
+      "saveError": "Ayarlar kaydedilemedi",
+      "clinicDetails": "Klinik GST ayrıntıları",
+      "nonRegularNotice": "Bu kayıt türünde faturalama için GST hesaplaması devre dışıdır.",
+      "tradeName": "Ticari unvan",
+      "gstin": "GSTIN",
+      "gstinHint": "Kliniğin kendi (tedarikçi) GSTIN'i — asla alıcınınki değil",
+      "registrationType": "Kayıt türü",
+      "registrationRegular": "Normal",
+      "registrationComposition": "Composition",
+      "registrationUnregistered": "Kayıtsız",
+      "registrationExempt": "Muaf",
+      "clinicState": "Klinik eyaleti",
+      "gstinStateMismatch": "GSTIN'in ilk iki hanesi seçilen klinik eyaletiyle eşleşmeyen bir eyalet kodu — bu, her faturanın eyalet içi/eyaletler arası GST sınıflandırmasını tersine çevirir. İkisini de kontrol edin.",
+      "catalogDefaults": "Katalog GST varsayılanları",
+      "allSacConfigured": "Tüm tedavilerin SAC kodu yapılandırılmış.",
+      "missingSacCount": "{count} tedavinin SAC kodu ve oranı gerekiyor.",
+      "autoconfigure": "Otomatik yapılandır",
+      "autoconfigureHint": "Otomatik yapılandırma yukarıdaki her tedaviye SAC 999312 (insan sağlığı hizmetleri) atar ve GST oranını her tedavinin vergi türüne bırakır. Zaten SAC'ı olan tedavilere dokunulmaz.",
+      "autoconfigureDone": "{count} tedavi SAC {sac} olarak ayarlandı.",
+      "autoconfigureError": "SAC kodları otomatik yapılandırılamadı",
+      "einvoiceIntegration": "E-fatura entegrasyonu",
+      "einvoiceProfessionalNotice": "E-faturayı etkinleştirmeden önce uygunluğu ve yasal yükümlülükleri yetkin bir Hindistan vergi uzmanıyla doğrulayın. Dentalpin, e-faturanın kliniğiniz için geçerli olup olmadığını belirlemez.",
+      "turnoverThreshold": "Ciro eşiği",
+      "turnoverThresholdHint": "Bu eşiğin üzerindeki klinikler e-fatura kullanmak zorundadır",
+      "einvoiceNotConfigured": "Yapılandırılmadı",
+      "displayOptions": "Görüntüleme seçenekleri",
+      "showGstin": "Faturada GSTIN'i göster",
+      "showSac": "Faturada SAC kodlarını göster",
+      "creditNoteWorkflow": "Alacak dekontu iş akışı",
+      "creditNoteWorkflowDescription": "Düzenlenmiş bir faturadaki her düzeltme iptal veya alacak dekontu ile yapılır ve yapan kullanıcıya kadar izlenebilir kalır."
+    },
+    "reports": {
+      "title": "GST raporları",
+      "description": "Mutabakat ve beyan desteği için toplamlar ve işlem ayrıntıları.",
+      "export": "CSV dışa aktar",
+      "creditNotes": "Alacak dekontları",
+      "byPlaceOfSupply": "Teslim yerine göre",
+      "transactions": "İşlemler",
+      "taxableValue": "Vergiye tabi değer",
+      "empty": "Bu dönemde işlem yok."
+    }
+  }
+}

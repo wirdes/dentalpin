@@ -1,0 +1,58 @@
+{
+  "nav_online": {
+    "settings": {
+      "title": "NAV Online Számla",
+      "description": "Macaristan vergi idaresine (NAV) gerçek zamanlı fatura bildirimi."
+    },
+    "connection": "Bağlantı",
+    "enabled": "Etkin",
+    "disabled": "Devre dışı",
+    "environment": "Ortam",
+    "env": {
+      "test": "Test (sandbox)",
+      "prod": "Canlı"
+    },
+    "taxNumber": "Vergi numarası",
+    "taxNumberHelp": "8 haneli törzsszám veya 11 haneli tam adószám.",
+    "login": "Teknik kullanıcı",
+    "password": "Parola",
+    "signatureKey": "İmza anahtarı",
+    "exchangeKey": "Değişim anahtarı",
+    "exchangeKeyHelp": "NAV Online Számla portalından, tam olarak 16 karakter.",
+    "softwareId": "Yazılım kimliği",
+    "softwareIdHelp": "NAV'da bu yazılım için kayıtlı 18 karakter [0-9A-Z-].",
+    "devContact": "Geliştirici iletişim e-postası",
+    "secretStored": "Kayıtlı — korumak için boş bırakın.",
+    "testConnection": "Bağlantıyı test et",
+    "testOk": "Token değişimi başarılı",
+    "testFail": "Bağlantı başarısız",
+    "enable": "Bildirimi etkinleştir",
+    "disable": "Bildirimi devre dışı bırak",
+    "saved": "Ayarlar kaydedildi",
+    "saveError": "Ayarlar kaydedilemedi",
+    "records": {
+      "title": "NAV gönderimleri",
+      "description": "Düzenlenen her fatura NAV'a bildirilir; durumunu buradan takip edin.",
+      "allStates": "Tüm durumlar",
+      "processNow": "Şimdi işle",
+      "processed": "İşlendi: {sent} gönderildi, {done} tamamlandı, {rejected} reddedildi, {failed} başarısız",
+      "requeued": "Yeniden sıraya alındı",
+      "empty": "Henüz gönderim yok.",
+      "invoice": "Fatura",
+      "operation": "İşlem",
+      "state": "Durum",
+      "transaction": "İşlem kimliği",
+      "error": "Hata",
+      "retry": "Tekrar dene"
+    },
+    "state": {
+      "pending": "Bekliyor",
+      "sending": "Gönderiliyor",
+      "sent": "Gönderildi",
+      "done": "Tamamlandı",
+      "rejected": "Reddedildi",
+      "failed": "Başarısız",
+      "aborted": "Durduruldu"
+    }
+  }
+}

@@ -25,6 +25,7 @@ CATALOG_NAME_PRIORITY: tuple[str, ...] = (
     "de",
     "hu",
     "it",
+    "tr",
     "pl",
     "ar",
 )

@@ -1,0 +1,53 @@
+{
+  "inventory": {
+    "title": "Stok",
+    "add": "Kalem ekle",
+    "edit": "Kalemi düzenle",
+    "item": "Kalem",
+    "category": "Kategori",
+    "unit": "Birim",
+    "stock": "Stok",
+    "minimum": "Minimum",
+    "notes": "Notlar",
+    "status": "Durum",
+    "ok": "Yeterli",
+    "low": "Düşük",
+    "filterByCategory": "Kategoriye göre filtrele",
+    "lowStockOnly": "Yalnızca düşük stok",
+    "includeInactive": "Pasifleri göster",
+    "increment": "Stok artır",
+    "decrement": "Stok azalt",
+    "delete": "Sil",
+    "deleteTitle": "Kalemi sil",
+    "deleteMessage": "Bu stok kalemi silinsin mi? Bu işlem geri alınamaz.",
+    "cannotDeleteWithHistory": "Bu kalemin stok geçmişi var. Denetim kaydını korumak için silmek yerine devre dışı bırakın.",
+    "deactivate": "Devre dışı bırak",
+    "reactivate": "Yeniden etkinleştir",
+    "deactivated": "Kalem devre dışı bırakıldı",
+    "reactivated": "Kalem yeniden etkinleştirildi",
+    "empty": "Henüz hareket yok",
+    "allCategories": "Tüm kategoriler",
+    "adjustBy": "Düzeltme miktarı…",
+    "apply": "Uygula",
+    "cost": "Birim maliyet",
+    "valuation": "Stok değeri",
+    "movements": "Hareketler",
+    "movementsTitle": "Stok hareketleri",
+    "reasons": {
+      "initial": "Açılış",
+      "restock": "Stok girişi",
+      "consumption": "Tüketim",
+      "adjustment": "Düzeltme",
+      "correction": "Düzeltme kaydı"
+    },
+    "categories": {
+      "consumables": "Sarf malzemeleri",
+      "equipment": "Ekipman",
+      "office": "Ofis",
+      "other": "Diğer"
+    }
+  },
+  "nav": {
+    "inventory": "Stok"
+  }
+}

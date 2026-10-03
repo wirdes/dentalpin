@@ -1150,6 +1150,45 @@ class InvoicePDFService:
             },
         }
 
+        labels_tr = {
+            "invoice": "Fatura",
+            "credit_note": "Alacak Dekontu",
+            "credit_note_for": "Düzelttiği belge",
+            "draft": "TASLAK",
+            "issue_date": "Düzenleme tarihi",
+            "due_date": "Vade tarihi",
+            "billing_info": "Fatura Bilgileri",
+            "billing_name": "Ad/Şirket",
+            "tax_id": "Vergi no",
+            "address": "Adres",
+            "patient": "Hasta",
+            "items": "Kalemler",
+            "description": "Açıklama",
+            "qty": "Adet",
+            "unit_price": "Birim Fiyat",
+            "discount": "İndirim",
+            "vat": "KDV",
+            "total": "Toplam",
+            "subtotal": "Ara toplam",
+            "total_discount": "Toplam indirim",
+            "tax": "KDV",
+            "grand_total": "TOPLAM",
+            "total_paid": "Toplam ödenen",
+            "balance_due": "Kalan bakiye",
+            "notes": "Notlar",
+            "payment_terms": "Ödeme koşulları",
+            "days": "gün",
+            "generated_by": "Oluşturan",
+            "status": {
+                "draft": "Taslak",
+                "issued": "Düzenlendi",
+                "partial": "Kısmi",
+                "paid": "Ödendi",
+                "cancelled": "İptal edildi",
+                "voided": "Geçersiz kılındı",
+            },
+        }
+
         if locale == "es":
             return labels_es
         if locale == "ta":
@@ -1166,6 +1205,8 @@ class InvoicePDFService:
             return labels_pl
         if locale == "it":
             return labels_it
+        if locale == "tr":
+            return labels_tr
         if locale == "ar":
             return labels_ar
         return labels_en

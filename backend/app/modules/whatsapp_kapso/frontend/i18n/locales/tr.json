@@ -1,0 +1,53 @@
+{
+  "whatsapp_kapso": {
+    "settings": {
+      "title": "WhatsApp (Kapso)",
+      "description": "Mesaj gönderip almak için kliniğin WhatsApp numarasını Kapso üzerinden bağlayın."
+    },
+    "connection": "Bağlantı",
+    "verified": "Doğrulandı",
+    "notVerified": "Doğrulanmadı",
+    "apiKey": "Kapso API anahtarı",
+    "phoneNumberId": "Telefon numarası kimliği",
+    "businessAccountId": "İşletme hesabı kimliği",
+    "businessAccountHelp": "Onaylı şablonları eşitlemek için gerekli.",
+    "displayPhone": "Görünen numara",
+    "webhookSecret": "Webhook anahtarı",
+    "secretStored": "Kayıtlı. Değiştirmemek için boş bırakın.",
+    "webhook": "Webhook",
+    "webhookHelp": "Durumları ve yanıtları almak için bu URL'yi Kapso webhook ayarlarına yapıştırın.",
+    "copy": "Kopyala",
+    "copied": "URL kopyalandı",
+    "templates": "Şablonlar",
+    "sync": "Eşitle",
+    "noTemplates": "Onaylı şablon yok. Kapso'dan almak için eşitleyin.",
+    "notificationType": "Bildirim türü",
+    "template": "Şablon",
+    "map": "Eşle",
+    "mapped": "Şablon eşlendi",
+    "mapError": "Şablon eşlenemedi",
+    "test": "Test gönderimi",
+    "sendTest": "Test gönder",
+    "testOk": "Test mesajı gönderildi",
+    "testFail": "Test gönderilemedi",
+    "saved": "Ayarlar kaydedildi",
+    "saveError": "Kaydedilemedi",
+    "synced": "{n} şablon eşitlendi",
+    "syncError": "Eşitlenemedi",
+    "types": {
+      "appointment_confirmation": "Randevu onayı",
+      "appointment_reminder": "Randevu hatırlatması",
+      "appointment_cancelled": "Randevu iptali",
+      "budget_sent": "Teklif gönderildi",
+      "budget_accepted": "Teklif kabul edildi",
+      "budget_reminder": "Teklif hatırlatması",
+      "invoice_sent": "Fatura gönderildi",
+      "recall_reminder": "Kontrol hatırlatması",
+      "welcome": "Hoş geldiniz"
+    },
+    "onboarding": {
+      "label": "WhatsApp gönderimi",
+      "description": "WhatsApp kliniğin tercih ettiği kanal ancak Kapso henüz bağlı değil. Otomatik mesajların gidebilmesi için bağlayın."
+    }
+  }
+}

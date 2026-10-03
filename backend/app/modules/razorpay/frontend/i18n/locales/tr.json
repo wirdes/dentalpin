@@ -1,0 +1,104 @@
+{
+  "razorpay": {
+    "settingsCards": {
+      "title": "Razorpay",
+      "description": "UPI, QR, kart ve ödeme bağlantılarıyla tahsilat yapın."
+    },
+    "settings": {
+      "title": "Razorpay ayarları",
+      "description": "Bu klinik için Razorpay ödeme altyapısını yapılandırın.",
+      "credentials": "API kimlik bilgileri",
+      "mode": "Mod",
+      "modeTest": "Test",
+      "modeLive": "Canlı",
+      "keyId": "Anahtar kimliği",
+      "keyIdHint": "Razorpay panelinden — tarayıcıya açılması güvenlidir.",
+      "keySecret": "Gizli anahtar",
+      "keySecretHint": "Razorpay panelinden. Kaydettikten sonra bir daha gösterilmez.",
+      "keySecretConfiguredHint": "Bir gizli anahtar zaten yapılandırılmış. Korumak için boş bırakın.",
+      "keySecretPlaceholder": "Gizli anahtarı girin",
+      "isActive": "Aktif",
+      "isActiveHint": "Resepsiyona yalnızca aktif yapılandırmalar tahsilat yöntemi olarak sunulur.",
+      "webhook": "Webhook",
+      "webhookUrl": "Webhook URL'si",
+      "webhookUrlHint": "Bunu bu klinik için Razorpay panelinin webhook ayarlarına yapıştırın.",
+      "webhookSecret": "Webhook anahtarı",
+      "webhookSecretHint": "Razorpay'in webhook olaylarını imzaladığı anahtar.",
+      "webhookSecretConfiguredHint": "Bir webhook anahtarı zaten yapılandırılmış. Korumak için boş bırakın.",
+      "webhookSecretPlaceholder": "Webhook anahtarını girin",
+      "lastWebhookReceived": "Son alınan webhook",
+      "lastWebhookProcessed": "Son işlenen webhook",
+      "lastWebhookEventType": "Son olay türü",
+      "lastWebhookError": "Son webhook hatası",
+      "never": "Hiç",
+      "professionalNotice": "Razorpay hesap kurulumunuzu ve hesaplaşma ayrıntılarınızı Razorpay desteği veya muhasebecinizle doğrulayın. DentalPin hesaplaşma veya yasal raporlama yönetmez.",
+      "saved": "Ayarlar kaydedildi",
+      "saveError": "Ayarlar kaydedilemedi",
+      "loadError": "Ayarlar yüklenemedi",
+      "webhookCopied": "Webhook URL'si kopyalandı",
+      "modeDerivedHint": "Anahtardan alınır: rzp_live_ anahtarı gerçek parayla işlem yapar, rzp_test_ anahtarı yapmaz.",
+      "modeUnknown": "Henüz anahtar yok"
+    },
+    "collect": {
+      "notConfiguredHint": "Razorpay bu klinik için henüz yapılandırılmadı. Bir yöneticiden Ayarlar'da kurmasını isteyin.",
+      "waiting": "Ödeme bekleniyor…",
+      "pollTimeout": "Ödemenizi otomatik olarak doğrulayamadık. Lütfen ödeme durumunuzu kontrol edin veya destekle iletişime geçin.",
+      "checkoutDismissed": "Ödeme penceresi kapatıldı. Tekrar deneyin veya aşağıdan durumu kontrol edin.",
+      "checkStatus": "Durumu kontrol et",
+      "openCheckout": "Razorpay ödeme sayfasını aç",
+      "scanQr": "Hastadan bu QR kodunu herhangi bir UPI uygulamasıyla taramasını isteyin",
+      "linkCopied": "Ödeme bağlantısı kopyalandı",
+      "authorizing": "Ödeme onaylandı — tamamlanıyor…",
+      "success": "Ödeme alındı",
+      "tryAgain": "Tekrar dene",
+      "createError": "Ödeme başlatılamadı",
+      "checkoutLoadError": "Razorpay ödeme sayfası yüklenemedi — bağlantınızı kontrol edip tekrar deneyin",
+      "states": {
+        "failed": "Ödeme başarısız",
+        "expired": "Ödemenin süresi doldu",
+        "cancelled": "Ödeme iptal edildi"
+      },
+      "methods": {
+        "upi": "UPI",
+        "qr": "QR",
+        "card": "Kart",
+        "payment_link": "Ödeme bağlantısı"
+      },
+      "railUpiQr": "UPI QR",
+      "railCheckout": "Razorpay",
+      "railPaymentLink": "Ödeme bağlantısı"
+    },
+    "detail": {
+      "title": "Razorpay işlemi",
+      "auditTrail": "Ayrıntılar",
+      "method": "Yöntem",
+      "status": "Durum",
+      "providerReference": "Razorpay ödeme kimliği",
+      "initiated": "Başlatıldı",
+      "confirmed": "Onaylandı",
+      "allocation": "Dağıtım",
+      "refundHistory": "İadeler",
+      "refundAction": "Razorpay ile iade et",
+      "refundPermissionDenied": "İade yapma yetkiniz yok",
+      "maxRefundable": "En fazla {amount}",
+      "noRefunds": "Bu ödemede henüz iade yok.",
+      "refundRequested": "İade talep edildi",
+      "refundError": "İade başlatılamadı",
+      "states": {
+        "pending": "Bekliyor",
+        "awaiting_customer_action": "Ödeme bekleniyor",
+        "authorised_awaiting_capture": "Onaylanıyor",
+        "succeeded": "Başarılı",
+        "failed": "Başarısız",
+        "expired": "Süresi doldu",
+        "cancelled": "İptal edildi"
+      },
+      "refundStates": {
+        "requested": "Talep edildi",
+        "processing": "İşleniyor",
+        "completed": "Tamamlandı",
+        "failed": "Başarısız"
+      }
+    }
+  }
+}

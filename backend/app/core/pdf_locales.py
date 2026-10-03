@@ -14,7 +14,7 @@ same one. A test guards the two against each other.
 
 from __future__ import annotations
 
-PDF_LOCALES: tuple[str, ...] = ("es", "en", "ta", "fr", "pt", "de", "hu", "pl", "it", "ar")
+PDF_LOCALES: tuple[str, ...] = ("es", "en", "ta", "fr", "pt", "de", "hu", "pl", "it", "tr", "ar")
 PDF_LOCALE_PATTERN = "^(" + "|".join(PDF_LOCALES) + ")$"
 
 # UI language -> Babel locale for money and dates. Tamil clinics are in
@@ -29,5 +29,6 @@ LOCALE_BY_LANG: dict[str, str] = {
     "hu": "hu_HU",
     "pl": "pl_PL",
     "it": "it_IT",
+    "tr": "tr_TR",
     "ar": "ar",
 }

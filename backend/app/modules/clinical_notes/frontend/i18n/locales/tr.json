@@ -1,0 +1,124 @@
+{
+  "clinicalNotes": {
+    "types": {
+      "administrative": "İdari",
+      "diagnosis": "Tanı",
+      "treatment": "Tedavi",
+      "treatment_plan": "Plan",
+      "appointment_clinical": "Klinik",
+      "appointment_administrative": "İdari"
+    },
+    "appointment": {
+      "addByType": "{label} notu ekle",
+      "empty": "Bu randevuda henüz not yok. Eklemek için yukarıdaki düğmeleri kullanın."
+    },
+    "feed": {
+      "filterLabel": "Filtreler",
+      "filterAll": "Tümü",
+      "filterClear": "Filtreleri temizle",
+      "filterStatus": "{total} türden {n} tanesi gösteriliyor",
+      "addAdministrative": "İdari not",
+      "loadMore": "Daha fazla yükle",
+      "empty": {
+        "title": "Henüz not yok",
+        "help": "İdari, tanı ve tedavi notları burada kronolojik sırayla görünür."
+      }
+    },
+    "diagnosisSidebar": {
+      "title": "Notlar",
+      "addNote": "Not ekle",
+      "empty": "Bu kategoride not yok."
+    },
+    "treatmentButton": {
+      "title": "Tedavi notları",
+      "add": "Not ekle",
+      "empty": "Bu tedavide henüz not yok.",
+      "aria": "Tedavi notları ({n})"
+    },
+    "timeline": {
+      "addPlanNote": "Plan notu",
+      "empty": "Henüz not yok.",
+      "emptyForFilter": "Filtreyle eşleşen not yok.",
+      "source": {
+        "plan": "Plan",
+        "treatment": "Tedavi",
+        "visit": "Ziyaret"
+      }
+    },
+    "byPlan": {
+      "empty": "Bu hastanın henüz plana bağlı klinik notu yok.",
+      "planNotesLabel": "Plan notları",
+      "unknownTreatment": "Tedavi",
+      "noNotesForTreatment": "Bu tedavide henüz not yok."
+    },
+    "composer": {
+      "placeholder": "Notu yazın…",
+      "templates": "Şablonlar",
+      "attach": "Fotoğraf veya belge ekle",
+      "bindToTooth": "{n} numaralı dişe bağla"
+    },
+    "linked": {
+      "tooth": "Diş {n}",
+      "treatment": "Tedavi",
+      "treatmentOnTooth": "{label} (diş {n})",
+      "plan": "Plan",
+      "planNamed": "Plan: {label}"
+    },
+    "actions": {
+      "showMore": "Daha fazla göster",
+      "showLess": "Daha az göster",
+      "openLinked": "Bağlamı aç"
+    },
+    "author": {
+      "unknown": "Bilinmeyen yazar"
+    },
+    "time": {
+      "justNow": "az önce",
+      "minutesAgo": "{n} dk önce",
+      "hoursAgo": "{n} sa önce",
+      "daysAgo": "{n} g önce"
+    },
+    "toasts": {
+      "saved": "Not kaydedildi",
+      "deleted": "Not silindi",
+      "saveFailed": "Not kaydedilemedi"
+    },
+    "confirms": {
+      "delete": "Bu not silinsin mi? Geri getirmek için destekle iletişime geçmek gerekir."
+    },
+    "templates": {
+      "endo": {
+        "singleVisit": "Endodonti (tek seans)",
+        "multiVisit": "Endodonti (çok seans)"
+      },
+      "perio": {
+        "scaling": "Diş taşı temizliği / kök yüzeyi düzleştirme"
+      },
+      "implant": {
+        "placement": "İmplant yerleştirme"
+      },
+      "diagnosis": {
+        "caries": "Çürük",
+        "periapical": "Periapikal lezyon"
+      },
+      "admin": {
+        "phoneCall": "Hasta telefon görüşmesi",
+        "reschedule": "Randevu değişikliği talebi"
+      },
+      "general": {
+        "followUp": "Genel takip"
+      }
+    },
+    "templateBodies": {
+      "endo_single_visit": "Tanı: \nAnestezi: \nBulunan kanallar: \nÇalışma boyu: \nDolgu (obturasyon): \nPost-op: ",
+      "endo_multi_visit": "Seans: \nÇalışılan kanallar: \nKanal içi medikasyon: \nSonraki randevu: ",
+      "perio_scaling": "Tedavi edilen kadranlar: \nSondalama derinliği: \nSondalamada kanama: \nHijyen talimatları: ",
+      "implant_placement": "İmplant (marka / çap / boy): \nSon tork (Ncm): \nPrimer stabilite: \nGreft: \nPost-op: ",
+      "diagnosis_caries": "Bulgu: çürük \nDerinlik: \nSemptomlar: \nVitalite testi: \nÖnerilen tedavi: ",
+      "diagnosis_periapical": "Periapikal lezyon \nDiş: \nRöntgen: \nTestler (perküsyon, palpasyon): \nTanı: ",
+      "admin_phone_call": "Hasta araması: \nNeden: \nYapılan işlem: \nTakip: ",
+      "admin_reschedule": "Randevu değişikliği talebi: \nMevcut tarih: \nYeni öneri: ",
+      "general_follow_up": "Bulgular: \nYapılan işlem: \nHasta talimatları: "
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "sistema_ts": {
+    "settings": {
+      "title": "Sistema Tessera Sanitaria",
+      "description": "Önceden doldurulmuş vergi beyannamesi için hasta sağlık harcamalarını Sistema TS'ye bildirir."
+    },
+    "scope": {
+      "title": "Yalnızca hasta faturaları",
+      "text": "Bireye kesilen her ödenmiş fatura otomatik olarak Sistema TS'ye gönderilir (alacak dekontları iade, iptaller iptal olarak). Şirketlere kesilen faturalar bunun yerine SDI'dan geçer. İtiraz eden hasta da codice fiscale olmadan bildirilir."
+    },
+    "enabled": "Etkin",
+    "disabled": "Devre dışı",
+    "credentials": "Sistema TS erişimi",
+    "environment": "Ortam",
+    "env": {
+      "test": "Test (invioSS730pTest)",
+      "prod": "Canlı (invioSS730p)"
+    },
+    "username": "Kullanıcı adı",
+    "usernameHelp": "sistemats.it'te kayıtlı göndericinin codice fiscale'si.",
+    "password": "Parola",
+    "pincode": "Pin kodu",
+    "pincodeHelp": "Sistema TS tarafından verilen 10 haneli kod; her istekten önce şifrelenir.",
+    "certificate": "Sistema TS sertifikası",
+    "certificateVendored": "Modülle gelen Agenzia delle Entrate sertifikası kullanılıyor ({at} tarihine kadar geçerli). Portal yenisini oluşturduğunda yükleyin.",
+    "certificateCustom": "Özel sertifika kullanılıyor ({at} tarihine kadar geçerli).",
+    "certificateReset": "Modülle gelen sertifikayı kullan",
+    "identity": "Gönderici kimliği",
+    "cfProprietario": "Sahibin codice fiscale'si",
+    "cfProprietarioHelp": "Hekimin (veya kurum sahibinin) codice fiscale'si; cfProprietario olarak şifreli gönderilir.",
+    "codiceRegione": "Bölge kodu",
+    "codiceAsl": "ASL kodu",
+    "codiceSsa": "Kurum kodu (SSA)",
+    "structureHelp": "Bölge, ASL ve kurum kodları yalnızca akredite/yetkili kurumlar için geçerlidir; serbest hekim olarak boş bırakın.",
+    "dispositivo": "Cihaz numarası",
+    "dispositivoHelp": "numDocumentoFiscale.dispositivo; faturalar için 1.",
+    "defaultTipoSpesa": "Varsayılan harcama türü",
+    "syncFrom": "Şu tarihten itibaren düzenlenen faturaları bildir",
+    "syncFromHelp": "Başlangıçtan beri ödenen her şeyi bildirmek için boş bırakın.",
+    "secretStored": "Kayıtlı — korumak için boş bırakın.",
+    "enable": "Etkinleştir",
+    "disable": "Devre dışı bırak",
+    "saved": "Ayarlar kaydedildi",
+    "saveError": "Ayarlar kaydedilemedi",
+    "year": {
+      "title": "{year} yılı",
+      "deadline": "Son tarih",
+      "unsent": "Henüz gönderilmedi",
+      "accepted": "Kabul edildi",
+      "rejected": "Reddedildi",
+      "lastResponse": "Sistema TS'den son yanıt: {at}"
+    },
+    "itemTypes": {
+      "title": "Tedavi başına harcama türü",
+      "help": "Seçim yapılmayan kalemler varsayılanı ({default}) kullanır. SR = sağlık hizmetleri; IC = kozmetik (indirilemez); AD = satılan tıbbi cihazlar.",
+      "empty": "Katalog kalemi yok.",
+      "item": "Tedavi",
+      "tipoSpesa": "Harcama türü"
+    },
+    "tipoSpesa": {
+      "SR": "sağlık hizmeti",
+      "IC": "kozmetik işlem",
+      "AD": "tıbbi cihaz",
+      "PI": "protez / tamamlayıcı",
+      "SP": "sağlık hizmeti (serbest meslek)",
+      "AA": "diğer harcama",
+      "TK": "katkı payı",
+      "FC": "ilaç / CE cihazı",
+      "AS": "eczane hizmetleri",
+      "CT": "kaplıca tedavisi"
+    },
+    "documents": {
+      "title": "Sistema TS gönderimleri",
+      "description": "Sistema TS'ye gönderilen her ödenmiş hasta faturası, protocollo numarasıyla.",
+      "allStates": "Tüm durumlar",
+      "processNow": "Şimdi gönder",
+      "processed": "Sıraya alınan {queued}, kabul edilen {accepted}, reddedilen {rejected}, başarısız {failed}",
+      "empty": "Bu yıl için gönderim yok.",
+      "document": "Belge",
+      "operation": "İşlem",
+      "state": "Durum",
+      "protocollo": "Protocollo",
+      "retry": "Tekrar dene",
+      "requeued": "Yeniden sıraya alındı",
+      "actionFailed": "İşlem başarısız",
+      "traceable": "izlenebilir ödeme",
+      "cash": "nakit"
+    },
+    "operation": {
+      "inserimento": "Gönderim",
+      "variazione": "Değişiklik",
+      "cancellazione": "İptal",
+      "rimborso": "İade"
+    },
+    "state": {
+      "pending": "Gönderilecek",
+      "sending": "Gönderiliyor",
+      "accepted": "Kabul edildi",
+      "accepted_with_warnings": "Uyarılarla kabul edildi",
+      "rejected": "Reddedildi",
+      "failed": "Başarısız"
+    },
+    "panel": {
+      "title": "Sistema Tessera Sanitaria",
+      "waiting": "Ödenmiş hasta faturası: bir sonraki çalıştırmada Sistema TS'ye bildirilecek."
+    },
+    "opposition": {
+      "title": "Sistema TS itirazı",
+      "help": "Hasta, harcamalarının Agenzia delle Entrate'ye ulaşmasına itiraz edebilir. Belgeler yine de codice fiscale olmadan bildirilir.",
+      "opposed": "İtiraz ediyor",
+      "notOpposed": "İtiraz etmiyor",
+      "since": "{date} tarihinden beri",
+      "record": "İtirazı kaydet",
+      "revoke": "İtirazı geri çek",
+      "notePlaceholder": "Not (isteğe bağlı)",
+      "recorded": "İtiraz kaydedildi; kabul edilmiş belgeler anonim olarak yeniden gönderilecek",
+      "revoked": "İtiraz geri çekildi; kabul edilmiş belgeler codice fiscale ile yeniden gönderilecek",
+      "failed": "İtiraz güncellenemedi"
+    }
+  }
+}

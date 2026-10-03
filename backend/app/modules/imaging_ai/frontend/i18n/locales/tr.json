@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "imagingAi": "Yapay zekâ görüntüleme"
+  },
+  "imagingAi": {
+    "list": {
+      "title": "Yapay zekâ segmentasyon işleri",
+      "empty": "Bu hasta için henüz yapay zekâ işi yok.",
+      "noPatient": "Hasta seçilmedi",
+      "noPatientHint": "Bu sayfayı ?patient_id=... ile açın, örneğin hasta kaydından.",
+      "queueHint": "Aşağıdan bir çalıştırma sıraya alın; zamanlayıcı işledikten sonra sonuçlar burada görünür.",
+      "visualizationNote": "Yapay zekâ çıktısı yalnızca görselleştirme yardımıdır — asla tanı değildir."
+    },
+    "status": {
+      "queued": "Sırada",
+      "running": "Çalışıyor",
+      "done": "Tamamlandı",
+      "failed": "Başarısız",
+      "cancelled": "İptal edildi",
+      "proposed": "Önerildi"
+    },
+    "queue": {
+      "patient": "Hasta",
+      "searchPatients": "Hastaları ada göre ara...",
+      "title": "Yapay zekâ çalıştırmasını sıraya al",
+      "noDicom": "Bu hasta için henüz DICOM belgesi yok.",
+      "backend": "Altyapı",
+      "submit": "Sıraya al",
+      "seriesHint": "İşaretlenen ilk dosya ana belgedir; hacimsel (nnU-Net) çalıştırmalar için serinin kalanını da işaretleyin."
+    },
+    "backends": {
+      "pano": "Panoramik bulgular (tek kare)",
+      "nnunet": "nnU-Net hacim (DICOM serisi)"
+    },
+    "review": {
+      "pending_review": "Taslak - inceleme bekliyor",
+      "confirmed": "İncelendi",
+      "not_applicable": "Uygulanamaz"
+    },
+    "job": {
+      "artifacts": "Taslak çıktılar",
+      "cancel": "İptal",
+      "authorize": "Çalıştırmayı onayla",
+      "markReviewed": "İncelendi olarak işaretle"
+    }
+  }
+}

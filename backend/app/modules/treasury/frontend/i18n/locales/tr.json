@@ -1,0 +1,37 @@
+{
+  "treasury": {
+    "nav": {
+      "title": "Hazine"
+    },
+    "title": "Hazine",
+    "newAccount": "Yeni hesap",
+    "transfer": "Virman",
+    "correct": "Düzeltme",
+    "correctionDirection": "Yön",
+    "accounts": "Hesaplar",
+    "noAccounts": "Henüz hesap yok.",
+    "statement": "Hesap ekstresi",
+    "noEntries": "Henüz hareket yok.",
+    "accountName": "Hesap adı",
+    "accountKind": "Tür",
+    "kindCash": "Kasa",
+    "kindBank": "Banka",
+    "create": "Oluştur",
+    "openingBalance": "Açılış bakiyesi",
+    "deactivate": "Devre dışı bırak",
+    "activate": "Yeniden etkinleştir",
+    "inactive": "Pasif",
+    "fromAccount": "Kaynak hesap",
+    "toAccount": "Hedef hesap",
+    "amount": "Tutar",
+    "memo": "Açıklama (isteğe bağlı)",
+    "correctMemo": "Açıklama (zorunlu)",
+    "kind": {
+      "transfer_out": "Giden virman",
+      "transfer_in": "Gelen virman",
+      "correction_in": "Düzeltme (giriş)",
+      "correction_out": "Düzeltme (çıkış)",
+      "opening": "Açılış"
+    }
+  }
+}

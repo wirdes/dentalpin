@@ -1,0 +1,34 @@
+{
+  "staffTasks": {
+    "title": "Personel görevleri",
+    "add": "Yeni görev",
+    "taskTitle": "Görev",
+    "details": "Ayrıntılar",
+    "priority": "Öncelik",
+    "dueDate": "Son tarih",
+    "status": "Durum",
+    "assignee": "Atanan kişi",
+    "filterByStatus": "Duruma göre filtrele",
+    "all": "Tümü",
+    "delete": "Sil",
+    "deleteTitle": "Görevi sil",
+    "deleteMessage": "Bu görev silinsin mi? Bu işlem geri alınamaz.",
+    "updateFailed": "Görev güncellenemedi.",
+    "saveFailed": "Görev kaydedilemedi.",
+    "deleteFailed": "Görev silinemedi.",
+    "statuses": {
+      "open": "Açık",
+      "claimed": "Üstlenildi",
+      "done": "Tamamlandı",
+      "cancelled": "İptal edildi"
+    },
+    "priorities": {
+      "low": "Düşük",
+      "normal": "Normal",
+      "high": "Yüksek"
+    }
+  },
+  "nav": {
+    "staffTasks": "Personel görevleri"
+  }
+}

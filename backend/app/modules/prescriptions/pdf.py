@@ -198,6 +198,24 @@ def _get_labels(locale: str) -> dict[str, str]:
         "draft": "مسودة",
         "cancelled": "ملغاة",
     }
+    labels_tr = {
+        "title": "Reçete",
+        "signature": "İmza",
+        "date_format": "%d.%m.%Y",
+        "date": "Tarih",
+        "patient": "Hasta",
+        "prescriber": "Reçeteyi yazan",
+        "license": "Diploma tescil no",
+        "medication": "İlaç",
+        "dose": "Doz",
+        "route": "Uygulama yolu",
+        "frequency": "Sıklık",
+        "duration": "Süre",
+        "instructions": "Kullanım talimatı",
+        "notes": "Notlar",
+        "draft": "TASLAK",
+        "cancelled": "İPTAL EDİLDİ",
+    }
     labels_ta = {
         "title": "மருந்துச்சீட்டு",
         "signature": "கையொப்பம்",
@@ -229,6 +247,7 @@ def _get_labels(locale: str) -> dict[str, str]:
         "hu": labels_hu,
         "pl": labels_pl,
         "it": labels_it,
+        "tr": labels_tr,
         "ar": labels_ar,
         "ta": labels_ta,
     }.get(locale, labels_en)

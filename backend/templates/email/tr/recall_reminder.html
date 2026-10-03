@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Bir sonraki kontrolünüz: {{ clinic_name | default('DentalPin') }}{% endblock %}
+
+{% block content %}
+<h2>Kontrol zamanınız geldi</h2>
+
+<p>Merhaba {{ patient_name }},</p>
+
+<p><strong>{{ clinic_name | default('DentalPin') }}</strong> kliniğinde bir sonraki kontrolünüzü{% if due_month %} <strong>{{ due_month }}</strong> için{% endif %}{% if reason %} ({{ reason }}){% endif %} planladık.</p>
+
+<p>Size uygun bir saat ayarlamak için bizimle iletişime geçin.</p>
+
+{% if clinic_phone %}
+<div class="button-container">
+    <a href="tel:{{ clinic_phone }}" class="button">Randevumu al</a>
+</div>
+{% endif %}
+
+<p>Sorularınız varsa bizimle iletişime geçmekten çekinmeyin.</p>
+{% endblock %}

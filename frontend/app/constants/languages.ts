@@ -8,5 +8,6 @@ export const SUPPORTED_LOCALES = [
   'hu',
   'pl',
   'it',
+  'tr',
   'ar'
 ] as const

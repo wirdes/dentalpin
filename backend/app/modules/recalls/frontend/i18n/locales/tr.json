@@ -1,0 +1,133 @@
+{
+  "recalls": {
+    "title": "Kontrol çağrıları",
+    "callList": "Arama listesi",
+    "noRecallsThisMonth": "Bu ay bekleyen kontrol çağrısı yok",
+    "filters": {
+      "month": "Ay",
+      "reason": "Neden",
+      "professional": "Hekim",
+      "status": "Durum",
+      "priority": "Öncelik",
+      "overdue": "Gecikenleri göster",
+      "any": "Hepsi",
+      "thisMonth": "Bu ay"
+    },
+    "counters": {
+      "due_this_week": "Bu hafta",
+      "due_this_month": "Bu ay",
+      "overdue": "Geciken",
+      "scheduled_this_month": "Bu ay planlanan",
+      "completed_this_month": "Bu ay tamamlanan",
+      "conversion_rate": "Dönüşüm"
+    },
+    "setRecall": "Kontrol çağrısı oluştur",
+    "setRecallShort": "Kontrol",
+    "history": "Kontrol geçmişi",
+    "viewAll": "Tümünü gör",
+    "pillNext": "Sonraki kontrol: {month} · {reason}",
+    "pillNone": "Aktif kontrol çağrısı yok",
+    "reasons": {
+      "hygiene": "Hijyen",
+      "checkup": "Genel kontrol",
+      "ortho_review": "Ortodonti kontrolü",
+      "implant_review": "İmplant kontrolü",
+      "post_op": "Ameliyat sonrası",
+      "treatment_followup": "Tedavi takibi",
+      "other": "Diğer"
+    },
+    "priority": {
+      "low": "Düşük",
+      "normal": "Normal",
+      "high": "Yüksek"
+    },
+    "status": {
+      "pending": "Bekliyor",
+      "contacted_no_answer": "Yanıt yok",
+      "contacted_scheduled": "Randevu verildi",
+      "contacted_declined": "Reddetti",
+      "done": "Tamamlandı",
+      "cancelled": "İptal edildi",
+      "needs_review": "İnceleme gerekli"
+    },
+    "confirms": {
+      "cancel": "{name} için kontrol çağrısı iptal edilsin mi? Bu işlem geri alınamaz.",
+      "done": "{name} için kontrol çağrısı tamamlandı olarak işaretlensin mi? Bu döngü için kapatılır."
+    },
+    "actions": {
+      "call": "Ara",
+      "logAttempt": "Denemeyi kaydet",
+      "noAnswer": "Yanıt yok",
+      "book": "Randevu ver",
+      "snooze": "Ertele",
+      "cancel": "İptal et",
+      "markDone": "Tamamlandı",
+      "exportCsv": "CSV dışa aktar",
+      "save": "Kaydet"
+    },
+    "closeoutPrompt": {
+      "title": "Kontrol çağrısı planlansın mı?",
+      "subtitle": "Hastanın tedavisi bitti — onu ne zaman tekrar arayalım?",
+      "skip": "Şimdi değil"
+    },
+    "modal": {
+      "title": "Kontrol çağrısı oluştur",
+      "subtitle": "Hastayı ileride tekrar aranmak üzere işaretleyin",
+      "patient": "Hasta",
+      "reason": "Neden",
+      "when": "Ne zaman",
+      "month": "Hedef ay",
+      "targetMonth": "Hedef ay",
+      "preciseDate": "Belirli bir gün seç",
+      "priority": "Öncelik",
+      "assigned": "Atanan hekim",
+      "note": "Dahili not",
+      "notePlaceholder": "İsteğe bağlı ayrıntı (ör. '47 numaralı dişteki dolguyu kontrol et')",
+      "optional": "isteğe bağlı",
+      "duplicateGuard": "Bu hasta ve neden için zaten bekleyen bir kontrol çağrısı var. O güncellenecek."
+    },
+    "doNotContact": {
+      "cannotSchedule": "Bu hasta \"İletişime geçme\" olarak işaretli. Kontrol çağrısı planlanamaz. İletişimi yeniden açmak için demografik tercihi güncelleyin."
+    },
+    "activeRecallHint": "Aktif kontrol · yönetmek için dokunun",
+    "logAttempt": {
+      "channel": "Kanal",
+      "outcome": "Sonuç",
+      "note": "Not",
+      "submit": "Denemeyi kaydet"
+    },
+    "channel": {
+      "phone": "Telefon",
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "email": "E-posta"
+    },
+    "outcome": {
+      "no_answer": "Yanıt yok",
+      "voicemail": "Sesli mesaj",
+      "scheduled": "Randevu verildi",
+      "declined": "Reddetti",
+      "wrong_number": "Yanlış numara"
+    },
+    "snoozePrompt": "Kaç ay ertelensin?",
+    "settings": {
+      "title": "Kontrol çağrıları",
+      "description": "Varsayılan aralıklar + tedavi kategorisi eşleştirmesi",
+      "intervals": "Varsayılan aralıklar (ay)",
+      "categoryMap": "Tedavi → neden",
+      "categoryKeyPlaceholder": "katalog kategori anahtarı",
+      "autoSuggest": "Bir tedavi tamamlandığında kontrol çağrısı öner",
+      "autoLink": "Planlanan randevuyu bekleyen kontrol çağrısına bağla",
+      "saved": "Ayarlar kaydedildi"
+    },
+    "dashboard": {
+      "title": "Kontrol çağrıları"
+    },
+    "suggestion": {
+      "title": "Önerilen kontrol",
+      "body": "Bu tedaviden sonra {month} ayında kontrol öneriyoruz ({reason}).",
+      "create": "Kontrol oluştur",
+      "dismiss": "Kapat"
+    }
+  }
+}

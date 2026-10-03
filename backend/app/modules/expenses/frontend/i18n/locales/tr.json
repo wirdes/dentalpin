@@ -1,0 +1,24 @@
+{
+  "expenses": {
+    "title": "Giderler",
+    "add": "Gider ekle",
+    "date": "Tarih",
+    "category": "Kategori",
+    "amount": "Tutar",
+    "description": "Açıklama",
+    "filterByCategory": "Kategoriye göre filtrele",
+    "delete": "Sil",
+    "deleteTitle": "Gideri sil",
+    "deleteMessage": "Bu gider silinsin mi? Bu işlem geri alınamaz.",
+    "categories": {
+      "rent": "Kira",
+      "utilities": "Faturalar",
+      "salaries": "Maaşlar",
+      "supplies": "Sarf malzemeleri",
+      "equipment": "Ekipman",
+      "insurance": "Sigorta",
+      "maintenance": "Bakım",
+      "other": "Diğer"
+    }
+  }
+}

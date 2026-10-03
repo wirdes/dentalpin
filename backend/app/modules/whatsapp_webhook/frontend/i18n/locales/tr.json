@@ -1,0 +1,26 @@
+{
+  "whatsapp_webhook": {
+    "settings": {
+      "title": "Webhook ile WhatsApp",
+      "description": "WhatsApp bildirimlerini bir Zapier / Make / n8n webhook'u üzerinden gönderin — sağlayıcı hesabı gerekmez."
+    },
+    "connection": "Bağlantı",
+    "targetUrl": "Webhook URL'si",
+    "targetUrlHelp": "Her bildirimi imzalı JSON olarak alan HTTPS URL'si (Zapier, Make, n8n…).",
+    "active": "Etkin",
+    "delivering": "İletiliyor",
+    "lastErrorBadge": "İletim hatası",
+    "secret": "İmzalama anahtarı",
+    "secretShownOnce": "Bu anahtarı şimdi kopyalayın — yalnızca bir kez gösterilir. Otomasyonunuzda X-DentalPin-Signature başlığını doğrulamak için kullanın.",
+    "rotateSecret": "Anahtarı yenile",
+    "copy": "Kopyala",
+    "copied": "Panoya kopyalandı",
+    "saved": "Ayarlar kaydedildi",
+    "saveError": "Ayarlar kaydedilemedi",
+    "test": "Test iletimi",
+    "testHelp": "Otomasyonu kurabilmeniz için webhook'unuza imzalı bir test verisi gönderir.",
+    "sendTest": "Test gönder",
+    "testOk": "Test verisi iletildi",
+    "testFail": "Test iletimi başarısız"
+  }
+}

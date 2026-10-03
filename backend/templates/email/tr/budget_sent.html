@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}Tedavi teklifi - {{ clinic_name | default('DentalPin') }}{% endblock %}
+
+{% block content %}
+<h2>Tedavi teklifi</h2>
+
+<p>Merhaba {{ patient_name }},</p>
+
+<p><strong>{{ clinic_name | default('DentalPin') }}</strong> kliniğinin <strong>#{{ budget_number }}</strong> numaralı tedavi teklifini aşağıda bulabilirsiniz:</p>
+
+{% if treatments %}
+<div class="info-box">
+    {% for t in treatments %}
+    <div class="info-row">
+        <div style="flex: 2;">
+            <div class="label">{{ t.name }}{% if t.tooth %} — Diş {{ t.tooth }}{% endif %}</div>
+        </div>
+        <div style="flex: 1; text-align: right;">
+            <div class="value">{{ t.price }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div class="info-box">
+    {% if discount_amount %}
+    <div class="info-row">
+        <div class="label">Ara toplam</div>
+        <div class="value">{{ subtotal }}</div>
+    </div>
+    <div class="info-row">
+        <div class="label">İndirim</div>
+        <div class="value">-{{ discount_amount }}</div>
+    </div>
+    {% endif %}
+    <div class="info-row">
+        <div class="label">Toplam</div>
+        <div class="value" style="font-size: 18px; font-weight: 700;">{{ total }}</div>
+    </div>
+    {% if validity_days %}
+    <div class="info-row">
+        <div class="label">Geçerlilik süresi</div>
+        <div class="value">{{ validity_days }} gün</div>
+    </div>
+    {% endif %}
+</div>
+
+{% if notes %}
+<p><strong>Notlar:</strong> {{ notes }}</p>
+{% endif %}
+
+{% if custom_message %}
+<div class="alert alert-info">
+    {{ custom_message }}
+</div>
+{% endif %}
+
+<p>Bu teklifle ilgili sorularınız varsa lütfen bizimle iletişime geçin.</p>
+{% endblock %}

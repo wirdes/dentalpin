@@ -1,0 +1,312 @@
+{
+  "payments": {
+    "nav": {
+      "payments": "Ödemeler",
+      "reports": "Ödeme raporları"
+    },
+    "balance": {
+      "debt": "Borçlu",
+      "credit": "Hesapta",
+      "paid": "Toplam ödenen"
+    },
+    "list": {
+      "title": "Ödemeler",
+      "subtitle": "Hasta ödemeleri, teklif avansları ve hesaptaki alacak.",
+      "empty": "Kayıtlı ödeme yok.",
+      "new": "Yeni ödeme",
+      "searchPlaceholder": "Hasta veya referans",
+      "filterDateFrom": "Başlangıç",
+      "filterDateTo": "Bitiş",
+      "filterMethod": "Yöntem",
+      "filterPatient": "Hasta",
+      "filter": {
+        "method": "Yöntem",
+        "hasRefunds": "İadeli",
+        "hasUnallocated": "Dağıtılmamış",
+        "patient": "Hasta",
+        "withDebt": "Borçlu",
+        "paymentStatus": "Durum"
+      },
+      "sort": {
+        "paymentDate": "Tarih",
+        "amount": "Tutar"
+      },
+      "budgetStatus": {
+        "paid": "Ödendi",
+        "partial": "Kısmi",
+        "unpaid": "Ödenmedi"
+      },
+      "row": {
+        "debtTooltip": "Hastanın kalan borcu",
+        "creditTooltip": "Hastanın alacak bakiyesi",
+        "allocationsLabel": "Dağıtım",
+        "refundedLabel": "İade edildi",
+        "noPatient": "Hasta yok"
+      },
+      "columnDate": "Tarih",
+      "columnPatient": "Hasta",
+      "columnAmount": "Tutar",
+      "columnMethod": "Yöntem",
+      "columnAllocations": "Dağıtım",
+      "columnNet": "Net",
+      "columnActions": "İşlemler"
+    },
+    "detail": {
+      "title": "Ödeme {reference}",
+      "amount": "Tutar",
+      "method": "Yöntem",
+      "date": "Tarih",
+      "recordedBy": "Kaydeden",
+      "allocations": "Dağıtımlar",
+      "refunds": "İadeler",
+      "refund": "İade et",
+      "refundedTotal": "İade edilen",
+      "netAmount": "Net",
+      "reference": "Referans",
+      "notes": "Notlar"
+    },
+    "new": {
+      "title": "Ödeme kaydet",
+      "patient": "Hasta",
+      "patientPlaceholder": "Hasta ara...",
+      "unknownPatient": "Bilinmeyen hasta",
+      "amount": "Tutar",
+      "suggestedHint": "Tahsil edilecek: {amount}",
+      "useSuggested": "bu tutarı kullan",
+      "method": "Yöntem",
+      "moreMethods": "Diğer seçenekler",
+      "date": "Tarih",
+      "today": "Bugün",
+      "advanced": "Gelişmiş seçenekler",
+      "reference": "Referans",
+      "referencePlaceholder": "Kart onay no, havale referansı...",
+      "notes": "Notlar",
+      "allocations": "Dağıtım",
+      "allocationsHint": "Bu ödemeyi tekliflere bölün veya hasta alacağında bırakın.",
+      "addAllocation": "Dağıtım ekle",
+      "allocationToBudget": "Teklife",
+      "allocationOnAccount": "Hesaba",
+      "sumLabel": "Toplam:",
+      "sumMismatch": "tutarla eşleşmiyor",
+      "submit": "Kaydet",
+      "submitWithAmount": "{amount} tahsil et",
+      "cancel": "İptal",
+      "errPatient": "Bir hasta seçin",
+      "errAmount": "0'dan büyük bir tutar girin",
+      "errSum": "Dağıtım toplamı tutara eşit olmalıdır",
+      "errUnknown": "Ödeme kaydedilemedi. Tekrar deneyin.",
+      "methodRecord": "Daha önce alınmış bir ödemeyi kaydet",
+      "methodCollect": "Şimdi tahsil et"
+    },
+    "methods": {
+      "cash": "Nakit",
+      "card": "Kart",
+      "bank_transfer": "Havale/EFT",
+      "direct_debit": "Otomatik ödeme",
+      "insurance": "Sigorta",
+      "other": "Diğer",
+      "upi": "UPI",
+      "netbanking": "İnternet bankacılığı"
+    },
+    "refund": {
+      "title": "Ödemeyi iade et",
+      "amount": "Tutar",
+      "method": "Yöntem",
+      "reason": "Neden",
+      "note": "Ayrıntılar",
+      "submit": "İade et",
+      "reasonCodes": {
+        "duplicate": "Mükerrer ödeme",
+        "overpaid": "Fazla ödeme",
+        "treatment_cancelled": "Tedavi iptal edildi",
+        "dispute": "İtiraz",
+        "other": "Diğer"
+      }
+    },
+    "ledger": {
+      "title": "Hasta cari hesabı",
+      "totalPaid": "Toplam ödenen",
+      "totalEarned": "Yapılan tedavi",
+      "patientCredit": "Hasta alacak bakiyesi",
+      "clinicReceivable": "Klinik alacağı",
+      "onAccount": "Hesapta",
+      "empty": "Hareket yok."
+    },
+    "budgetCard": {
+      "title": "Teklif ödemeleri",
+      "budgetTotal": "Teklif tutarı",
+      "collected": "Tahsil edilen",
+      "pending": "Bekleyen",
+      "collect": "Tahsil et",
+      "empty": "Bu teklife henüz ödeme yansıtılmadı.",
+      "collectedLabel": "Tahsil edilen",
+      "pendingLabel": "Bekleyen",
+      "outOfTotal": "toplam {total} içinden",
+      "settled": "Teklif tamamen tahsil edildi",
+      "history": "Ödeme geçmişi",
+      "payment": "Ödeme",
+      "emptyDetailed": "Henüz tahsilat yok. İlkini kaydetmek için \"Tahsil et\"i kullanın."
+    },
+    "budgetCollect": {
+      "title": "Teklifi tahsil et",
+      "amountLabel": "Tutar",
+      "methodLabel": "Ödeme yöntemi",
+      "dateLabel": "Ödeme tarihi",
+      "today": "Bugün",
+      "quickFull": "Tamamı",
+      "optionalDetails": "Referans veya not ekle (isteğe bağlı)",
+      "referenceLabel": "Referans",
+      "referencePlaceholder": "ör. POS işlem numarası",
+      "notesLabel": "Dahili notlar",
+      "submit": "Tahsil et",
+      "cancel": "İptal",
+      "success": "Ödeme kaydedildi",
+      "errorGeneric": "Ödeme kaydedilemedi",
+      "noteAppliedToBudget": "teklife uygulandı.",
+      "notePendingAfter": "Kalan",
+      "noteFullySettled": "Teklif tamamen kapanacak.",
+      "noteToBudget": "teklife uygulanır ve",
+      "noteExcessToOnAccount": "hasta hesabına alacak olarak geçer.",
+      "noteBudgetSettled": "Teklif zaten tamamen ödendi.",
+      "noteToOnAccount": "hasta hesabına alacak olarak geçer."
+    },
+    "pendingCharges": {
+      "title": "Tahsil edilecek",
+      "count": "{n} seans",
+      "more": "+ {n} daha",
+      "collect": "{amount} tahsil et",
+      "unnamedSession": "Adsız seans"
+    },
+    "patientPanel": {
+      "title": "Hasta cari hesabı",
+      "kpis": {
+        "totalPaid": "Toplam ödenen",
+        "debt": "Klinik alacağı",
+        "onAccount": "Hesapta"
+      },
+      "sidebar": {
+        "title": "Özet",
+        "credit": "Hasta alacağı",
+        "lastPayment": "Son ödeme",
+        "noLastPayment": "Henüz ödeme yok",
+        "totalEarned": "Yapılan tedavi"
+      },
+      "banner": {
+        "debtTitle": "Kliniğe {amount} borcu var",
+        "debtDescription": "Toplam ödenen, yapılan tedavinin altında.",
+        "creditTitle": "{amount} alacağı var",
+        "creditDescription": "Yapılan tedavinin üzerinde ödeme yapılmış."
+      },
+      "cobrar": "Ödeme kaydet",
+      "timeline": {
+        "title": "Hareketler",
+        "empty": "Kayıtlı hareket yok",
+        "emptyCta": "İlk ödemeyi kaydet",
+        "loadError": "Hasta cari hesabı yüklenemedi.",
+        "retry": "Tekrar dene",
+        "drPrefix": "Dr. {name}",
+        "types": {
+          "payment": "Ödeme",
+          "refund": "İade",
+          "earned": "Yapılan tedavi"
+        },
+        "treatmentStatus": {
+          "planned": "Planlandı",
+          "performed": "Yapıldı",
+          "completed": "Tamamlandı",
+          "cancelled": "İptal edildi",
+          "in_progress": "Devam ediyor"
+        },
+        "rowMenu": {
+          "detail": "Ayrıntıyı gör",
+          "refund": "İade et",
+          "reallocate": "Teklife ata…"
+        }
+      },
+      "refundModal": {
+        "title": "Ödemeyi iade et",
+        "amount": "İade tutarı",
+        "method": "İade yöntemi",
+        "reason": "Neden",
+        "note": "Ayrıntılar (isteğe bağlı)",
+        "submit": "İadeyi onayla",
+        "cancel": "İptal",
+        "errorGeneric": "İade kaydedilemedi"
+      }
+    },
+    "reports": {
+      "title": "Ödeme raporları",
+      "subtitle": "Dönem için tahsilatlar, iadeler, hasta bakiyeleri ve eğilimler.",
+      "loadError": "Ödeme raporları yüklenemedi",
+      "cardDescription": "Tahsilat, iadeler, hasta bakiyeleri, yaşlandırma ve eğilimler.",
+      "period": "Dönem",
+      "refresh": "Yenile",
+      "collected": "Tahsil edilen",
+      "refunded": "İade edilen",
+      "net": "Net",
+      "patientCredit": "Toplam hasta alacağı",
+      "patientCreditHint": "Hesaptaki veya avans bakiyeleri.",
+      "clinicReceivable": "Klinik alacağı",
+      "refundRatio": "İade oranı",
+      "byMethod": "Yönteme göre",
+      "byProfessional": "Hekime göre",
+      "byProfessionalHint": "Yapılan tedavi, tahsil edilen değil.",
+      "aging": "Alacak yaşlandırma",
+      "agingHint": "Borcu olan hastalar borç yaşına göre gruplanmıştır.",
+      "refunds": "Nedene göre iadeler",
+      "refundsHint": "İadelerin kayıtlı nedene göre dağılımı.",
+      "bucket": "{range} gün",
+      "unknownProfessional": "Atanmamış",
+      "countShort": "{n} işlem",
+      "countPatients": "{n} hasta",
+      "granularity": {
+        "day": "Gün",
+        "week": "Hafta",
+        "month": "Ay"
+      },
+      "hero": {
+        "netCollected": "Net tahsilat",
+        "netCollectedHint": "Dönemdeki tahsilatlar eksi iadeler.",
+        "receivable": "Bekleyen alacak",
+        "receivableHint": "Yapılmış ancak henüz tahsil edilmemiş tedavi, yaşına göre.",
+        "vsPrevious": "önceki döneme göre",
+        "transactionsCount": "Dönemde {n} işlem"
+      },
+      "trend": {
+        "title": "Tahsilat eğilimi",
+        "subtitle": "Dilim başına net. Kesikli çizgi iadeleri gösterir."
+      },
+      "empty": {
+        "noDataTitle": "Bu aralıkta veri yok",
+        "noDataDescription": "Raporu görmeye başlamak için dönemi değiştirin veya bir ödeme kaydedin.",
+        "noTrend": "Eğilimi çizmek için yeterli nokta yok.",
+        "noMethods": "Dönemde yönteme göre tahsilat yok.",
+        "noProfessionals": "Dönemde yapılmış tedavi yok.",
+        "noReceivable": "Borcu olan hasta yok."
+      },
+      "drilldown": {
+        "viewPayments": "Dönemdeki ödemeleri gör",
+        "viewPatients": "Borçlu hastaları gör"
+      }
+    },
+    "target": {
+      "label": "Uygulanacak yer",
+      "placeholder": "Hedef seçin",
+      "onAccount": "Hasta alacağı (hesaba)",
+      "onAccountHint": "Hastanın hesabında alacak olarak kalır. Siz atayana kadar hiçbir faturaya veya teklife uygulanmaz.",
+      "budgetHint": "Bu teklife ve düzenlenmiş faturalarına uygulanacak.",
+      "lockedBudget": "{budget} teklifine ve faturalarına uygulanacak."
+    },
+    "reallocate": {
+      "title": "Teklife ata",
+      "hint": "{amount} tutarındaki ödemenin tamamı seçilen teklife ve düzenlenmiş faturalarına taşınacak.",
+      "submit": "Ata",
+      "success": "Ödeme teklife atandı",
+      "error": "Ödeme yeniden atanamadı. Lütfen tekrar deneyin."
+    },
+    "followup": {
+      "collect": "Ödeme tahsil et",
+      "collected": "Ödeme kaydedildi."
+    }
+  }
+}

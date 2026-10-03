@@ -1,0 +1,115 @@
+{
+  "leads": {
+    "nav": {
+      "leads": "Potansiyel hastalar"
+    },
+    "title": "Potansiyel hastalar",
+    "subtitle": "Web sitesi formundan gelen talepler",
+    "empty": "Yeni talep yok",
+    "emptyHint": "Zaten hasta olan kişilerden gelen talepler doğrudan Kontrol çağrılarına gider — formun çalışmadığını düşünmeden önce oraya bakın.",
+    "emptyAction": "Elle potansiyel hasta ekle",
+    "searchPlaceholder": "Ad, telefon veya e-posta ile ara",
+    "filterStatus": "Durum",
+    "filters": {
+      "showAll": "Tüm durumları göster"
+    },
+    "receivedAt": "Alınma",
+    "availability": "Müsaitlik",
+    "newLead": "Yeni potansiyel hasta",
+    "websiteForm": "Web sitesi formu",
+    "status": {
+      "new": "Yeni",
+      "contacted": "İletişime geçildi",
+      "converted": "Hastaya dönüştü",
+      "discarded": "Elendi"
+    },
+    "fields": {
+      "fullName": "Ad soyad",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "motive": "Başvuru nedeni",
+      "description": "Açıklama",
+      "availability": "Müsaitlik",
+      "status": "Durum",
+      "availabilityHint": "Hangi günler arayabiliriz?"
+    },
+    "actions": {
+      "edit": "Düzenle",
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "discard": "Ele",
+      "markContacted": "İletişime geçildi olarak işaretle"
+    },
+    "convert": {
+      "title": "Hastaya dönüştür",
+      "subtitle": "Talebi gözden geçirin ve hasta kaydını tamamlayın",
+      "enquiry": "Talep",
+      "patient": "Hasta",
+      "createPatient": "Hasta oluştur",
+      "created": "Hasta oluşturuldu",
+      "openPatient": "Hastayı aç",
+      "alreadyConverted": "Bu potansiyel hasta zaten hastaya dönüştürüldü.",
+      "duplicateWarning": "Bu telefona sahip bir hasta zaten var",
+      "duplicateOpen": "O hastayı aç"
+    },
+    "validation": {
+      "required": "Bu alan zorunludur",
+      "email": "Geçerli bir e-posta adresi girin, örneğin ad{'@'}ornek.com",
+      "phone": "Geçerli bir telefon numarası girin (en az 6 hane)",
+      "dateOfBirth": "Doğum tarihi gelecekte olamaz",
+      "fixErrors": "İşaretli alanları kontrol edin"
+    },
+    "slots": {
+      "any": "Herhangi bir saat",
+      "morning": "Sabahları",
+      "afternoon": "Öğleden sonraları",
+      "evening": "Akşamları"
+    },
+    "routing": {
+      "explainer": "Telefonu veya e-postası zaten bir hastaya ait olan talepler potansiyel hasta oluşturmaz — geri arama olarak Kontrol çağrılarına eklenir.",
+      "recallQueued": "{name} zaten hasta — Kontrol çağrılarına bir geri arama eklendi.",
+      "openRecalls": "Kontrol çağrılarını aç"
+    },
+    "settings": {
+      "title": "Web sitesi formu",
+      "description": "Web sitenizin DentalPin'e gönderdiği talepler için giriş anahtarı ve günlük limit.",
+      "capLabel": "Günlük limit",
+      "capHint": "Günde kabul edilen en fazla talep. 0 = limitsiz.",
+      "capSave": "Limiti kaydet",
+      "capSaved": "Günlük limit kaydedildi",
+      "volume": "Bugün {count} / {cap}",
+      "unlimited": "Bugün {count} (limitsiz)",
+      "atLimit": "Talep alımı yarına kadar durduruldu: bugünkü limite ulaşıldı.",
+      "capLoweredWarning": "Limiti bugünkü sayının altına düşürmek talep alımını hemen durdurur.",
+      "keyTitle": "Giriş anahtarı",
+      "keyConfigured": "Yapılandırıldı",
+      "keyMissing": "Henüz anahtar yok — siz oluşturana kadar talep alımı kapalı.",
+      "keyPrefix": "Ön ek",
+      "keyActive": "Aktif",
+      "keyInactive": "Devre dışı",
+      "lastUsed": "Son kullanım",
+      "never": "Hiç",
+      "rotate": "Anahtar oluştur / yenile",
+      "rotateWarning": "Yenilemek sızmış bir anahtarı hemen durdurur. Yeni anahtarı web sitenize yapıştırmayı unutmayın — yapıştırana kadar form çalışmaz.",
+      "rotateCopyOnce": "Bu anahtarı şimdi kopyalayın: yalnızca bir kez gösterilir.",
+      "copied": "Kopyalandı",
+      "activate": "Talep alımını aç",
+      "deactivate": "Talep alımını kapat",
+      "intakeUrl": "Giriş URL'si",
+      "example": "Örnek istek",
+      "routingNote": "Telefonu veya e-postası zaten bir hastaya ait olan talepler potansiyel hasta oluşturmaz — geri arama için Kontrol çağrılarına eklenir.",
+      "readOnly": "Bu ayarları değiştirme yetkiniz yok.",
+      "noPermission": "Bu ayarları görüntüleme yetkiniz yok.",
+      "copy": "Kopyala"
+    },
+    "errors": {
+      "load": "Talepler yüklenemedi",
+      "save": "Potansiyel hasta kaydedilemedi",
+      "convert": "Hasta oluşturulamadı",
+      "settingsLoad": "Ayarlar yüklenemedi",
+      "settingsSave": "Ayarlar kaydedilemedi",
+      "rotate": "Anahtar yenilenemedi",
+      "copy": "Pano kullanılamıyor — metni seçip elle kopyalayın"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "documents": {
+    "title": "Belgeler",
+    "subtitle": "Reçeteleri, raporları, sevk yazılarını ve radyoloji isteklerini yönetin",
+    "newDocument": "Yeni Belge",
+    "editDocument": "Belgeyi Düzenle",
+    "filterType": "Türe göre filtrele",
+    "filterStatus": "Duruma göre filtrele",
+    "empty": "Henüz belge yok. Başlamak için ilk belgenizi oluşturun.",
+    "patient": "Hasta",
+    "selectPatient": "Bir hasta seçin",
+    "patientSearchEmpty": "Aramanızla eşleşen hasta bulunamadı",
+    "type": "Belge türü",
+    "selectType": "Bir tür seçin",
+    "titleLabel": "Başlık",
+    "titlePlaceholder": "ör. Amoksisilin reçetesi",
+    "types": {
+      "all": "Tüm türler",
+      "prescription": "Reçete",
+      "medical_certificate": "Sağlık raporu",
+      "referral": "Sevk yazısı",
+      "radiology_request": "Radyoloji istemi"
+    },
+    "status": {
+      "all": "Tüm durumlar",
+      "draft": "Taslak",
+      "generated": "Oluşturuldu",
+      "archived": "Arşivlendi"
+    },
+    "actions": {
+      "generate": "PDF oluştur",
+      "edit": "Düzenle",
+      "archive": "Arşivle",
+      "download": "PDF indir"
+    },
+    "messages": {
+      "created": "Belge oluşturuldu",
+      "updated": "Belge güncellendi",
+      "generated": "Belge başarıyla oluşturuldu",
+      "archived": "Belge arşivlendi",
+      "downloaded": "PDF indirildi",
+      "downloadFailed": "PDF indirilemedi"
+    },
+    "content": {
+      "diagnosis": "Tanı",
+      "diagnosisPlaceholder": "Tanıyı girin...",
+      "medications": "İlaçlar",
+      "addMedication": "İlaç ekle",
+      "medName": "İlaç adı",
+      "medDose": "Doz",
+      "medFrequency": "Sıklık",
+      "medDuration": "Süre",
+      "notes": "Notlar",
+      "notesPlaceholder": "Ek notlar...",
+      "description": "Açıklama",
+      "recommendations": "Öneriler",
+      "referredTo": "Sevk edilen",
+      "specialty": "Uzmanlık alanı",
+      "reason": "Sevk nedeni",
+      "clinicalSummary": "Klinik özet",
+      "examType": "Tetkik türü",
+      "region": "Bölge",
+      "clinicalQuestion": "Klinik soru"
+    },
+    "settings": {
+      "cards": {
+        "letterhead": {
+          "title": "Belge antetli kâğıdı",
+          "description": "Reçete, rapor, sevk yazısı ve radyoloji istemlerinde klinik kimliği"
+        }
+      },
+      "letterhead": {
+        "help": "Bu alanlar oluşturulan PDF'lerde klinik profilinin yerine geçer. Kliniğin kayıtlı adı, adresi ve vergi numarasını kullanmak için alanı boş bırakın.",
+        "name": "Başlık adı",
+        "nameHint": "Varsayılan olarak klinik adı",
+        "address": "Başlık adresi",
+        "phone": "Başlık telefonu",
+        "email": "Başlık e-postası",
+        "registrationNumber": "Tescil / ruhsat numarası",
+        "logo": "Logo",
+        "logoHint": "Her PDF'in sol üst köşesinde gösterilir. Öneri: 512&times;512 px altında kare, şeffaf bir PNG.",
+        "chooseLogo": "Görsel seç",
+        "save": "Anteti kaydet",
+        "saved": "Antet kaydedildi"
+      }
+    }
+  }
+}

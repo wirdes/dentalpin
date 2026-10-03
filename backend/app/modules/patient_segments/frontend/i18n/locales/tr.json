@@ -1,0 +1,11 @@
+{
+  "patientSegments": {
+    "title": "Gruplar",
+    "emptyHint": "Atanmış grup yok.",
+    "add": "Grupları yönet",
+    "remove": "Gruptan çıkar",
+    "pickExisting": "Mevcut gruba ekle",
+    "newName": "Yeni grup adı",
+    "create": "Oluştur ve ata"
+  }
+}

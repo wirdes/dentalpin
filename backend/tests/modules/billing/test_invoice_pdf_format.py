@@ -132,6 +132,7 @@ def test_each_locale_renders_own_invoice_heading() -> None:
         "hu": "Számla",
         "pl": "Faktura",
         "it": "Fattura",
+        "tr": "Fatura",
         "ar": "فاتورة",
     }
     for locale, heading in headings.items():
@@ -157,6 +158,7 @@ def test_each_locale_renders_own_grand_total() -> None:
         "hu": "VÉGÖSSZEG",
         "pl": "RAZEM DO ZAPŁATY",
         "it": "TOTALE",
+        "tr": "TOPLAM",
         "ar": "المجموع الإجمالي",
     }
     for locale, total in totals.items():

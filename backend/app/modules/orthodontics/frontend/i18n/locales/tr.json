@@ -1,0 +1,99 @@
+{
+  "orthodontics": {
+    "tab": {
+      "label": "Ortodonti"
+    },
+    "nav": {
+      "title": "Ortodonti"
+    },
+    "appliance": {
+      "brackets_metal": "Metal braket",
+      "brackets_esthetic": "Estetik braket",
+      "self_ligating": "Kendinden ligatürlü",
+      "aligners": "Şeffaf plak",
+      "functional": "Fonksiyonel",
+      "retention": "Pekiştirme"
+    },
+    "status": {
+      "active": "Aktif",
+      "paused": "Duraklatıldı",
+      "finished": "Tamamlandı",
+      "transferred_out": "Başka yere devredildi"
+    },
+    "inbox": {
+      "title": "Ortodonti",
+      "active": "Aktif",
+      "overdue": "Geciken kontrol",
+      "unscheduled": "Sonraki kontrol yok",
+      "finished": "Tamamlandı",
+      "new": "Yeni vaka",
+      "empty": "Bu görünümde vaka yok",
+      "nextDue": "Sonraki kontrol",
+      "monthOf": "{x}. ay / ~{n}"
+    },
+    "case": {
+      "new": "Yeni ortodonti vakası",
+      "appliance": "Aparey",
+      "professional": "Ortodontist",
+      "startDate": "Başlangıç tarihi",
+      "estimatedMonths": "Tahmini süre (ay)",
+      "notes": "Tanı / hedefler",
+      "create": "Vaka aç",
+      "inMouthNow": "Şu an ağızda",
+      "upper": "Üst",
+      "lower": "Alt",
+      "noWire": "Kayıtlı tel yok",
+      "changeStatus": "Durumu değiştir",
+      "statusNote": "Gerekçe (isteğe bağlı)",
+      "save": "Kaydet",
+      "none": "Henüz ortodonti vakası yok"
+    },
+    "control": {
+      "new": "Kontrol kaydet",
+      "wires": "Ark telleri (varsayılan olarak değişiklik yok)",
+      "procedures": "İşlemler",
+      "proceduresOther": "Diğer işlemler",
+      "hygiene": "Hijyen",
+      "hygiene_good": "İyi",
+      "hygiene_fair": "Orta",
+      "hygiene_poor": "Kötü",
+      "alignerNumber": "Plak numarası",
+      "notes": "Gözlemler / talimatlar",
+      "nextControl": "Sonraki kontrol",
+      "weeks": "{n} hafta",
+      "noNext": "Sonraki kontrol yok",
+      "save": "Kontrolü kaydet",
+      "history": "Kontroller",
+      "empty": "Henüz kontrol yok"
+    },
+    "card": {
+      "title": "Ortodonti",
+      "noCase": "Aktif vaka yok",
+      "view": "Aç"
+    },
+    "photos": {
+      "title": "Fotoğraflar ({n})",
+      "upload": "Fotoğraf ekle"
+    },
+    "procedures": {
+      "power_chain": "Power chain",
+      "elastics_class_2": "Sınıf II lastikler",
+      "elastics_class_3": "Sınıf III lastikler",
+      "niti_open_coil": "NiTi açık yay",
+      "metal_ligature": "Metal ligatür",
+      "ligature_change": "Ligatür değişimi",
+      "button_attachment": "Buton / ataşman",
+      "ipr": "IPR (aproksimal aşındırma)",
+      "bite_turbos": "Bite turbo",
+      "bracket_rebonding": "Braket yeniden yapıştırma",
+      "expander_activation": "Genişletici aktivasyonu",
+      "band_placement": "Bant yerleştirme",
+      "bracket_removal": "Braket sökümü",
+      "retainer_placement": "Pekiştirme apareyi takılması"
+    },
+    "errors": {
+      "saveFailed": "Kaydedilemedi. Lütfen tekrar deneyin.",
+      "loadFailed": "Ortodonti verileri yüklenemedi."
+    }
+  }
+}

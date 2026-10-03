@@ -1,0 +1,86 @@
+{
+  "payroll": {
+    "title": "Bordro",
+    "subtitle": "Personel profilleri, ödeme dönemleri ve raporlar",
+    "nav": {
+      "profiles": "Profiller",
+      "periods": "Dönemler",
+      "reports": "Raporlar"
+    },
+    "profiles": {
+      "title": "Profiller",
+      "subtitle": "Personel başına maaş koşulları ve şifrelenmiş banka bilgileri",
+      "new": "Yeni profil",
+      "edit": "Profili düzenle",
+      "staff": "Personel",
+      "staffPlaceholder": "Personel seçin",
+      "paymentType": "Ödeme türü",
+      "monthly": "Aylık",
+      "hourly": "Saatlik",
+      "baseAmount": "Temel tutar",
+      "currency": "Para birimi",
+      "bankAccount": "Banka hesabı",
+      "bankAccountPlaceholder": "Korumak için boş bırakın",
+      "taxId": "Vergi no",
+      "taxIdPlaceholder": "Korumak için boş bırakın",
+      "hasBank": "Banka hesabı kayıtlı",
+      "hasTax": "Vergi no kayıtlı",
+      "active": "Aktif profil",
+      "inactive": "Pasif",
+      "empty": "Henüz profil yok"
+    },
+    "periods": {
+      "title": "Dönemler",
+      "subtitle": "Aylık ödeme dönemleri ve kayıtları",
+      "open": "Dönem aç",
+      "month": "Ay (YYYY-AA)",
+      "status": "Durum",
+      "draft": "Taslak",
+      "closed": "Kapalı",
+      "paid": "Ödendi",
+      "close": "Dönemi kapat",
+      "markPaid": "Ödendi olarak işaretle",
+      "deleteConfirm": "{month} dönemi silinsin mi? Yalnızca boş taslak dönemler silinebilir.",
+      "transitionConfirm": "{month} dönemi {status} durumuna taşınsın mı?",
+      "empty": "Henüz dönem yok"
+    },
+    "entries": {
+      "title": "Kayıtlar",
+      "gross": "Brüt",
+      "deductions": "Kesintiler",
+      "net": "Net",
+      "netMismatch": "Net, brüt eksi kesintilere eşit olmalıdır",
+      "notes": "Notlar",
+      "add": "Kayıt ekle",
+      "edit": "Kaydı düzenle",
+      "deleteConfirm": "Bu kayıt silinsin mi? Bu işlem geri alınamaz.",
+      "staff": "Personel",
+      "empty": "Henüz kayıt yok"
+    },
+    "reports": {
+      "title": "Raporlar",
+      "subtitle": "Klinik para biriminde aylık ve yıllık özetler",
+      "month": "Ay",
+      "year": "Yıl",
+      "monthly": "Aylık rapor",
+      "annual": "Yıllık rapor",
+      "entryCount": "Kayıtlar",
+      "totalGross": "Toplam brüt",
+      "totalDeductions": "Toplam kesinti",
+      "totalNet": "Toplam net",
+      "periodCount": "Dönemler"
+    },
+    "common": {
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "edit": "Düzenle",
+      "close": "Kapat",
+      "delete": "Sil",
+      "back": "Geri",
+      "retry": "Tekrar dene",
+      "loadError": "Veriler yüklenemedi",
+      "saveError": "Değişiklikler kaydedilemedi",
+      "empty": "Henüz burada bir şey yok"
+    }
+  }
+}

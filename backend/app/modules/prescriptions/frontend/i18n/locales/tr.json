@@ -1,0 +1,49 @@
+{
+  "prescriptions": {
+    "nav": {
+      "title": "Reçeteler"
+    },
+    "title": "Reçeteler",
+    "openAll": "Tümünü gör",
+    "emptyHint": "Henüz reçete yok.",
+    "items": "kalem",
+    "newPrescription": "Yeni reçete",
+    "safetyTitle": "Düzenlemeden önce kontrol edin",
+    "edit": "Düzenle",
+    "issue": "Düzenle ve onayla",
+    "cancel": "İptal et",
+    "downloadPdf": "PDF",
+    "editorTitle": "Reçete taslağı",
+    "medicationName": "İlaç",
+    "dosage": "Doz",
+    "unit": "Birim",
+    "frequency": "Sıklık",
+    "duration": "Süre",
+    "instructions": "Kullanım talimatı",
+    "removeLine": "Satırı kaldır",
+    "notes": "Notlar",
+    "templateName": "Şablon adı",
+    "saveTemplate": "Şablon olarak kaydet",
+    "save": "Kaydet",
+    "noTemplates": "Henüz şablon yok. Bir taslaktan kaydedin.",
+    "rename": "Yeniden adlandır",
+    "deleteTemplate": "Şablonu sil",
+    "addLine": "Satır ekle",
+    "pickPatient": "Reçetelerini görmek için bir hasta seçili olarak açın.",
+    "settingsLabel": "Reçete şablonları",
+    "settingsDescription": "Tek tıkla reçete taslağı için favori ilaç kombinasyonları.",
+    "status": {
+      "draft": "Taslak",
+      "issued": "Düzenlendi",
+      "cancelled": "İptal edildi"
+    },
+    "profileLabel": "Reçete yazan kimliği",
+    "profileDescription": "Reçeteleriniz için diploma/tescil numarası ve imza.",
+    "licenseLabel": "Diploma tescil numarası",
+    "issueConfirm": "Bu reçete düzenlensin mi? Bu işlem geri alınamaz.",
+    "cancelConfirm": "Bu reçete iptal edilsin mi? Bu işlem geri alınamaz.",
+    "noLicenseWarning": "PDF'te diploma tescil numarası olmadan düzenliyorsunuz. Ayarlar'dan ekleyebilirsiniz.",
+    "emptyDraft": "Kaydetmeden önce en az bir satır ekleyin.",
+    "route": "Uygulama yolu"
+  }
+}

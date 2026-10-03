@@ -1,0 +1,22 @@
+{
+  "patientRelationships": {
+    "title": "Aile",
+    "emptyHint": "Kayıtlı aile bağlantısı yok.",
+    "relationships": {
+      "title": "Aile ilişkileri",
+      "searchPatient": "Bağlanacak hastayı ara…",
+      "addSuccess": "İlişki eklendi",
+      "addError": "İlişki eklenemedi",
+      "removeError": "İlişki kaldırılamadı",
+      "types": {
+        "parent": "Ebeveyn",
+        "child": "Çocuk",
+        "spouse": "Eş",
+        "sibling": "Kardeş",
+        "guardian": "Vasi",
+        "ward": "Vesayet altındaki",
+        "other": "Diğer"
+      }
+    }
+  }
+}

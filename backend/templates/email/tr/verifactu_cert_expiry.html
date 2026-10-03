@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Verifactu sertifika süresi - {{ clinic_name | default('DentalPin') }}{% endblock %}
+
+{% block content %}
+<h2>Verifactu sertifikası</h2>
+
+<p>Merhaba {{ admin_name }},</p>
+
+{% if is_expired %}
+<div class="alert alert-error">
+    <strong>Verifactu sertifikanızın süresi doldu.</strong> İspanya vergi mevzuatına uygun fatura düzenlemeye devam etmek için en kısa sürede yenilemelisiniz.
+</div>
+{% else %}
+<div class="alert alert-warning">
+    <strong>Verifactu sertifikanızın süresi {{ days_left }} gün içinde dolacak.</strong> Kesinti yaşamamak için lütfen son tarihten önce yenileyin.
+</div>
+{% endif %}
+
+<div class="info-box">
+    {% if subject_cn %}
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Sertifika sahibi</div>
+            <div class="value">{{ subject_cn }}</div>
+        </div>
+    </div>
+    {% endif %}
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Son geçerlilik tarihi</div>
+            <div class="value">{{ valid_until }}</div>
+        </div>
+    </div>
+</div>
+
+<p>Sertifikanızı kliniğinizin Verifactu ayarlarından yönetebilirsiniz.</p>
+{% endblock %}

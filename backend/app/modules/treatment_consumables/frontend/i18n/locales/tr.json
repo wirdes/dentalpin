@@ -1,0 +1,20 @@
+{
+  "consumables": {
+    "title": "Tedavi sarf malzemeleri",
+    "subtitle": "Her katalog tedavisinin hangi stok kalemlerini ne kadar tükettiği. Yalnızca eşleştirmedir — stok otomatik düşülmez.",
+    "treatment": "Tedavi",
+    "item": "Stok kalemi",
+    "quantity": "Miktar",
+    "note": "Not",
+    "searchTreatments": "Tedavi ara…",
+    "searchItems": "Stok kalemi ara…",
+    "add": "Sarf malzemesi bağla",
+    "delete": "Bağlantıyı kaldır",
+    "deleteTitle": "Sarf malzemesi bağlantısını kaldır",
+    "deleteMessage": "Bu bağlantı kaldırılsın mı? Tedavi artık bu kalemi sarf malzemesi olarak listelemeyecek.",
+    "empty": "Henüz bağlantı yok. Bir tedaviyi stok kalemiyle eşleştirmek için “Sarf malzemesi bağla”yı kullanın.",
+    "noMatches": "Eşleşme yok",
+    "duplicate": "Bu tedavi bu kalemi zaten tüketiyor.",
+    "editTitle": "Sarf malzemesini düzenle"
+  }
+}

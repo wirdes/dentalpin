@@ -1,0 +1,24 @@
+{
+  "contacts": {
+    "title": "Kişiler",
+    "add": "Kişi ekle",
+    "edit": "Kişiyi düzenle",
+    "delete": "Kişiyi sil",
+    "deleteConfirm": "\"{name}\" devre dışı bırakılsın mı? Rehberden kaldırılır ancak geçmiş kayıtlara bağlı kalır.",
+    "name": "Ad",
+    "type": "Tür",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "address": "Adres",
+    "notes": "Notlar",
+    "search": "Kişilerde ara",
+    "filterByType": "Türe göre filtrele",
+    "allTypes": "Tüm türler",
+    "types": {
+      "lab": "Laboratuvar",
+      "supplier": "Tedarikçi",
+      "other": "Diğer",
+      "delegate": "Temsilci"
+    }
+  }
+}

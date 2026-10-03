@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "imagingViewer": "Görüntüleme"
+  },
+  "imagingViewer": {
+    "list": {
+      "title": "DICOM görüntüleme",
+      "empty": "Bu hasta için henüz görüntülenebilir çalışma yok.",
+      "noPatient": "Hasta seçilmedi",
+      "noPatientHint": "Yukarıdan bir hasta seçin veya bu sayfayı ?patient_id=... ile açın, örneğin hasta kaydından.",
+      "pickPatient": "Hasta seçin",
+      "unknownPatient": "Bilinmeyen hasta",
+      "searchPatients": "Hasta ara",
+      "unknownModality": "Bilinmeyen modalite",
+      "noStudyDate": "Çalışma tarihi yok"
+    },
+    "viewer": {
+      "title": "DICOM görüntüleyici",
+      "unavailable": "Önizleme kullanılamıyor",
+      "fallbackHint": "Çalışma görüntülenemedi. Dosyayı yeniden yüklemeyi deneyin.",
+      "visualizationNote": "Yalnızca görselleştirme yardımıdır - asla tanı değildir."
+    },
+    "rvg": {
+      "title": "RVG içe aktarma kuyruğu ({total} bekliyor)",
+      "empty": "Bekleyen RVG dosyası yok. Yeni sensör dosyaları her çekimden sonra burada görünür.",
+      "scanNow": "Şimdi tara",
+      "approveSuggestion": "Öneriyi onayla",
+      "approveCurrentPatient": "Geçerli hastaya ata",
+      "reject": "Reddet",
+      "suggested": "Önerilen hasta (puan {score})",
+      "ambiguous": "Belirsiz eşleşme - hastayı açıkça seçin",
+      "noSuggestion": "Eşleşme yok - atamak için ?patient_id= ile açın",
+      "loadFailed": "RVG kuyruğu yüklenemedi.",
+      "scanFailed": "Tarama başarısız. İzlenen klasör yapılandırıldı mı?",
+      "scanSummary": "Tarama tamamlandı: {scanned} tarandı, {created} yeni, {approved} otomatik onaylandı, {failed} başarısız",
+      "actionFailed": "İşlem başarısız. Satır zaten karara bağlanmış olabilir."
+    },
+    "annotations": {
+      "title": "Açıklamalar",
+      "ruler": "Cetvel",
+      "freehand": "Çizim",
+      "note": "Not",
+      "notePlaceholder": "Açıklama metni…",
+      "saveNote": "Notu kaydet",
+      "deleteLabel": "Açıklamayı sil",
+      "mm": "{mm} mm",
+      "noSpacing": "piksel aralığı yok — mm kullanılamıyor",
+      "kind_ruler": "Cetvel",
+      "kind_freehand": "Çizim",
+      "kind_note": "Not",
+      "loadFailed": "Açıklamalar yüklenemedi.",
+      "actionFailed": "İşlem başarısız. Lütfen tekrar deneyin.",
+      "aidNote": "Katmanlar yalnızca görselleştirme yardımıdır — asla tanı değildir."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "staffAttendance": {
+    "nav": {
+      "title": "Puantaj"
+    },
+    "title": "Personel puantajı",
+    "clockTitle": "Giriş / çıkış",
+    "member": "Personel",
+    "pickMember": "Personel seçin",
+    "note": "Not",
+    "notePlaceholder": "İsteğe bağlı not",
+    "clockIn": "Giriş yap",
+    "clockOut": "Çıkış yap",
+    "today": "Bugün",
+    "noEvents": "Bu günde kayıt yok.",
+    "report": "Günlük rapor",
+    "openShift": "hâlâ içeride",
+    "in": "Giriş",
+    "out": "Çıkış"
+  }
+}

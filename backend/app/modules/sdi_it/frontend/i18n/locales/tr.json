@@ -1,0 +1,101 @@
+{
+  "sdi_it": {
+    "settings": {
+      "title": "Elektronik fatura (SDI)",
+      "description": "Kurumsal faturalar için Sistema di Interscambio'ya gönderilen FatturaPA dosyaları."
+    },
+    "scope": {
+      "title": "Yalnızca şirketlere kesilen faturalar SDI'dan geçer",
+      "text": "Bireylere kesilen sağlık faturaları elektronik olamaz (art. 10-bis DL 119/2018): PDF olarak kalır ve Sistema Tessera Sanitaria'ya bildirilir. Bir fatura yalnızca alıcısının partita IVA'sı varsa SDI dosyasına dönüşür."
+    },
+    "invoiceData": "Fatura bilgileri",
+    "enabled": "Etkin",
+    "disabled": "Devre dışı",
+    "regime": "Vergi rejimi (RegimeFiscale)",
+    "regimeHelp": "RF01 olağan, RF19 götürü (forfettario).",
+    "riferimento": "Muafiyet referansı",
+    "riferimentoHelp": "Muaf özetinde basılır (Natura N4), ör. Esente IVA art. 10 n. 18 DPR 633/72.",
+    "bollo": "77,47 € üzeri muaf faturalarda sanal damga vergisi (2 €)",
+    "bolloHelp": "Eşiğin üzerindeki muaf faturalarda DatiBollo bildirir; tutar fatura toplamına eklenmez.",
+    "progressivo": "Şimdiye kadar oluşturulan dosyalar: {n}",
+    "transportLabel": "İletim",
+    "transport": {
+      "manual": "elle yükleme",
+      "pec": "PEC"
+    },
+    "transportOpt": {
+      "manual": "Elle — dosyayı indirin, kendiniz yükleyin, alındıyı içe aktarın",
+      "manualHelp": "Her XML'i kayıtlar sayfasından indirir, Fatture e Corrispettivi'ye yükler veya PEC istemcinizden gönderir ve SDI'ın döndürdüğü alındıyı içe aktarırsınız.",
+      "pec": "PEC — muayenehanenin sertifikalı posta kutusu gönderir ve alır",
+      "pecHelp": "Sistem her iki dakikada bir bekleyen dosyaları PEC posta kutunuzdan SDI'a gönderir ve geri gelen alındıları okur. Akreditasyon gerekmez."
+    },
+    "pec": {
+      "address": "Muayenehane PEC adresi",
+      "sdiAddress": "SDI posta kutusu",
+      "sdiAddressHelp": "İlk dosya için sdi01{'@'}pec.fatturapa.it; SDI özel bir adresten yanıt verir ve bu adres burada otomatik olarak saklanır.",
+      "smtpHost": "SMTP sunucusu",
+      "imapHost": "IMAP sunucusu",
+      "port": "Port",
+      "username": "Kullanıcı adı",
+      "password": "Parola",
+      "folder": "IMAP klasörü",
+      "lastPoll": "Posta kutusu son kontrol: {at}"
+    },
+    "secretStored": "Kayıtlı — korumak için boş bırakın.",
+    "testConnection": "Posta kutusunu test et",
+    "testOk": "SMTP ve IMAP girişi başarılı",
+    "testFail": "Posta kutusu testi başarısız",
+    "enable": "Etkinleştir",
+    "disable": "Devre dışı bırak",
+    "saved": "Ayarlar kaydedildi",
+    "saveError": "Ayarlar kaydedilemedi",
+    "records": {
+      "title": "SDI dosyaları",
+      "description": "Her kurumsal fatura bir FPR12 dosyasına dönüşür; oluşturulmasından SDI alındısına kadar takip edin.",
+      "allStates": "Tüm durumlar",
+      "processNow": "Şimdi gönder",
+      "processedTitle": "PEC turu tamamlandı",
+      "processed": "Gönderilen {sent}, başarısız {failed}, alındı {receipts}, eşleşmeyen {unmatched}",
+      "empty": "Henüz SDI dosyası yok.",
+      "invoice": "Fatura",
+      "recipient": "Alıcı",
+      "file": "Dosya",
+      "state": "Durum",
+      "receipt": "Alındı"
+    },
+    "panel": {
+      "title": "Sistema di Interscambio",
+      "notApplicable": "Bireye kesilen fatura: SDI'a gönderilmez (art. 10-bis DL 119/2018). PDF olarak düzenlenir; harcama Sistema Tessera Sanitaria'ya bildirilir.",
+      "buildError": "SDI dosyası oluşturulamadı",
+      "noRecord": "Bu fatura için henüz SDI dosyası yok.",
+      "file": "Dosya",
+      "recipient": "Alıcı",
+      "transport": "Gönderim yolu",
+      "receipt": "Alındı",
+      "download": "XML indir",
+      "markExported": "Yüklendi olarak işaretle",
+      "importReceipt": "Alındıyı içe aktar",
+      "receiptHelp": "SDI'ın döndürdüğü XML'i seçin (…_RC_…, …_NS_…, …_MC_…) veya içeriğini yapıştırın.",
+      "receiptImported": "Alındı uygulandı",
+      "requeue": "Yeniden oluştur ve gönder",
+      "requeued": "Aynı numarayla yeni dosya oluşturuldu",
+      "downloaded": "Dosya indirildi",
+      "markedExported": "Yüklendi olarak işaretlendi — alındı bekleniyor",
+      "actionFailed": "İşlem başarısız",
+      "undeliverableHint": "SDI dosyayı iletemedi: dosya alıcının ayrılmış alanında. Alıcıyı başka bir yolla bilgilendirin.",
+      "rejectedHint": "SDI tarafından reddedildi. Fatura bilgilerini düzeltip yeniden oluşturun: yeni dosya aynı numara ve tarihi korur."
+    },
+    "badge": {
+      "short": "SDI",
+      "error": "SDI dosyası oluşturulamadı"
+    },
+    "state": {
+      "pending": "Gönderilecek",
+      "exported": "Gönderildi, alındı bekleniyor",
+      "delivered": "İletildi",
+      "undeliverable": "İletilemez",
+      "rejected": "Reddedildi",
+      "failed": "Başarısız"
+    }
+  }
+}

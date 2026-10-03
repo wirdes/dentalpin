@@ -1,0 +1,22 @@
+{
+  "sms_gateway": {
+    "settings": {
+      "title": "SMS ağ geçidi",
+      "description": "Klinik için giden SMS sağlayıcısı",
+      "provider": "Sağlayıcı",
+      "fromNumber": "Gönderen numara",
+      "active": "Etkin",
+      "activeHelp": "Yalnızca kaydedilmiş ve etkin bir sağlayıcı gönderim yapabilir.",
+      "placeholderNote": "Yerleşik sağlayıcı mesajları yalnızca sunucu günlüğüne yazar. Gerçek bir altyapı yapılandırılana kadar hiçbir şey gönderilmez.",
+      "test": "Test et",
+      "testResult": "Yapılandırıldı: {configured}. Gönderilecek: {wouldSend}."
+    },
+    "common": {
+      "save": "Kaydet",
+      "saved": "Ayarlar kaydedildi",
+      "saveError": "Ayarlar kaydedilemedi",
+      "loadError": "Ayarlar yüklenemedi",
+      "retry": "Tekrar dene"
+    }
+  }
+}

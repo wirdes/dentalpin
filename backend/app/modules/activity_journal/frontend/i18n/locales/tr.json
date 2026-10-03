@@ -1,0 +1,20 @@
+{
+  "journal": {
+    "title": "Etkinlik günlüğü",
+    "subtitle": "Kimin neyi ne zaman yaptığının yalnızca eklenebilir kaydı — modül olaylarıyla beslenir.",
+    "filterByType": "Olay türüne göre filtrele",
+    "filterByDateFrom": "Başlangıç",
+    "filterByDateTo": "Bitiş",
+    "event": "Olay",
+    "actor": "Kullanıcı",
+    "patient": "Hasta",
+    "when": "Zaman",
+    "source": "Kaynak",
+    "empty": "Henüz kayıtlı etkinlik yok.",
+    "total": "{total} kayıt",
+    "detailTitle": "Olay verisi",
+    "unattributed": "—",
+    "allEvents": "Tüm olaylar",
+    "viewPayload": "Ayrıntıları gör"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "periodontogram": {
+    "tab": {
+      "label": "Periodontogram"
+    },
+    "empty": {
+      "title": "Henüz periodontal muayene yok",
+      "description": "Sondalama derinliklerini, kanamayı, plağı ve diğer SEPA ölçümlerini kaydetmek için yeni bir oturum açın.",
+      "cta": "Muayeneye başla"
+    },
+    "session": {
+      "draftBadge": "Taslak devam ediyor",
+      "closedBadge": "Kapalı oturum",
+      "recordedAt": "{date} tarihinde kaydedildi",
+      "openDraft": "Yeni oturum aç",
+      "continueDraft": "Taslağa devam et",
+      "closeTitle": "Periodontal oturumu kapat",
+      "closeDescription": "Kapatıldıktan sonra oturum değiştirilemez ve geçmişte görünür. Düzeltme yapmak için yeni bir oturum açmanız gerekir.",
+      "closeButton": "Oturumu kapat",
+      "discardTitle": "Taslağı sil",
+      "discardDescription": "Bu oturumda girilen tüm veriler silinecek. Bu işlem geri alınamaz.",
+      "discardButton": "Sil",
+      "cancel": "İptal",
+      "closeSession": "Oturumu kapat",
+      "discardDraft": "Taslağı sil"
+    },
+    "indices": {
+      "bop": "Kanama",
+      "pi": "Plak",
+      "calMean": "Ortalama CAL",
+      "deepPockets": "≥5mm cepler"
+    },
+    "saveState": {
+      "saving": "Kaydediliyor…",
+      "dirty": "Kaydedilmemiş değişiklikler",
+      "saved": "Değişiklikler kaydedildi"
+    },
+    "history": {
+      "viewingSession": "{date} tarihli oturum görüntüleniyor (salt okunur).",
+      "returnToCurrent": "Güncele dön"
+    },
+    "arch": {
+      "upper": "Üst",
+      "lower": "Alt",
+      "palatal": "Palatinal",
+      "lingual": "Lingual",
+      "vestibular": "Vestibüler",
+      "probing": "Sondalama",
+      "margin": "Marjin",
+      "bleeding": "Kanama",
+      "plaque": "Plak",
+      "probingTitle": "{code} sondalama (0–15 mm)",
+      "marginTitle": "{code} dişeti marjini (-5 ile 10 mm)",
+      "plaqueTitle": "{code} plak (değiştirmek için tıklayın)",
+      "bleedingTitle": "{code} kanama (değiştirmek için tıklayın)",
+      "implant": "İmplant",
+      "implantToggleOn": "İmplant (kaldırmak için tıklayın)",
+      "implantToggleOff": "İmplant olarak işaretlemek için tıklayın",
+      "mobility": "Mobilite",
+      "mobilityTitle": "Mobiliteyi değiştirmek için tıklayın (0–3)",
+      "prognosis": "Prognoz",
+      "prognosisTitle": "İyi / Orta / Şüpheli / Umutsuz",
+      "furcaV": "Furka V",
+      "furcaVTitle": "Vestibüler furkasyon (0/I/II/III)",
+      "furcaLP": "Furka L/P",
+      "furcaLPTitle": "Lingual/palatinal furkasyon (0/I/II/III)",
+      "gingivalWidth": "Dişeti genişliği",
+      "siteMarkerAria": "Bölge {code}, sondalama {depth}"
+    },
+    "chart": {
+      "ariaLabel": "Periodontogram — üst ve alt çene"
+    },
+    "indicesBanner": {
+      "observationsPlaceholder": "Muayene notları…",
+      "noteLabel": "Not (isteğe bağlı)"
+    },
+    "loading": "Periodontogram yükleniyor…",
+    "errors": {
+      "loadFailed": "Periodontogram yüklenemedi.",
+      "saveFailed": "Değişiklik kaydedilemedi.",
+      "checkConnection": "Bağlantınızı kontrol edip tekrar deneyin.",
+      "closeAborted": "Bazı ölçümler henüz kaydedilmedi — muayene kapatılmadı. Bağlantınızı kontrol edip tekrar deneyin."
+    }
+  }
+}

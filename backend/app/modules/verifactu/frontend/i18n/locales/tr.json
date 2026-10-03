@@ -1,0 +1,351 @@
+{
+  "verifactu": {
+    "nav": { "settings": "Verifactu (AEAT)" },
+    "settingsCards": {
+      "title": "Verifactu (AEAT)",
+      "description": "İspanya e-fatura uyumluluğu. Sertifikayı, SIF üreticisini, gönderim kuyruğunu ve mali kayıt defterini yönetin.",
+      "open": "Aç"
+    },
+    "title": "Verifactu (AEAT)",
+    "subtitle": "İspanya e-fatura uyumluluğu (RRSIF / Veri*Factu).",
+    "hero": {
+      "loading": { "title": "Yükleniyor…", "description": "" },
+      "setup": {
+        "title": "Kurulum bekliyor",
+        "description": "Verifactu'yu etkinleştirmeden önce aşağıdaki adımları tamamlayın."
+      },
+      "inactive": {
+        "title": "Etkinleştirmeye hazır",
+        "description": "Tüm yapılandırma tamamlandı. Faturaları AEAT'ye göndermeye başlamak için Verifactu'yu etkinleştirin."
+      },
+      "active-test": {
+        "title": "Verifactu test ortamında aktif",
+        "description": "Faturalar AEAT test ortamına gönderilir. Canlıya geçmeden önce entegrasyonu doğrulamak için kullanışlıdır."
+      },
+      "active-prod": {
+        "title": "Verifactu canlı ortamda aktif",
+        "description": "Faturalar AEAT'ye gerçek mali veri olarak gönderilir. Her hata resmi olarak kaydedilir."
+      },
+      "activate": "Verifactu'yu etkinleştir",
+      "deactivate": "Verifactu'yu devre dışı bırak"
+    },
+    "setup": {
+      "clinicNif": "Kliniğin vergi numarasını (CIF/NIF) yapılandırın",
+      "clinicNifCta": "Klinik bilgileri",
+      "producer": "SIF üreticisi bilgilerini doldurun",
+      "producerCta": "Üretici",
+      "declaration": "Üreticinin declaración responsable beyanını imzalayın",
+      "declarationCta": "İmzala",
+      "certificate": "Dijital sertifikayı (FNMT) yükleyin",
+      "certificateCta": "Yükle"
+    },
+    "cards": {
+      "manage": "Yönet",
+      "emisor": {
+        "title": "Düzenleyen bilgileri",
+        "editHint": "Bu bilgiler klinik bilgilerinden gelir. Değiştirmek için orada düzenleyin.",
+        "editLink": "Klinik bilgileri"
+      },
+      "producer": {
+        "empty": "SIF üreticisi henüz yapılandırılmadı."
+      },
+      "vatMapping": {
+        "title": "AEAT KDV sınıflandırması",
+        "description": "Her katalog KDV türünü AEAT sınıflandırmasıyla (S1, E1, N1…) eşleyin."
+      },
+      "activity": {
+        "title": "Etkinlik"
+      }
+    },
+    "modal": {
+      "confirmProdTitle": "Canlı ortama geçilsin mi?",
+      "confirmProdAction": "Evet, canlıya geç"
+    },
+    "vatMapping": {
+      "title": "AEAT KDV sınıflandırması",
+      "subtitle": "Her katalog KDV türünün her Verifactu kaydında hangi AEAT sınıflandırmasına dönüşeceğini tanımlayın.",
+      "legalIntroTitle": "Nasıl çalışır",
+      "legalIntro": "Bir satırı 'Otomatik' bırakmak bir sezgisel kural kullanır (oran>0 → S1, oran=0 → N1). Diş hekimliği klinik hizmetleri için genellikle 'E1 — Muaf art. 20 LIVA' sabitlemek mantıklıdır. İspanyol kliniklerin çoğunlukla yalnızca 'Muaf' KDV türünde geçersiz kılmaya ihtiyacı olur.",
+      "empty": "Klinik kataloğunda KDV türü yok.",
+      "rate": "Oran",
+      "defaultBadge": "Varsayılan",
+      "autoOption": "Otomatik ({code}) — sezgisel kuralı kullan",
+      "sourceAuto": "otomatik",
+      "sourceOverride": "sabitlenmiş",
+      "save": "Kaydet",
+      "saved": "Sınıflandırma kaydedildi.",
+      "saveFailed": "Sınıflandırma kaydedilemedi.",
+      "notesPlaceholder": "Notlar (ör. 'art. 20.uno.3.º LIVA')"
+    },
+    "environment": {
+      "test": "Test",
+      "prod": "Canlı",
+      "switchToProd": "Canlıya geç",
+      "switchToTest": "Teste geç",
+      "warningProd": "Canlı ortama geçmek üzeresiniz. Bundan sonra düzenlenen her fatura AEAT'ye gerçek mali kayıt olarak gönderilecek.",
+      "label": "Ortam"
+    },
+    "errors": {
+      "cannotPromoteToProd": "Rolünüz Verifactu'yu canlıya alamaz. Bu değişikliği bir yöneticiden yapmasını isteyin."
+    },
+    "status": {
+      "enabled": "Etkin",
+      "disabled": "Devre dışı",
+      "noCertificate": "Sertifika yok",
+      "certificateExpiringSoon": "Sertifikanın süresi {days} gün içinde doluyor",
+      "certificateExpired": "Sertifikanın süresi doldu"
+    },
+    "settings": {
+      "title": "Verifactu ayarları",
+      "enable": "Verifactu'yu etkinleştir",
+      "enableHint": "Etkinleştirildiğinde düzenlenen her fatura otomatik olarak AEAT'ye gönderilir.",
+      "nifEmisor": "Düzenleyen NIF",
+      "nifEmisorHint": "Kliniğin NIF'i. Sertifikayla eşleşmelidir.",
+      "nombreRazon": "Düzenleyenin yasal unvanı",
+      "save": "Kaydet",
+      "saved": "Ayarlar kaydedildi"
+    },
+    "certificate": {
+      "title": "Dijital sertifika",
+      "description": "Kliniğin FNMT sertifikasını (.pfx / .p12) yükleyin. Şifreli olarak saklanır.",
+      "active": "Aktif sertifika",
+      "healthy": "Sağlıklı",
+      "subject": "Sahibi",
+      "issuer": "Düzenleyen",
+      "nif": "Sahibin NIF'i",
+      "validFrom": "Geçerlilik başlangıcı",
+      "validUntil": "Geçerlilik sonu",
+      "uploadFile": "Sertifika dosyası",
+      "uploadHint": ".pfx ve .p12 biçimlerini kabul eder.",
+      "password": "Sertifika parolası",
+      "passwordHint": "Dosyayı koruyan parola. Asla açık metin olarak saklanmaz.",
+      "passwordPlaceholder": "••••••••",
+      "togglePassword": "Parolayı göster/gizle",
+      "uploadButton": "Sertifika yükle",
+      "uploadTitle": "Sertifika yükle",
+      "replaceTitle": "Sertifikayı değiştir",
+      "uploadSubmit": "Sertifika yükle",
+      "replaceSubmit": "Sertifikayı değiştir",
+      "uploaded": "Sertifika yüklendi ve aktif",
+      "uploadFailed": "Sertifika yüklenemedi",
+      "invalidFormat": "Geçersiz biçim. Bir .pfx veya .p12 dosyası yükleyin.",
+      "history": "Sertifika geçmişi",
+      "historyEmpty": "Henüz sertifika yüklenmedi.",
+      "noActive": "Aktif sertifika yok",
+      "noActiveHint": "Verifactu'yu etkinleştirmek ve AEAT gönderimlerini imzalamak için FNMT sertifikanızı (.pfx / .p12) yükleyin.",
+      "dropzoneTitle": "Sertifikanızı buraya bırakın",
+      "dropzoneSubtitle": "veya dosya seçmek için tıklayın",
+      "dropzoneFormats": ".pfx veya .p12 biçimi",
+      "removeFile": "Dosyayı kaldır",
+      "encryptionNote": "Dosya ve parola sunucu anahtarıyla şifrelenir. Asla açık metin olarak saklanmaz.",
+      "helpTitle": "Sertifika nereden alınır?",
+      "helpBody": "AEAT gönderimlerini imzalamak için FNMT tarafından verilmiş, kliniğe ait bir dijital sertifika gerekir. Üç geçerli tür:",
+      "helpItem1": "Yasal Temsilci Sertifikası — şirketler için (S.L., S.A.).",
+      "helpItem2": "Kişisel Sertifika — NIF'i düzenleyenle eşleşen serbest çalışanlar (autónomo) için.",
+      "helpItem3": "Kurumsal Mühür — tüzel kişiler için alternatif.",
+      "fnmtLink": "FNMT portalından sertifika talep et"
+    },
+    "queue": {
+      "title": "Gönderim kuyruğu",
+      "tabs": { "pending": "Bekleyen", "rejected": "Reddedilen", "transient": "Geçici hatalar" },
+      "empty": "Bu durumda kayıt yok.",
+      "retry": "Tekrar dene",
+      "regenerateAndRetry": "Yeniden oluştur ve gönder",
+      "regenerateTooltip": "Kaydı mevcut verilerden (NIF, satırlar, …) yeniden hesaplar ve Subsanación olarak yeniden gönderir.",
+      "retryAll": "Tümünü yeniden oluştur",
+      "retryAllConfirm": "Bu klinikteki reddedilmiş tüm kayıtlar yeniden oluşturulacak. Devam edilsin mi?",
+      "retryAllResult": "{n} kayıt yeniden oluşturuldu ({failed} başarısız).",
+      "viewInvoice": "Faturayı gör",
+      "viewHistory": "AEAT geçmişi",
+      "errorCode": "Kod",
+      "transportError": "İletim hatası",
+      "aeatFault": "AEAT hata yanıtı",
+      "rawError": "Ham AEAT mesajı",
+      "submissionAttempt": "Deneme {n}",
+      "processNow": "Şimdi işle",
+      "processed": "{n} kayıt işlendi",
+      "regeneratedToast": "Kayıt yeniden oluşturuldu ve gönderildi.",
+      "blockingBanner": {
+        "title": "{n} Verifactu kaydı reddedildi",
+        "description": "Bunlar çözülene kadar yeni fatura düzenleyemezsiniz (hash zincirini bozar).",
+        "cta": "Kuyruğu aç",
+        "adminContact": "Erişiminiz yoksa yönetici {email} ile iletişime geçin."
+      },
+      "ctas": {
+        "edit_clinic": "Mali bilgilerimi düzelt",
+        "edit_billing_party": "Müşteri bilgilerini düzenle",
+        "edit_lines": "Fatura satırlarını gözden geçir",
+        "edit_producer": "SIF üreticisini düzenle",
+        "retry": "Tekrar dene",
+        "contact_support": "Destekle iletişime geç"
+      },
+      "history": {
+        "title": "AEAT gönderim geçmişi",
+        "empty": "Arşivlenmiş önceki deneme yok (bu ilk gönderim).",
+        "attempt": "Deneme #{n}",
+        "huella": "Hash",
+        "code": "AEAT kodu"
+      }
+    },
+    "billingParty": {
+      "modalTitle": "Müşteri bilgilerini düzenle",
+      "intro": "Bu bilgiler bir sonraki gönderimde AEAT'ye alıcı olarak gönderilecek.",
+      "fields": {
+        "name": "Ad / yasal unvan",
+        "taxId": "Vergi no",
+        "address": "Adres"
+      },
+      "save": "Kaydet ve yeniden gönder",
+      "saved": "Kaydedildi. Verifactu kaydı otomatik olarak yeniden gönderecek.",
+      "concurrentEdit": "Bu arada başka biri bu faturayı düzenledi. Yeniden yükleyip tekrar deneyin.",
+      "saveFailed": "Kaydedilemedi."
+    },
+    "invoiceBanner": {
+      "rejectedTitle": "AEAT bu Verifactu kaydını reddetti",
+      "rejectedBody": "Aşağıdaki verileri düzeltin, kaydı otomatik olarak Subsanación olarak yeniden göndereceğiz.",
+      "pdfStaleTitle": "İndirilen PDF güncel olmayabilir",
+      "pdfStaleBody": "Düzeltip yeniden gönderdikten sonra QR değişir. PDF'i hastaya zaten gönderdiyseniz yeniden indirin.",
+      "downloadAgain": "Güncel PDF'i indir"
+    },
+    "nif": {
+      "warningInvalid": "Vergi numarası biçimi doğru görünmüyor. AEAT reddedebilir."
+    },
+    "globalBanner": {
+      "title": "Verifactu: {n} fatura AEAT tarafından reddedildi",
+      "description": "Yeni fatura düzenlemeden önce bunları çözün (hash zincirini bozar).",
+      "cta": "Çöz"
+    },
+    "badge": {
+      "short": "AEAT",
+      "tooltip": {
+        "ok": "AEAT tarafından kabul edildi",
+        "warning": "AEAT tarafından notlarla kabul edildi",
+        "pending": "AEAT'ye gönderim bekliyor",
+        "error": "AEAT tarafından reddedildi"
+      }
+    },
+    "filter": {
+      "label": "Verifactu",
+      "options": {
+        "ok": "Kabul edildi",
+        "warning": "Notlu",
+        "pending": "Bekliyor",
+        "error": "Reddedildi"
+      },
+      "shortcut": "Yalnızca sorunlular",
+      "empty": "Tüm Verifactu faturaları güncel."
+    },
+    "records": {
+      "title": "Mali kayıt defteri",
+      "subtitle": "AEAT'ye gönderilen kayıtların değiştirilemez geçmişi.",
+      "filterState": "Durum",
+      "filterTipo": "Tür",
+      "columns": {
+        "createdAt": "Tarih",
+        "tipoFactura": "Tür",
+        "serieNumero": "Numara",
+        "importe": "Tutar",
+        "state": "Durum",
+        "csv": "AEAT CSV"
+      },
+      "viewXml": "XML'i gör",
+      "verifyChain": "Zinciri doğrula"
+    },
+    "tipoFactura": {
+      "F1": "F1 — Tam fatura",
+      "F2": "F2 — Basitleştirilmiş",
+      "F3": "F3 — İkame",
+      "R1": "R1 — Düzeltme",
+      "R2": "R2 — Şüpheli alacak",
+      "R5": "R5 — Basitleştirilmiş düzeltme"
+    },
+    "recordState": {
+      "pending": "Bekliyor",
+      "sending": "Gönderiliyor",
+      "accepted": "Kabul edildi",
+      "accepted_with_errors": "Hatalarla kabul edildi",
+      "rejected": "Reddedildi",
+      "failed_transient": "Yeniden deneniyor",
+      "failed_validation": "Doğrulama hatası"
+    },
+    "panel": {
+      "verifactuTitle": "Verifactu",
+      "huella": "Hash",
+      "csv": "AEAT CSV",
+      "qr": "QR kodu",
+      "viewRecord": "Kaydın tamamını gör",
+      "submittedAt": "Gönderildi",
+      "stillPending": "AEAT'ye gönderim bekliyor"
+    },
+    "producer": {
+      "title": "SIF üreticisi",
+      "subtitle": "Yazılımı canlıya alan ve declaración responsable beyanını imzalayan kişinin yasal kimliği.",
+      "legalIntroTitle": "Yasal sorumluluk",
+      "legalIntro": "RD 1007/2023 art. 13, Sistema Informático de Facturación üreticisinin bir declaración responsable imzalamasını zorunlu kılar. DentalPin yönetilen SaaS olarak sunuluyorsa üretici SaaS işletmecisidir. Klinik kendi sunucusunda barındırıyorsa (autodesarrollo) üretici kliniğin kendisidir. Bir entegratör kuruyorsa üretici entegratördür.",
+      "process": {
+        "title": "Yapmanız gerekenler",
+        "s1": "SIF üreticisinin kim olduğunu belirleyin (adım 1) — beyanda ve AEAT'ye gönderilen her kayıtta görünen yasal veriler.",
+        "s2": "Declaración responsable metnini okuyun ve elektronik olarak imzalayın (adım 2). Sistem tarihi ve imzalayan kullanıcıyı kanıt olarak mühürler.",
+        "s3": "Arşivlemek ve SaaS işletiyorsanız kliniklerinize dağıtmak için imzalı PDF'i indirin (adım 3).",
+        "legalNote": "Sistemde saklanan elektronik imza, AEAT denetimi için yeterli kanıttır. PDF bu imzadan türetilen bilgilendirme amaçlı bir belgedir."
+      },
+      "step1": {
+        "title": "Üretici bilgileri",
+        "description": "Bu alanlar SIF üreticisini yasal olarak tanımlar ve hem declaración responsable beyanına hem de AEAT'ye gönderilen her kaydın SistemaInformatico bloğuna yerleştirilir.",
+        "lockedTitle": "Mühürlenmiş veriler",
+        "lockedDescription": "Beyan bu verilerle zaten imzalandığı için kilitlidir. Değiştirmeniz gerekiyorsa imzayı iptal ettirmek için destekle iletişime geçin."
+      },
+      "step2": {
+        "title": "Beyanı imzalayın",
+        "description": "Metni dikkatlice okuyun. Uygun olduğunda onay kutusunu işaretleyip Elektronik olarak imzala'ya tıklayın. İmza sistemde tarih ve kullanıcıyla mühürlenir."
+      },
+      "step3": {
+        "title": "İmzalı beyanı indirin",
+        "description": "Üretici bilgilerini ve elektronik imza damgasını içeren yazdırılabilir belge. Dahili arşiv, AEAT denetimi veya sistemi kullanan kliniklere dağıtım için kullanışlıdır.",
+        "lockedHint": "Beyan imzalandıktan sonra kullanılabilir (adım 2)."
+      },
+      "fields": {
+        "name": "Üreticinin yasal unvanı",
+        "nameHint": "SIF üreticisi olarak hareket eden şirketin veya serbest çalışanın yasal adı.",
+        "nif": "Üretici NIF",
+        "nifHint": "SIF üreticisinin NIF'i. AEAT'ye gönderilen her kayıtta görünür.",
+        "idSistema": "Sistem kimliği",
+        "idSistemaHint": "Üreticinin sisteme verdiği kısa tanımlayıcı (1-2 karakter). Varsayılan: DP.",
+        "version": "Sistem sürümü",
+        "versionHint": "Canlıda çalışan yazılım sürümü (ör. 0.1.0)."
+      },
+      "declaration": {
+        "heading": "Declaración responsable",
+        "legalRef": "Sistema Informático de Facturación — Veri*Factu (RD 1007/2023, art. 13)",
+        "preamble": "1007/2023 sayılı Kraliyet Kararnamesi (RRSIF) madde 13 ve HAC/1177/2024 sayılı Bakanlık Kararı uyarınca:",
+        "identity": "{nif} NIF numaralı {name}, DentalPin adlı Sistema Informático de Facturación'un (sistem tanımlayıcısı {idSistema}, sürüm {version}) üreticisi sıfatıyla aşağıdakileri sorumluluk bilinciyle beyan eder:",
+        "item1": "Sistem, 58/2003 sayılı Kanun'un (General Tributaria) 29.2.j) maddesi ile RRSIF gerekliliklerini karşılamaktadır.",
+        "item2": "Sistem, fatura kayıtlarının bütünlüğünü, saklanmasını, erişilebilirliğini, okunabilirliğini, izlenebilirliğini ve değiştirilemezliğini güvence altına alır.",
+        "item3": "Sistem, Veri*Factu modunda kayıtların AEAT'ye sürekli gönderimini uygular.",
+        "item4": "Üretici, mevzuat değiştikçe sistemi güncel tutmayı taahhüt eder."
+      },
+      "statusSigned": "İmzalandı",
+      "statusUnsigned": "İmza bekliyor",
+      "readAndAccept": "SIF üreticisi olarak declaración responsable beyanını okudum ve kabul ediyorum.",
+      "signButton": "Elektronik olarak imzala",
+      "signNote": "Düğmeye tıklamak imzayı tarih ve kullanıcınızla kaydeder. Bu işlem arayüzden geri alınamaz.",
+      "signedToast": "Beyan imzalandı ve kaydedildi.",
+      "sealedNote": "Üretici bilgileri olası bir AEAT denetimi için kanıt olarak mühürlenmiştir.",
+      "saveDraft": "İmzalamadan kaydet",
+      "draftSaved": "Taslak kaydedildi (imza bekliyor).",
+      "downloadPdf": "İmzalı PDF'i indir",
+      "revokeAction": "Düzenlemek için imzayı iptal et",
+      "revokeTitle": "İmza iptal edilsin mi?",
+      "revokeBody": "Elektronik imzayı iptal etmek üretici bilgilerini yeniden düzenlemenizi sağlar. Devam etmeden önce:",
+      "revokeBullet1": "Mevcut imza AEAT kanıtı olarak yasal değerini kaybeder.",
+      "revokeBullet2": "Yeni beyanı imzalayana kadar Verifactu otomatik olarak devre dışı kalır.",
+      "revokeBullet3": "AEAT'ye zaten gönderilmiş kayıtlar etkilenmez — yalnızca gelecekteki gönderimler için beyan edilen üretici değişir.",
+      "revokeConfirm": "İptal et ve düzenle",
+      "revokedToast": "İmza iptal edildi. Artık üretici bilgilerini düzenleyebilirsiniz.",
+      "signLabel": "Declaración responsable beyanını imzalayın",
+      "alreadySigned": "Beyan imzalandı",
+      "signedAt": "{at} tarihinde elektronik olarak imzalandı",
+      "saveFailed": "Üretici bilgileri kaydedilemedi."
+    }
+  }
+}

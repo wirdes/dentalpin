@@ -1,0 +1,36 @@
+{
+  "medicalReference": {
+    "settingsLabel": "Tıbbi Referans Listeleri",
+    "settingsDescription": "Hasta kayıtlarında kullanılan alerji, ilaç ve hastalık listelerini yönetin.",
+    "title": "Tıbbi Referans Listeleri",
+    "description": "Bu listeler hasta tıbbi geçmişindeki aranabilir açılır menüleri besler. Bir öğeyi devre dışı bırakmak onu gelecekteki aramalardan kaldırır, mevcut hasta kayıtlarını etkilemez.",
+    "tabs": {
+      "allergies": "Alerjiler",
+      "medications": "İlaçlar",
+      "diseases": "Hastalıklar",
+      "surgeries": "Ameliyatlar",
+      "interactions": "Etkileşimler",
+      "contraindications": "Kontrendikasyonlar"
+    },
+    "name": "Ad",
+    "status": "Durum",
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "showInactive": "Pasifleri göster",
+    "newItemPlaceholder": "Yeni öğe adı…",
+    "addSuccess": "Eklendi",
+    "addError": "Öğe eklenemedi",
+    "updateError": "Öğe güncellenemedi",
+    "deactivate": "Devre dışı bırak",
+    "deactivateError": "Öğe devre dışı bırakılamadı",
+    "itemCount": "{count} öğe",
+    "medicationA": "İlaç A",
+    "medicationB": "İlaç B",
+    "riskNote": "Risk",
+    "riskNotePlaceholder": "Riski açıklayın…",
+    "flags": {
+      "interaction": "{a} + {b} etkileşimi",
+      "contraindication": "{a}: {b} ile kontrendike"
+    }
+  }
+}

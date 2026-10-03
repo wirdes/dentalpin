@@ -1095,6 +1095,52 @@ class BudgetPDFService:
             },
         }
 
+        labels_tr = {
+            "budget": "Teklif",
+            "version": "Sürüm",
+            "date": "Tarih",
+            "draft": "TASLAK",
+            "patient_info": "Hasta Bilgileri",
+            "patient": "Hasta",
+            "professional": "Hekim",
+            "treatments": "Tedaviler",
+            "description": "Açıklama",
+            "qty": "Adet",
+            "unit_price": "Birim Fiyat",
+            "discount": "İndirim",
+            "total": "Toplam",
+            "subtotal": "Ara toplam",
+            "total_discount": "Toplam indirim",
+            "tax": "KDV",
+            "grand_total": "TOPLAM",
+            "validity": "Geçerlilik",
+            "from": "başlangıç",
+            "until": "bitiş",
+            "no_expiry": "süresiz",
+            "notes": "Notlar",
+            "patient_signature": "Hasta İmzası",
+            "clinic_signature": "Klinik İmzası",
+            "signed_by": "İmzalayan",
+            "signed_at": "İmza tarihi",
+            "signature_method": "Kanal",
+            "signature_method_drawn": "Elle atılan imza",
+            "signature_method_click_accept": "Dijital kabul",
+            "signature_method_external": "Harici imza",
+            "document_hash": "Belge hash'i",
+            "generated_by": "Oluşturan",
+            "status": {
+                "draft": "Taslak",
+                "sent": "Gönderildi",
+                "accepted": "Kabul edildi",
+                "in_progress": "Devam ediyor",
+                "completed": "Tamamlandı",
+                "invoiced": "Faturalandı",
+                "rejected": "Reddedildi",
+                "expired": "Süresi doldu",
+                "cancelled": "İptal edildi",
+            },
+        }
+
         # English is the fallback for a locale we have not translated yet
         # (#485): the route accepts every host locale, so returning the
         # Spanish set for everything non-es printed a Spanish quote to a
@@ -1108,6 +1154,7 @@ class BudgetPDFService:
             "hu": labels_hu,
             "pl": labels_pl,
             "it": labels_it,
+            "tr": labels_tr,
             "ar": labels_ar,
             "ta": labels_ta,
         }

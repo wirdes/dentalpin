@@ -1,0 +1,17 @@
+Merhaba {{ admin_name }},
+
+{% if is_expired -%}
+"{{ clinic_name }}" kliniğinin AEAT (Veri*Factu) gönderimlerini imzalamak için kullandığı dijital sertifikanın SÜRESİ DOLDU. Yenileyene kadar kayıtlar kuyrukta kalacak ve AEAT her gönderimi reddedecek.
+{%- else -%}
+"{{ clinic_name }}" kliniğinin AEAT (Veri*Factu) gönderimlerini imzalamak için kullandığı dijital sertifikanın süresi {{ days_left }} gün içinde doluyor. Faturalamanın kesintiye uğramaması için son tarihten önce yenilemenizi öneririz.
+{%- endif %}
+
+Sahibi: {{ subject_cn or '—' }}
+Son geçerlilik tarihi: {{ valid_until.strftime('%d/%m/%Y') }}
+
+Adımlar:
+1. FNMT'den yeni bir sertifika talep edin.
+2. DentalPin → Ayarlar → Verifactu → Sertifika bölümüne gidin.
+3. .pfx dosyasını yükleyip parolasını girin.
+
+Yardıma ihtiyacınız olursa bu e-postayı yanıtlayın.

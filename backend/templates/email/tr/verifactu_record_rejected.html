@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Fatura AEAT tarafından reddedildi - işlem gerekli - {{ clinic_name | default('DentalPin') }}{% endblock %}
+
+{% block content %}
+<h2>Fatura AEAT tarafından reddedildi</h2>
+
+<p>Merhaba {{ admin_name }},</p>
+
+<div class="alert alert-error">
+    <strong>İşlem gerekli:</strong> Bir fatura İspanya Vergi İdaresi (AEAT) tarafından reddedildi.
+</div>
+
+<div class="info-box">
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Fatura</div>
+            <div class="value">{{ invoice_number }}</div>
+        </div>
+    </div>
+    {% if codigo_error %}
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Hata kodu</div>
+            <div class="value">{{ codigo_error }}</div>
+        </div>
+    </div>
+    {% endif %}
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Açıklama</div>
+            <div class="value">{{ friendly_message }}</div>
+        </div>
+    </div>
+    {% if field %}
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Etkilenen alan</div>
+            <div class="value">{{ field }}</div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+{% if suggested_cta %}
+<p><strong>Önerilen işlem:</strong> {{ suggested_cta }}</p>
+{% endif %}
+
+<p>Lütfen reddi kliniğinizin Verifactu ayarlarından inceleyin ve gerekli düzeltici işlemi yapın.</p>
+{% endblock %}

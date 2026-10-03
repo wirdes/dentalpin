@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Teklifiniz yanıtınızı bekliyor - {{ clinic_name | default('DentalPin') }}{% endblock %}
+
+{% block content %}
+<h2>Küçük bir hatırlatma</h2>
+
+<p>Merhaba {{ patient_name }},</p>
+
+<p><strong>{{ clinic_name | default('DentalPin') }}</strong> kliniğinden aldığınız <strong>#{{ budget_number }}</strong> numaralı tedavi teklifi hâlâ yanıtınızı bekliyor.</p>
+
+<div class="info-box">
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Teklif</div>
+            <div class="value">{{ budget_number }}</div>
+        </div>
+        {% if total %}
+        <div style="flex: 1; text-align: right;">
+            <div class="label">Toplam</div>
+            <div class="value">{{ total }}</div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% if valid_until %}
+<div class="alert alert-warning">
+    <strong>Geçerlilik:</strong> bu teklif {{ valid_until }} tarihine kadar geçerlidir.
+</div>
+{% endif %}
+
+{% if public_url %}
+<div class="button-container">
+    <a href="{{ public_url }}" class="button">Teklifinizi inceleyin</a>
+</div>
+{% endif %}
+
+<p>Kararınızı verdiyseniz veya sorularınız varsa lütfen bizimle iletişime geçin — yardımcı olmaktan memnuniyet duyarız.</p>
+{% endblock %}

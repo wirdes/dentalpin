@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Randevu iptal edildi - {{ clinic_name | default('DentalPin') }}{% endblock %}
+
+{% block content %}
+<h2>Randevu iptal edildi</h2>
+
+<p>Merhaba {{ patient_name }},</p>
+
+<p><strong>{{ clinic_name | default('DentalPin') }}</strong> kliniğindeki randevunuz iptal edildi.</p>
+
+<div class="info-box">
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Tarih</div>
+            <div class="value">{{ appointment_date }}</div>
+        </div>
+        <div style="flex: 1;">
+            <div class="label">Saat</div>
+            <div class="value">{{ appointment_time }}</div>
+        </div>
+    </div>
+    {% if professional_name %}
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Hekim</div>
+            <div class="value">{{ professional_name }}</div>
+        </div>
+    </div>
+    {% endif %}
+    {% if cancellation_reason %}
+    <div class="info-row">
+        <div style="flex: 1;">
+            <div class="label">Neden</div>
+            <div class="value">{{ cancellation_reason }}</div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<p>Yeni bir randevu almak için lütfen bizimle iletişime geçin.</p>
+{% endblock %}

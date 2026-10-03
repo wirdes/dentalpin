@@ -1,0 +1,88 @@
+{
+  "schedules": {
+    "nav": {
+      "clinicHours": "Klinik saatleri",
+      "professionalSchedules": "Hekim çalışma saatleri"
+    },
+    "settingsCards": {
+      "clinicHoursTitle": "Klinik saatleri",
+      "clinicHoursDescription": "Kliniğin haftalık çalışma saatlerini ve özel günleri (tatiller, kısaltılmış saatler) tanımlayın.",
+      "professionalHoursTitle": "Hekim çalışma saatleri",
+      "professionalHoursDescription": "Her hekim için ayrı çalışma saati belirleyin, izinleri ve diğer müsait olmadığı dönemleri yönetin."
+    },
+    "clinicHours": {
+      "title": "Klinik saatleri",
+      "subtitle": "Kliniğin haftanın her günü hangi saatlerde açık olduğunu tanımlayın.",
+      "weeklyTemplate": "Haftalık şablon",
+      "overrides": "Özel günler",
+      "addOverride": "Özel gün ekle",
+      "editOverride": "Özel günü düzenle",
+      "save": "Değişiklikleri kaydet",
+      "saved": "Çalışma saatleri güncellendi",
+      "savedError": "Çalışma saatleri kaydedilemedi"
+    },
+    "professionalHours": {
+      "title": "Hekim çalışma saatleri",
+      "selectProfessional": "Bir hekim seçin",
+      "weeklyTemplate": "Haftalık program",
+      "overrides": "İzinler ve özel saatler",
+      "addOverride": "İzin ekle",
+      "editOverride": "İzni düzenle",
+      "save": "Değişiklikleri kaydet",
+      "saved": "Çalışma saatleri güncellendi"
+    },
+    "weekday": {
+      "0": "Pazartesi",
+      "1": "Salı",
+      "2": "Çarşamba",
+      "3": "Perşembe",
+      "4": "Cuma",
+      "5": "Cumartesi",
+      "6": "Pazar",
+      "closed": "Kapalı",
+      "addShift": "Vardiya ekle",
+      "removeShift": "Vardiyayı kaldır",
+      "start": "Başlangıç",
+      "end": "Bitiş"
+    },
+    "overrides": {
+      "startDate": "Başlangıç tarihi",
+      "endDate": "Bitiş tarihi",
+      "kind": "Tür",
+      "reason": "Neden",
+      "reasonPlaceholder": "Örneğin: bayram, kongre...",
+      "closed": "Kapalı",
+      "customHours": "Özel saatler",
+      "unavailable": "Müsait değil",
+      "noOverrides": "Planlanmış özel gün yok",
+      "delete": "Sil",
+      "confirmDelete": "Bu dönem silinsin mi?",
+      "add": "Ekle",
+      "save": "Kaydet",
+      "cancel": "İptal"
+    },
+    "analytics": {
+      "occupancyTitle": "Ünite doluluk oranı",
+      "utilizationTitle": "Hekim kullanım oranı",
+      "peakHoursTitle": "Yoğun saatler",
+      "bookedMinutes": "Dolu dakika",
+      "availableMinutes": "Müsait dakika",
+      "rate": "Doluluk",
+      "noData": "Seçilen aralıkta veri yok"
+    },
+    "availability": {
+      "clinicClosed": "Klinik kapalı",
+      "professionalOff": "Hekim müsait değil",
+      "outsideHours": "Tanımlı saatlerin dışında",
+      "confirmOutside": "Bu saat çalışma saatleri dışında. Randevu yine de oluşturulsun mu?",
+      "confirm": "Yine de oluştur",
+      "cancel": "İptal"
+    },
+    "onboarding": {
+      "hoursLabel": "Klinik saatleri",
+      "hoursDescription": "Ajanda şu anda 7/24 açık. Gerçek çalışma saatlerinizi belirleyin.",
+      "presetSplit": "Pzt–Cum 9–14 ve 16–20",
+      "presetContinuous": "Pzt–Cum 9–18"
+    }
+  }
+}

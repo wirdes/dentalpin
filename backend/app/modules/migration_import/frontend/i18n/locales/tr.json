@@ -1,0 +1,90 @@
+{
+  "migrationImport": {
+    "settingsCard": {
+      "title": "Veri taşıma (dental-bridge)",
+      "description": "dental-bridge tarafından üretilen bir DPMF dosyasını içe aktarın (hastalar, randevular, teklifler, ödemeler, belgeler)."
+    },
+    "page": {
+      "title": "Veri taşıma",
+      "subtitle": "dental-bridge ile çıkarılan verileri bu kliniğe aktarın."
+    },
+    "upload": {
+      "dropFile": ".dpm dosyasını buraya bırakın veya seçmek için tıklayın",
+      "passphrase": "Parola (yalnızca şifreli dosyalar)",
+      "passphraseHelp": "Yalnızca .dpm.enc / .dpm.zst.enc için gerekli",
+      "submit": "Yükle ve doğrula",
+      "uploading": "Yükleniyor…",
+      "error": "Yükleme başarısız"
+    },
+    "validate": {
+      "running": "Dosya doğrulanıyor…",
+      "ok": "Dosya geçerli",
+      "failed": "Doğrulama başarısız"
+    },
+    "preview": {
+      "title": "Önizleme",
+      "entities": "Varlıklar",
+      "samples": "Örnekler",
+      "warnings": "Uyarılar",
+      "files": "Ekli dosyalar",
+      "filesTotal": "Toplam",
+      "filesWithSha": "sha256 ile",
+      "filesWithoutSha": "sha256 olmadan",
+      "verifactuCheckbox": "Verifactu yasal verilerini içe aktar",
+      "verifactuHelp": "Faturalardaki yasal hash değerlerini (Verifactu) korur. Yalnızca Verifactu modülü kuruluysa ve dosya bu verileri içeriyorsa kullanılabilir.",
+      "confirm": "Onayla ve içe aktar",
+      "warning": "Bu işlem geri alınamaz. Onaylamadan önce verileri gözden geçirin."
+    },
+    "filters": {
+      "title": "Hekim filtreleme",
+      "description": "Filtrelenen personel pasif olarak içe aktarılır (geçmiş referanslar için tutulur ancak ajandada gizlenir). Daha sonra Ayarlar → Kullanıcılar'dan yeniden etkinleştirebilirsiniz.",
+      "totalLabel": "Toplam",
+      "deactivatedLabel": "Kaynakta pasif",
+      "orphansLabel": "Yalnızca ajanda sütunları",
+      "stale24mLabel": "Son 24 ayda etkinlik yok",
+      "minActivityLabel": "Minimum etkinlik (ay)",
+      "minActivityHelp": "Bu kadar aydan daha yeni klinik izi olmayan hekimleri yumuşak şekilde pasifleştirin. Kapatmak için 0 girin.",
+      "excludeOrphans": "Gerçek çalışan kaydı olmayan yalnızca ajanda sütunlarını hariç tut",
+      "excludeInactive": "Kaynakta pasif olarak işaretlenmiş hekimleri hariç tut",
+      "excludeNonClinical": "Yalnızca diş hekimlerini ve hijyenistleri içe aktar (yardımcı ve idari personeli atla)"
+    },
+    "execute": {
+      "running": "İçe aktarılıyor…",
+      "progress": "{total} varlıktan {processed}",
+      "ok": "İçe aktarma tamamlandı",
+      "failed": "İçe aktarma başarısız"
+    },
+    "proposals": {
+      "title": "Katalog eşleştirmelerini gözden geçir",
+      "subtitle": "İçe aktarmadan önce her Gesdén tedavisini DentalPin kataloğuyla bağlayın.",
+      "build": "Önerileri hesapla",
+      "building": "Hesaplanıyor…",
+      "summary": "{total} öneri: {link} bağlı, {fuzzy} yaklaşık, {create} oluşturulacak",
+      "bulkAccept": "Güveni ≥ 0.9 olan tüm eşleşmeleri kabul et",
+      "accepted": "{n} öneri kabul edildi.",
+      "columnSource": "Gesdén tedavisi",
+      "columnProposed": "Öneri",
+      "columnAction": "İşlem",
+      "columnStatus": "Durum",
+      "actionLink": "Kataloğa bağla",
+      "actionFuzzy": "Yaklaşık eşleşme",
+      "actionCreate": "Yeni oluştur",
+      "operatorPending": "Bekliyor",
+      "operatorAccepted": "Kabul edildi",
+      "operatorRelinked": "Yeniden bağlandı",
+      "operatorCreated": "Yeni oluştur",
+      "operatorIgnored": "Yok sayıldı",
+      "acceptRow": "Kabul et",
+      "ignoreRow": "Yok say"
+    },
+    "status": {
+      "uploaded": "Yüklendi",
+      "validating": "Doğrulanıyor",
+      "validated": "Doğrulandı",
+      "previewing": "Önizleme",
+      "executing": "İçe aktarılıyor",
+      "completed": "Tamamlandı",
+      "failed": "Başarısız"
+    }
+  }
+}

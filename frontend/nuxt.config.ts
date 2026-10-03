@@ -170,6 +170,7 @@ export default defineNuxtConfig({
       { code: 'hu', name: 'Magyar', file: 'hu.json' },
       { code: 'pl', name: 'Polski', file: 'pl.json' },
       { code: 'it', name: 'Italiano', file: 'it.json' },
+      { code: 'tr', name: 'Türkçe', file: 'tr.json' },
       { code: 'ar', name: 'العربية', file: 'ar.json', dir: 'rtl' }
     ],
     defaultLocale: 'en',

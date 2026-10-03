@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "telephonyCalls": "Aramalar"
+  },
+  "telephony": {
+    "settings": {
+      "title": "Telefon (CTI)",
+      "description": "Gelen aramaları ekranda gösterin ve arama kaydı tutun — webhook ile her santral."
+    },
+    "gateway": "Ağ geçidi",
+    "receiving": "Olaylar alınıyor",
+    "defaultCountry": "Varsayılan ülke",
+    "defaultCountryHelp": "Yerel telefon numaralarını yorumlamak için iki harfli ülke kodu (ör. TR).",
+    "active": "Etkin",
+    "rotateSecret": "Anahtarı yenile",
+    "webhook": "Olay webhook'u",
+    "webhookHelp": "Santralinizi veya Zapier'i, anahtarla imzalanmış normalleştirilmiş arama olaylarını bu URL'ye POST edecek şekilde yapılandırın.",
+    "secret": "İmzalama anahtarı",
+    "secretShownOnce": "Bu anahtarı şimdi kopyalayın — yalnızca bir kez gösterilir. Santraliniz/otomasyonunuz her olayı bununla imzalar (X-DentalPin-Signature).",
+    "copy": "Kopyala",
+    "copied": "Panoya kopyalandı",
+    "saved": "Ayarlar kaydedildi",
+    "saveError": "Ayarlar kaydedilemedi",
+    "calls": {
+      "title": "Arama kaydı",
+      "allStatuses": "Tüm durumlar",
+      "status": {
+        "ringing": "Çalıyor",
+        "answered": "Yanıtlandı",
+        "ended": "Sona erdi",
+        "missed": "Cevapsız"
+      },
+      "unknownCaller": "Bilinmeyen arayan",
+      "openRecord": "Kaydı aç",
+      "searchPatient": "Hasta ara",
+      "empty": "Henüz arama yok.",
+      "when": "Zaman",
+      "caller": "Arayan",
+      "number": "Numara",
+      "statusCol": "Durum",
+      "duration": "Süre"
+    },
+    "pop": {
+      "incoming": "Gelen arama"
+    }
+  }
+}

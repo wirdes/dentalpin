@@ -1,0 +1,183 @@
+{
+  "copilot": {
+    "title": "YZ",
+    "open": "YZ'yi aç",
+    "empty": "Bana hastaları, ajandayı sorun ya da randevu vermemi isteyin.",
+    "placeholder": "Mesajınızı yazın…",
+    "send": "Gönder",
+    "copy": "Kopyala",
+    "new": "Yeni konuşma",
+    "thinking": "Düşünüyor…",
+    "you": "Siz",
+    "assistant": "YZ",
+    "trust": "Verileriniz korunuyor",
+    "phase": {
+      "working": "Çalışıyor…",
+      "writing": "Yazıyor…"
+    },
+    "tabs": {
+      "pending": "Yapılacaklar",
+      "chat": "Sohbet"
+    },
+    "pending": {
+      "empty": "Bekleyen bir şey yok. Her şey güncel.",
+      "unknownPatient": "Bilinmeyen hasta",
+      "group": {
+        "recall": "Takip edilecek kontrol çağrıları",
+        "budget": "Yanıt bekleyen teklifler"
+      }
+    },
+    "nudge": {
+      "act": "İncele",
+      "dismiss": "Kapat",
+      "appointmentCancelled": {
+        "text": "{time} randevusu iptal edildi — bir boşluk açıldı.",
+        "prompt": "{time} randevusu iptal edildi. Bu boşluğu doldurabilecek kontrol hastalarını bul."
+      }
+    },
+    "suggest": {
+      "heading": "Nasıl yardımcı olabilirim?",
+      "cat": {
+        "workflows": "İş akışları",
+        "patients": "Hastalar",
+        "agenda": "Ajanda",
+        "recalls": "Kontrol çağrıları",
+        "money": "Tahsilat ve teklifler",
+        "reports": "Raporlar"
+      },
+      "dailyBriefing": "Günlük özet",
+      "prepareVisit": "Ziyarete hazırlan",
+      "fillGap": "Boşluğu doldur",
+      "searchPatient": "Hasta bul",
+      "patientSummary": "Hasta özeti",
+      "freeSlots": "Bugünkü boş saatler",
+      "bookAppointment": "Randevu ver",
+      "dueRecalls": "Zamanı gelen kontroller",
+      "pendingBudgets": "Yanıtlanmamış teklifler",
+      "recordPayment": "Ödeme kaydet",
+      "monthCollections": "Bu ayın tahsilatı",
+      "agendaSummary": "Ajanda genel bakışı",
+      "prompt": {
+        "dailyBriefing": "Bana günlük özeti ver: bugünkü randevular, geciken kontroller ve yanıtlanmamış teklifler",
+        "prepareVisit": "Bir hastanın sonraki ziyaretini benim için hazırla",
+        "fillGap": "Ajandada bir boşluk açıldı, kimi arayabiliriz?",
+        "searchPatient": "Bir hasta bul",
+        "patientSummary": "Bir hastanın özetini ver",
+        "freeSlots": "Bugün hangi boş saatler var?",
+        "bookAppointment": "Randevu vermek istiyorum",
+        "dueRecalls": "Bu ay hangi kontrollerin zamanı geldi?",
+        "pendingBudgets": "Hangi teklifler gönderildi ve yanıtlanmadı?",
+        "recordPayment": "Bir hasta ödemesi kaydetmek istiyorum",
+        "monthCollections": "Bu ayın tahsilat özeti",
+        "agendaSummary": "Bugünkü ajandaya genel bir bakış ver"
+      }
+    },
+    "settings": {
+      "title": "Copilot",
+      "description": "YZ asistanı: günlük özet ve motor",
+      "saved": "Ayarlar kaydedildi",
+      "digest": {
+        "title": "Sabah özeti e-postası",
+        "description": "Her sabah: bugünkü randevular, geciken kontroller ve yanıtlanmamış teklifler.",
+        "enabled": "Günlük özeti gönder",
+        "hour": "Gönderim saati",
+        "hourHelp": "Kliniğin saat dilimine göre yorumlanır.",
+        "recipients": "Alıcılar",
+        "recipientsHelp": "Her alıcı, rolünün görebildikleriyle sınırlı kendi özetini alır.",
+        "recipientsPlaceholder": "Personel seçin…"
+      },
+      "engine": {
+        "title": "Motor",
+        "provider": "Sağlayıcı",
+        "model": "Model",
+        "redaction": "Sağlık verisi maskeleme",
+        "redactionOn": "Etkin",
+        "redactionOff": "Devre dışı"
+      },
+      "metrics": {
+        "title": "Kullanım",
+        "description": "Son {days} gün.",
+        "toolCalls": "Araç çağrıları",
+        "errorRate": "Hata oranı",
+        "avgLatency": "Ort. gecikme",
+        "conversations": "Konuşmalar",
+        "tokenBudget": "Aylık token bütçesi",
+        "topTools": "En çok kullanılan araçlar",
+        "toolNames": {
+          "recalls_list_due_recalls": "Geciken kontroller",
+          "budget_list_budgets": "Bekleyen teklifler",
+          "patients_list_patients": "Hasta arama",
+          "appointments_list_appointments": "Randevular",
+          "invoices_list_invoices": "Faturalar"
+        }
+      }
+    },
+    "tool": {
+      "running": "{name} çalışıyor…",
+      "done": "{name} tamamlandı",
+      "failed": "{name} başarısız"
+    },
+    "card": {
+      "viewPatient": "Kaydı gör",
+      "noResults": "Sonuç yok",
+      "notFound": "Bulunamadı",
+      "more": "+{n} daha",
+      "freeSlots": "Boş saatler",
+      "appointments": "Randevular",
+      "patients": "Hastalar"
+    },
+    "patientStatus": {
+      "active": "aktif",
+      "archived": "arşivlenmiş"
+    },
+    "apptStatus": {
+      "scheduled": "Planlandı",
+      "confirmed": "Onaylandı",
+      "checked_in": "Geldi",
+      "in_treatment": "Tedavide",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal edildi",
+      "no_show": "Gelmedi"
+    },
+    "confirm": {
+      "title": "İşlemi onayla",
+      "body": "YZ {name} işlemini çalıştırmak istiyor.",
+      "approve": "Onayla",
+      "reject": "İptal",
+      "approved": "Onaylandı",
+      "rejected": "İptal edildi",
+      "destructiveNote": "Bu işlem geri alınamaz.",
+      "action": {
+        "book_appointment": "YZ bir randevu vermek istiyor.",
+        "cancel_appointment": "YZ bir randevuyu iptal etmek istiyor.",
+        "create_patient": "YZ bir hasta oluşturmak istiyor."
+      },
+      "field": {
+        "patient_id": "Hasta",
+        "professional_id": "Hekim",
+        "appointment_id": "Randevu",
+        "cabinet_id": "Ünite",
+        "cabinet": "Ünite",
+        "start_time": "Tarih",
+        "end_time": "Bitiş",
+        "datetime": "Tarih",
+        "service": "Hizmet",
+        "reason": "Neden",
+        "duration_minutes": "Süre (dk)",
+        "first_name": "Ad",
+        "last_name": "Soyad",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "date_of_birth": "Doğum tarihi",
+        "query": "Arama"
+      }
+    },
+    "budgetExceeded": "Aylık YZ kullanım limitine ulaşıldı.",
+    "error": "Bir şeyler ters gitti.",
+    "sessionExpired": "Oturumunuzun süresi doldu. Devam etmek için tekrar giriş yapın.",
+    "page": {
+      "title": "YZ",
+      "subtitle": "Yetkilerinizle sınırlı klinik asistanınız."
+    }
+  }
+}

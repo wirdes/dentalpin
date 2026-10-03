@@ -1,0 +1,22 @@
+{
+ "notifications": {
+  "conversation": {
+   "title": "WhatsApp konuşması",
+   "empty": "Henüz mesaj yok.",
+   "placeholder": "Yanıt yazın…",
+   "replyError": "Yanıt gönderilemedi",
+   "windowClosed": "24 saatlik pencere kapandı. Konuşmayı yeniden açmak için bir şablon kullanın.",
+   "send": "Gönder"
+  },
+  "pushSubscribe": {
+   "title": "Randevu hatırlatmaları",
+   "clinicLine": "{clinic} size randevu hatırlatmaları göndermek istiyor.",
+   "enable": "Bildirimleri aç",
+   "enabled": "Bildirimler açıldı. Bu sayfayı kapatabilirsiniz.",
+   "denied": "Tarayıcı izni reddedildi. Tarayıcı ayarlarından bildirimleri açıp tekrar deneyin.",
+   "unsupported": "Bu tarayıcı anlık bildirimleri desteklemiyor.",
+   "invalid": "Bu bağlantı geçersiz veya süresi dolmuş. Klinikten yeni bir bağlantı isteyin.",
+   "error": "Bildirimler açılamadı. Tekrar deneyin."
+  }
+ }
+}

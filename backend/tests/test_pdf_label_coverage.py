@@ -38,6 +38,7 @@ BUDGET_HEADINGS = {
     "hu": "Árajánlat",
     "pl": "Kosztorys",
     "it": "Preventivo",
+    "tr": "Teklif",
     "ar": "عرض أسعار",
     "ta": "மதிப்பீடு",
 }

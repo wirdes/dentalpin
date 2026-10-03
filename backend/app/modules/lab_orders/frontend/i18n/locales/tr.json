@@ -1,0 +1,50 @@
+{
+  "labOrders": {
+    "title": "Laboratuvar iş emirleri",
+    "add": "Yeni laboratuvar siparişi",
+    "patient": "Hasta",
+    "lab": "Laboratuvar",
+    "loading": "Yükleniyor…",
+    "selectPatient": "Hasta seçin",
+    "selectLab": "Laboratuvar seçin",
+    "workType": "İş türü",
+    "tooth": "Diş / referans",
+    "impressionType": "Ölçü",
+    "antagonistInfo": "Antagonist bilgisi",
+    "shade": "Renk",
+    "sentDate": "Gönderim tarihi",
+    "expectedDate": "Beklenen tarih",
+    "status": "Durum",
+    "notes": "Notlar",
+    "save": "Siparişi gönder",
+    "cancel": "İptal",
+    "noLabsHint": "Önce Kişiler bölümünde bir laboratuvar kişisi oluşturun.",
+    "workTypes": {
+      "crown": "Kron",
+      "bridge": "Köprü",
+      "denture": "Protez",
+      "implant": "İmplant",
+      "veneer": "Lamina",
+      "orthodontic": "Ortodontik",
+      "repair": "Tamir",
+      "other": "Diğer"
+    },
+    "impressionTypes": {
+      "alginate": "Aljinat",
+      "pvs_silicone": "PVS / silikon",
+      "digital_scan": "Dijital tarama",
+      "other": "Diğer"
+    },
+    "statuses": {
+      "sent": "Gönderildi",
+      "in_progress": "Devam ediyor",
+      "ready": "Hazır",
+      "received": "Teslim alındı",
+      "cancelled": "İptal edildi"
+    }
+  },
+  "nav": {
+    "labOrdersForm": "Yeni laboratuvar siparişi",
+    "labOrdersStatus": "Laboratuvar siparişleri"
+  }
+}

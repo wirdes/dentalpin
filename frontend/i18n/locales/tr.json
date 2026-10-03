@@ -1,0 +1,3178 @@
+{
+  "app": {
+    "name": "DentalPin",
+    "tagline": "Diş kliniği yönetimi"
+  },
+  "demo": {
+    "bannerMessage": "Herkese açık demo — gerçek hasta verisi girmeyin. Veritabanı düzenli olarak sıfırlanır.",
+    "bannerDismiss": "Kapat",
+    "credentialsTitle": "Demo giriş bilgileri",
+    "credentialsNote": "Yalnızca değerlendirme içindir — bu herkese açık bir demo olduğu için gösteriliyor.",
+    "copyEmail": "E-postayı kopyala",
+    "copyPassword": "Parolayı kopyala",
+    "copied": "Panoya kopyalandı"
+  },
+  "nav": {
+    "dashboard": "Ana sayfa",
+    "journal": "Etkinlik günlüğü",
+    "staffTasks": "Personel görevleri",
+    "patients": "Hastalar",
+    "appointments": "Ajanda",
+    "recalls": "Kontrol çağrıları",
+    "inventory": "Stok",
+    "treatmentConsumables": "Tedavi sarf malzemeleri",
+    "expenses": "Giderler",
+    "labOrdersForm": "Yeni laboratuvar siparişi",
+    "labOrdersStatus": "Laboratuvar siparişleri",
+    "treatmentPlans": "Tedavi Planları",
+    "budgets": "Teklifler",
+    "invoices": "Faturalar",
+    "reports": "Raporlar",
+    "settings": "Ayarlar",
+    "defaultClinicName": "Klinik",
+    "catalog": "Katalog",
+    "contacts": "Kişiler",
+    "menu": "Menü",
+    "openMenu": "Menüyü aç",
+    "close": "Kapat",
+    "sections": {
+      "clinical": "Klinik",
+      "lab": "Laboratuvar",
+      "financials": "Finans",
+      "inventory": "Stok",
+      "practice": "Muayenehane"
+    },
+    "toggleSidebar": "Kenar çubuğunu aç/kapat",
+    "documents": "Belgeler"
+  },
+  "auth": {
+    "login": "Giriş yap",
+    "logout": "Çıkış yap",
+    "email": "E-posta",
+    "password": "Parola",
+    "loginButton": "Giriş yap",
+    "loginSuccess": "Giriş başarılı",
+    "invalidCredentials": "E-posta veya parola hatalı",
+    "emailRequired": "E-postanızı girin",
+    "passwordRequired": "Parolanızı girin",
+    "emailInvalid": "Geçersiz e-posta adresi",
+    "accountInactive": "Hesabınız pasif. Yöneticinizle iletişime geçin",
+    "tooManyAttempts": "Çok fazla deneme. Birkaç dakika sonra tekrar deneyin",
+    "sessionExpired": "Oturumunuzun süresi doldu",
+    "networkError": "Sunucuya bağlanılamadı",
+    "serverError": "Sunucu kullanılamıyor. Lütfen birkaç dakika sonra tekrar deneyin",
+    "unknownError": "Beklenmeyen hata. Lütfen tekrar deneyin"
+  },
+  "setup": {
+    "title": "İlk kurulum",
+    "subtitle": "Hesabınızı ve kliniğinizi oluşturun. İki dakika içinde çalışmaya başlarsınız.",
+    "stepAccount": "Yönetici hesabı",
+    "stepClinic": "Klinik bilgileri",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "E-posta",
+    "password": "Parola",
+    "passwordConfirm": "Parolayı onayla",
+    "passwordHint": "En az 8 karakter, harf ve rakam içermeli",
+    "clinicName": "Klinik adı",
+    "taxId": "Vergi no",
+    "next": "İleri",
+    "back": "Geri",
+    "submit": "Kliniğimi oluştur",
+    "success": "Her şey hazır! DentalPin'e hoş geldiniz",
+    "firstNameRequired": "Adı girin",
+    "lastNameRequired": "Soyadı girin",
+    "emailRequired": "E-postayı girin",
+    "emailInvalid": "E-posta geçerli değil",
+    "passwordRequired": "Bir parola girin",
+    "passwordTooShort": "Parola en az 12 karakter olmalıdır",
+    "passwordWeak": "Parola harf ve rakam içermelidir",
+    "passwordMismatch": "Parolalar eşleşmiyor",
+    "clinicNameRequired": "Klinik adını girin",
+    "taxIdRequired": "Vergi numarasını girin",
+    "alreadyInitialized": "Sistem zaten kurulmuş. Lütfen giriş yapın.",
+    "error": "Kurulum tamamlanamadı. Lütfen tekrar deneyin",
+    "stepOf": "Adım {current} / {total}",
+    "country": "Ülke",
+    "countryHelp": "Vergileri, para birimini ve saat dilimini sizin için ayarlar",
+    "countryRequired": "Bir ülke seçin",
+    "taxIdGeneric": "Vergi no",
+    "taxIdLooksInvalid": "Bu geçerli bir NIF/CIF gibi görünmüyor. Fatura kesmeden önce kontrol edin.",
+    "taxIdFormat": "Geçersiz biçim (örnek: {example})",
+    "timezoneRequired": "Bir saat dilimi seçin",
+    "currencyRequired": "Bir para birimi seçin",
+    "derivedSettings": "Saat dilimi ve para birimi",
+    "willSeed": "Sizin için tedavi kataloğunu, KDV türlerini, bir fatura serisini, bir ünite ve Pazartesi–Cuma çalışma programını oluşturacağız. Her şey daha sonra değiştirilebilir.",
+    "willSuggestVerifactu": "Ardından VeriFactu'yu etkinleştirmenizi önereceğiz.",
+    "invalidData": "Lütfen verileri gözden geçirin: bazı alanlar geçersiz.",
+    "attendPatientsMyself": "Hastalara kendim bakıyorum",
+    "attendPatientsMyselfHelp": "Sizi randevu verilebilir hekim olarak işaretler. Bunu daha sonra Ekip ayarlarından değiştirebilirsiniz.",
+    "addressTitle": "Klinik adresi",
+    "addressOptional": "isteğe bağlı"
+  },
+  "onboarding": {
+    "title": "Başlarken",
+    "progress": "{total} adımdan {done} tanesi tamamlandı",
+    "configure": "Ayarla",
+    "skip": "Atla",
+    "unskip": "Geri al",
+    "dismiss": "Gizle",
+    "guidedMode": "Rehberli mod",
+    "optional": "İsteğe bağlı ({count})",
+    "stepOf": "Adım {current} / {total}",
+    "next": "İleri",
+    "finish": "Bitir",
+    "exit": "Çık",
+    "completedTitle": "Kliniğiniz hazır!",
+    "completedDescription": "Kurulum tamamlandı. Artık normal şekilde çalışabilirsiniz.",
+    "guidedDoneTitle": "Tur tamamlandı",
+    "guidedDoneDescription": "Bekleyen adım kalmadı.",
+    "items": {
+      "team": {
+        "label": "Ekibiniz",
+        "description": "Hastalara bakan hekimleri ekleyin veya tek başınıza çalışıyorsanız kendinizi hekim olarak işaretleyin."
+      },
+      "verifactu": {
+        "label": "VeriFactu'yu etkinleştir",
+        "description": "İspanya'da vergi idaresi (AEAT) için geçerli fatura düzenlemek için gereklidir."
+      }
+    }
+  },
+  "actions": {
+    "edit": "Düzenle",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "create": "Oluştur",
+    "delete": "Sil",
+    "close": "Kapat",
+    "remove": "Kaldır"
+  },
+  "patients": {
+    "title": "Hastalar",
+    "create": "Yeni hasta",
+    "edit": "Hastayı düzenle",
+    "search": "Hasta ara...",
+    "searchPlaceholder": "Ad veya telefon",
+    "noResults": "Hasta bulunamadı",
+    "empty": "Kayıtlı hasta yok",
+    "emptyAction": "İlk hastayı oluştur",
+    "name": "Ad",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "dateOfBirth": "Doğum tarihi",
+    "notes": "Notlar",
+    "created": "Hasta oluşturuldu",
+    "updated": "Hasta güncellendi",
+    "archived": "Hasta arşivlendi",
+    "notFound": "Hasta bulunamadı",
+    "archiveConfirm": "{name} adlı hasta arşivlensin mi?",
+    "archiveDescription": "Bu işlem hastayı aramalardan gizler. Mevcut randevular silinmez.",
+    "cancel": "İptal",
+    "archive": "Arşivle",
+    "dangerZone": {
+      "title": "Tehlikeli bölge",
+      "archiveHelp": "Hastayı aramalardan gizlemek için arşivleyin. Randevular ve geçmiş korunur."
+    },
+    "billingSection": "Fatura bilgileri",
+    "billingSectionHint": "Bu bilgiler bu hasta için fatura oluşturulurken otomatik olarak kullanılır.",
+    "editingBillingForInvoice": "Fatura bilgileri düzenleniyor. Değişiklikler faturaya yansıyacak.",
+    "returnToInvoice": "Faturaya dön",
+    "billingName": "Fatura adı",
+    "billingNamePlaceholder": "Faturalar için ad veya şirket",
+    "billingTaxId": "Vergi no / TC kimlik no",
+    "billingEmail": "Fatura e-postası",
+    "billingAddress": "Fatura adresi",
+    "billingComplete": "Tamam",
+    "billingIncomplete": "Eksik",
+    "demographics": "Kişisel bilgiler",
+    "nationalId": "Kimlik belgesi",
+    "nationalIdType": "Belge türü",
+    "passport": "Pasaport",
+    "profession": "Meslek",
+    "workplace": "İş yeri",
+    "years": "yaş",
+    "status": {
+      "active": "Aktif",
+      "archived": "Arşivlenmiş"
+    },
+    "filters": {
+      "status": "Durum",
+      "city": "Şehir",
+      "withDebt": "Borçlu",
+      "doNotContact": "İletişime geçme",
+      "doNotContactOnly": "Yalnızca iletişime geçilmeyecekler",
+      "doNotContactOnlyContactable": "Yalnızca iletişime geçilebilenler"
+    },
+    "columns": {
+      "city": "Şehir",
+      "contact": "İletişim",
+      "debt": "Borç"
+    },
+    "sort": {
+      "lastVisit": "Son ziyaret",
+      "lastName": "Soyad",
+      "firstName": "Ad",
+      "createdAt": "Kayıt tarihi",
+      "updatedAt": "Son düzenlenen"
+    },
+    "doNotContact": {
+      "label": "İletişime geçme",
+      "hint": "Hasta arama listesinden ve otomatik iletişimlerden çıkarılır",
+      "badge": "İletişime geçme"
+    },
+    "gender": {
+      "label": "Cinsiyet",
+      "select": "Cinsiyet seçin",
+      "male": "Erkek",
+      "female": "Kadın",
+      "other": "Diğer",
+      "preferNotSay": "Belirtmek istemiyor"
+    },
+    "emergencyContact": {
+      "title": "Acil durum kişisi",
+      "hasContact": "Acil durum kişisi var",
+      "noContact": "Kayıtlı acil durum kişisi yok",
+      "name": "Ad soyad",
+      "namePlaceholder": "Kişinin adı",
+      "relationship": "Yakınlık",
+      "relationshipPlaceholder": "Yakınlık seçin",
+      "phone": "Telefon",
+      "phonePlaceholder": "Kişinin telefonu",
+      "email": "E-posta",
+      "emailPlaceholder": "Kişinin e-postası",
+      "isLegalGuardian": "Yasal vasi",
+      "remove": "Kişiyi kaldır",
+      "relationships": {
+        "spouse": "Eş",
+        "parent": "Ebeveyn",
+        "child": "Çocuk",
+        "sibling": "Kardeş",
+        "friend": "Arkadaş",
+        "other": "Diğer"
+      }
+    },
+    "medicalHistory": {
+      "title": "Tıbbi geçmiş",
+      "save": "Geçmişi kaydet",
+      "fetchError": "Tıbbi geçmiş yüklenirken hata oluştu",
+      "saveSuccess": "Tıbbi geçmiş kaydedildi",
+      "saveError": "Tıbbi geçmiş kaydedilirken hata oluştu",
+      "allergies": "Alerjiler",
+      "allergiesCount": "{n} alerji | {n} alerji",
+      "onAnticoagulants": "Antikoagülan tedavi altında",
+      "allergyName": "Alerji adı",
+      "type": "Tür",
+      "allergyTypes": {
+        "drug": "İlaç",
+        "food": "Gıda",
+        "material": "Materyal",
+        "environmental": "Çevresel"
+      },
+      "severity": {
+        "low": "Düşük",
+        "medium": "Orta",
+        "high": "Yüksek",
+        "critical": "Kritik"
+      },
+      "medications": "İlaçlar",
+      "medicationName": "İlaç adı",
+      "dosage": "Doz",
+      "frequency": "Sıklık",
+      "systemicDiseases": "Sistemik hastalıklar",
+      "diseaseName": "Hastalık adı",
+      "diseaseTypes": {
+        "cardiovascular": "Kardiyovasküler",
+        "respiratory": "Solunum",
+        "endocrine": "Endokrin",
+        "neurological": "Nörolojik",
+        "autoimmune": "Otoimmün",
+        "other": "Diğer"
+      },
+      "critical": "Kritik",
+      "controlled": "Kontrol altında",
+      "notControlled": "Kontrol altında değil",
+      "specialConditions": "Özel durumlar",
+      "pregnant": "Hamile",
+      "pregnancyWeek": "Gebelik haftası",
+      "lactating": "Emziren",
+      "anticoagulants": "Antikoagülanlar",
+      "anticoagulantMedication": "Antikoagülan ilaç",
+      "inrValue": "INR değeri",
+      "anesthesiaReaction": "Anestezi reaksiyonu",
+      "anesthesiaReactionDetails": "Reaksiyon ayrıntıları",
+      "bruxism": "Bruksizm",
+      "lifestyle": "Yaşam tarzı",
+      "smoker": "Sigara kullanıyor",
+      "smokingFrequency": "Sigara/gün",
+      "alcoholConsumption": "Alkol tüketimi",
+      "alcohol": {
+        "none": "Yok",
+        "occasional": "Ara sıra",
+        "moderate": "Orta",
+        "heavy": "Yoğun"
+      },
+      "surgicalHistory": "Cerrahi geçmiş",
+      "procedure": "İşlem"
+    },
+    "timeline": {
+      "empty": "Henüz kayıtlı etkinlik yok",
+      "emptyFiltered": "Bu kategoride olay yok",
+      "clearFilter": "Tüm etkinlikleri göster",
+      "endOfTimeline": "Zaman çizelgesinin sonu",
+      "totalEntries": "{count} kayıt | {count} kayıt",
+      "groups": {
+        "today": "Bugün",
+        "yesterday": "Dün",
+        "thisWeek": "Bu hafta",
+        "thisMonth": "Bu ay",
+        "earlier": "Daha önce"
+      },
+      "author": "{name} tarafından",
+      "meta": {
+        "cabinet": "Ünite {name}",
+        "teeth": "Dişler: {list}",
+        "total": "Toplam: {amount}",
+        "number": "No. {value}",
+        "via": "{channel} ile",
+        "template": "Şablon: {key}",
+        "docType": "Tür: {type}"
+      },
+      "categories": {
+        "all": "Tümü",
+        "visit": "Ziyaretler",
+        "treatment": "Tedaviler",
+        "financial": "Finansal",
+        "communication": "İletişimler",
+        "medical": "Tıbbi geçmiş",
+        "document": "Belgeler",
+        "note": "Klinik notlar"
+      }
+    },
+    "alerts": {
+      "title": "{count} uyarı | {count} uyarı",
+      "label": "Klinik uyarılar"
+    },
+    "editDemographics": "Kişisel bilgileri düzenle",
+    "editEmergencyContact": "Acil durum kişisini düzenle",
+    "editBilling": "Fatura bilgilerini düzenle",
+    "editMedicalHistory": "Tıbbi geçmişi düzenle",
+    "medicalSnapshot": {
+      "title": "Tıbbi bilgiler",
+      "allergiesLabel": "Alerjiler",
+      "allergiesEmpty": "Bilinen alerji yok",
+      "allergiesNotReviewed": "Tıbbi geçmiş kaydedilmemiş",
+      "completeHistory": "Geçmişi tamamla",
+      "reviewedOn": "{date} tarihinde gözden geçirildi",
+      "conditions": {
+        "pregnantWeek": "Hamile · {week}. hafta",
+        "anticoagulantInr": "Antikoagülan · INR {inr}",
+        "smokerFreq": "Sigara · {freq}/gün"
+      }
+    },
+    "personalInfo": {
+      "title": "Kişisel bilgiler",
+      "ageLabel": "{age} yaş",
+      "birthWithAge": "{date} ({age} yaş)"
+    },
+    "contactInfo": {
+      "title": "İletişim",
+      "copyPhone": "Telefonu kopyala",
+      "copyEmail": "E-postayı kopyala",
+      "address": "Adres",
+      "addEmergency": "Acil durum kişisi ekle",
+      "addGuardian": "Yasal vasi ekle",
+      "guardianRequired": "Yasal vasi gerekli"
+    },
+    "administrative": {
+      "title": "İdari"
+    },
+    "header": {
+      "ariaLabel": "Hasta başlığı"
+    },
+    "quickActions": {
+      "ariaLabel": "Hasta hızlı işlemleri"
+    },
+    "onboarding": {
+      "label": "İlk hastanızı oluşturun",
+      "description": "Hasta kaydını, ajandayı ve teklifleri iş başında görmenin en hızlı yolu."
+    },
+    "editLegalGuardian": "Yasal vasiyi düzenle",
+    "legalGuardian": {
+      "title": "Yasal Vasi",
+      "hasGuardian": "Kayıtlı yasal vasisi var",
+      "noGuardian": "Kayıtlı yasal vasi yok",
+      "name": "Ad soyad",
+      "namePlaceholder": "Vasinin adı",
+      "dni": "Kimlik numarası",
+      "dniPlaceholder": "Kimlik belgesi",
+      "relationship": "Yakınlık",
+      "relationshipPlaceholder": "Yakınlık seçin",
+      "relationships": {
+        "parent": "Ebeveyn",
+        "legal_tutor": "Atanmış yasal vasi",
+        "grandparent": "Büyükanne/büyükbaba",
+        "other": "Diğer"
+      },
+      "phone": "Telefon",
+      "phonePlaceholder": "Vasinin telefonu",
+      "email": "E-posta",
+      "emailPlaceholder": "Vasinin e-postası",
+      "address": "Adres",
+      "addressPlaceholder": "Vasinin adresi",
+      "notes": "Notlar",
+      "notesPlaceholder": "Ek açıklamalar...",
+      "remove": "Vasiyi kaldır"
+    }
+  },
+  "patientDetail": {
+    "tabs": {
+      "summary": "Özet",
+      "info": "Bilgiler",
+      "clinical": "Klinik",
+      "odontogram": "Diş Şeması",
+      "administration": "İdari",
+      "history": "Geçmiş",
+      "timeline": "Etkinlik",
+      "appointments": "Randevular",
+      "budgets": "Teklifler",
+      "billing": "Faturalama",
+      "payments": "Ödemeler",
+      "documents": "Belgeler",
+      "gallery": "Galeri"
+    },
+    "historyPlaceholder": "Klinik notlar gelecek sürümde kullanılabilir",
+    "noAppointments": "Bu hastanın randevusu yok",
+    "scheduleAppointment": "Randevu ver",
+    "noBudgets": "Bu hastanın teklifi yok",
+    "createBudget": "Teklif oluştur",
+    "viewAllBudgets": "Tüm teklifleri gör",
+    "activePlan": "Aktif plan",
+    "noActivePlan": "Aktif plan yok",
+    "viewPlan": "Planı aç",
+    "createPlan": "Plan oluştur",
+    "nextAppointment": "Sonraki randevu",
+    "noUpcomingAppointments": "Yaklaşan randevu yok",
+    "openAppointment": "Randevuyu aç",
+    "lastVisit": "Son ziyaret",
+    "neverVisited": "Hiç gelmedi",
+    "reschedule": "Yeniden planla",
+    "balance": "Bakiye",
+    "collect": "Tahsil et",
+    "viewLedger": "Cari hesabı aç",
+    "noPayments": "Hareket yok",
+    "diagnoses": "Tanılar",
+    "pending": "tedavi edilmemiş",
+    "noDiagnoses": "Bekleyen bulgu yok",
+    "openOdontogram": "Diş şemasını aç",
+    "medicalHistory": "Tıbbi geçmiş",
+    "completeMedicalHistory": "Tıbbi geçmiş yok. Alerjileri, hastalıkları ve ilaçları kaydetmek için tamamlayın.",
+    "editMedicalHistory": "Tıbbi geçmişi düzenle",
+    "quickActions": "Hızlı işlemler",
+    "edit": "Düzenle",
+    "editPatient": "Hastayı düzenle",
+    "noSummaryCards": "Özette kayıtlı modül yok.",
+    "actions": {
+      "label": "İşlemler",
+      "newAppointment": "Randevu",
+      "collect": "Tahsil et",
+      "newNote": "Not",
+      "newBudget": "Teklif",
+      "uploadDocument": "Belge"
+    }
+  },
+  "patientBilling": {
+    "totalBudgeted": "Toplam teklif",
+    "workInProgress": "Devam eden işler",
+    "workCompleted": "Tamamlanan işler",
+    "totalInvoiced": "Toplam faturalanan",
+    "totalPaid": "Toplam ödenen",
+    "balancePending": "Kalan bakiye",
+    "invoices": "Faturalar",
+    "createInvoice": "Fatura oluştur",
+    "noInvoices": "Bu hastanın faturası yok",
+    "pending": "Bekliyor",
+    "totalDiscount": "indirim"
+  },
+  "odontogram": {
+    "title": "Diş Şeması",
+    "tooth": "Diş",
+    "globals": {
+      "category": "Tüm ağız",
+      "applied": "{name} plana eklendi",
+      "archPickerTitle": "\"{name}\" için hangi çene?",
+      "upperArch": "Üst çene",
+      "lowerArch": "Alt çene",
+      "searchPlaceholder": "Tedavi ara…"
+    },
+    "selectCondition": "Durum Seçin",
+    "readOnly": "Yalnızca görüntüleme",
+    "legend": "Açıklama",
+    "statusLegend": "Tedavi durumu",
+    "toothPosition": "Diş pozisyonu",
+    "displaced": "Yer değiştirmiş",
+    "rotated": "Rotasyonlu",
+    "dentition": {
+      "permanent": "Daimi",
+      "deciduous": "Süt dişleri",
+      "toggle": "Dentisyonu değiştir"
+    },
+    "quadrants": {
+      "upper": "Üst Çene",
+      "lower": "Alt Çene",
+      "upperRight": "Sağ Üst",
+      "upperLeft": "Sol Üst",
+      "lowerRight": "Sağ Alt",
+      "lowerLeft": "Sol Alt"
+    },
+    "surfaces": {
+      "M": "Mezial",
+      "D": "Distal",
+      "O": "Okluzal",
+      "V": "Vestibüler",
+      "L": "Lingual"
+    },
+    "conditions": {
+      "healthy": "Sağlıklı",
+      "caries": "Çürük",
+      "filling": "Dolgu",
+      "crown": "Kron",
+      "missing": "Eksik",
+      "root_canal": "Kanal Tedavisi",
+      "implant": "İmplant",
+      "bridge_pontic": "Köprü Gövdesi",
+      "bridge_abutment": "Köprü Ayağı",
+      "extraction_indicated": "Çekim Endikasyonu",
+      "sealant": "Fissür Örtücü",
+      "fracture": "Kırık"
+    },
+    "history": {
+      "title": "Değişiklik Geçmişi",
+      "noChanges": "Kayıtlı değişiklik yok",
+      "changedBy": "Değiştiren",
+      "changeTypes": {
+        "created": "Oluşturuldu",
+        "general_condition": "Genel durum",
+        "surface_update": "Yüzey güncellemesi",
+        "note": "Not"
+      }
+    },
+    "messages": {
+      "updated": "Diş şeması güncellendi",
+      "error": "Diş şeması güncellenirken hata oluştu",
+      "loadError": "Diş şeması yüklenemedi"
+    },
+    "actions": {
+      "save": "Kaydet",
+      "reset": "Sıfırla",
+      "print": "Yazdır"
+    },
+    "status": {
+      "existing": "Mevcut",
+      "planned": "Planlanan"
+    },
+    "treatments": {
+      "title": "Tedaviler",
+      "addTreatment": "Tedavi Ekle",
+      "selectStatus": "Durum Seçin",
+      "noTreatments": "Kayıtlı tedavi yok",
+      "markPerformed": "Yapıldı olarak işaretle",
+      "categories": {
+        "common": "Sık kullanılan",
+        "restorative": "Restoratif",
+        "other": "Diğer",
+        "diagnostico": "Teşhis",
+        "restauradora": "Restoratif",
+        "cirugia": "Cerrahi",
+        "endodoncia": "Endodonti",
+        "ortodoncia": "Ortodonti"
+      },
+      "types": {
+        "pulpitis": "Pulpitis",
+        "caries": "Çürük",
+        "incipient_caries": "Başlangıç çürüğü",
+        "pigmentation": "Pigmentasyon",
+        "fracture": "Kırık",
+        "missing": "Eksik",
+        "periapical_small": "Periapikal <2mm",
+        "periapical_medium": "Periapikal 2-4mm",
+        "periapical_large": "Periapikal >4mm",
+        "rotated": "Rotasyonlu",
+        "displaced": "Yer değiştirmiş",
+        "unerupted": "Gömülü",
+        "filling": "Dolgu",
+        "filling_composite": "Kompozit dolgu",
+        "filling_amalgam": "Amalgam dolgu",
+        "filling_temporary": "Geçici dolgu",
+        "sealant": "Fissür örtücü",
+        "veneer": "Lamina",
+        "inlay": "İnley",
+        "overlay": "Onley",
+        "crown": "Kron",
+        "crown_on_implant": "İmplant üstü kron",
+        "provisional_crown_on_implant": "İmplant üstü geçici kron",
+        "pontic": "Gövde",
+        "bridge_pontic": "Köprü Gövdesi",
+        "bridge_abutment": "Köprü Ayağı",
+        "extraction": "Çekim",
+        "implant": "İmplant",
+        "apicoectomy": "Apikal rezeksiyon",
+        "root_canal": "Kanal Tedavisi",
+        "root_canal_full": "Tam kanal dolgusu",
+        "root_canal_two_thirds": "Kanal dolgusu 2/3",
+        "root_canal_half": "Kanal dolgusu 1/2",
+        "root_canal_overfill": "Taşkın kanal dolgusu",
+        "post": "Post",
+        "bracket": "Braket",
+        "tube": "Tüp",
+        "band": "Bant",
+        "attachment": "Ataşman",
+        "retainer": "Pekiştirme apareyi",
+        "rotate": "Rotasyonlu",
+        "displace": "Yer değiştirmiş",
+        "splint": "Splint",
+        "migrated": "Genel tedavi",
+        "other": "Diğer tedavi"
+      },
+      "treatmentAdded": "Tedavi eklendi",
+      "treatmentPerformed": "Tedavi yapıldı olarak işaretlendi",
+      "treatmentDeleted": "Tedavi silindi",
+      "status": {
+        "existing": "Mevcut",
+        "planned": "Planlanan"
+      },
+      "deleteConfirm": "{name} (diş {tooth}) silinsin mi? Bu işlem geri alınamaz."
+    },
+    "position": {
+      "displaced": "Yer değiştirmiş",
+      "rotated": "Rotasyonlu",
+      "normal": "Normal"
+    },
+    "views": {
+      "occlusal": "Okluzal Görünüm",
+      "lateral": "Lateral Görünüm",
+      "dual": "Çift Görünüm"
+    },
+    "selectSurfaces": "Yüzey Seçin",
+    "selectedSurfaces": "Seçili yüzeyler",
+    "surfacesSelected": "yüzey seçildi",
+    "instructions": {
+      "selectTreatment": "Uygulanacak bir tedavi seçin",
+      "clickTooth": "Uygulamak için dişe tıklayın"
+    },
+    "addToPlan": "Plana ekle",
+    "noPlan": "Plan yok",
+    "createNewPlan": "Yeni plan oluştur...",
+    "applyTo": "Uygula",
+    "oneTooth": "1 diş",
+    "multipleTeeth": "Birden fazla diş",
+    "surfacePricingHint": "Yüzeye göre fiyat: {range}",
+    "toothNames": {
+      "centralIncisor": "Santral kesici",
+      "lateralIncisor": "Lateral kesici",
+      "canine": "Kanin",
+      "firstPremolar": "Birinci küçük azı",
+      "secondPremolar": "İkinci küçük azı",
+      "firstMolar": "Birinci büyük azı",
+      "secondMolar": "İkinci büyük azı",
+      "thirdMolar": "Üçüncü büyük azı"
+    },
+    "positions": {
+      "upper": "üst",
+      "lower": "alt",
+      "left": "sol",
+      "right": "sağ"
+    },
+    "tooltip": {
+      "clickToEdit": "Düzenlemek için tıklayın"
+    },
+    "planning": "Planlama",
+    "diagnosisMode": "Tanı",
+    "treatmentList": {
+      "title": "Tedavi Listesi",
+      "noTreatments": "Kayıtlı tedavi yok"
+    },
+    "changeHistory": {
+      "title": "Değişiklik Geçmişi",
+      "noChanges": "Kayıtlı değişiklik yok",
+      "treatmentAdded": "Tedavi"
+    },
+    "timeline": {
+      "title": "Zaman çizelgesi",
+      "viewingDate": "Görüntülenen: {date}",
+      "viewingHistory": "Diş şemasının geçmişteki durumunu görüntülüyorsunuz",
+      "returnToNow": "Güncel duruma dön",
+      "noHistory": "Önceki geçmiş yok"
+    },
+    "multiTooth": {
+      "bridge": {
+        "label": "Sabit köprü"
+      },
+      "splint": {
+        "label": "Splint"
+      },
+      "veneers": {
+        "label": "Çoklu lamina"
+      },
+      "crowns": {
+        "label": "Çoklu kron"
+      },
+      "pillar": "ayak",
+      "pontic": "gövde",
+      "roleHint": "Ayak / gövde arasında geçiş yapmak için dişe tıklayın.",
+      "needPillar": "Köprü en az bir ayak diş gerektirir.",
+      "confirmHint": "{n} dişten oluşan bir tedavi grubu oluşturmak üzeresiniz.",
+      "willBePlanned": "Grup planlanan olarak işaretlenecek.",
+      "willBeExisting": "Grup mevcut olarak kaydedilecek.",
+      "hints": {
+        "range": "Önce ilk dişe, sonra son dişe tıklayın",
+        "free": "Diş eklemek veya çıkarmak için tıklayın"
+      },
+      "errors": {
+        "tooFew": "En az {n} diş gerekli",
+        "tooMany": "En fazla {n} dişe izin verilir",
+        "sameArchRequired": "Dişler aynı çenede olmalıdır"
+      },
+      "sectionLabel": "Çok dişli tedaviler"
+    }
+  },
+  "clinical": {
+    "modes": {
+      "history": "Geçmiş",
+      "diagnosis": "Tanı",
+      "plans": "Tedavi planları",
+      "appointments": "Randevular"
+    },
+    "history": {
+      "stateAt": "Tarihteki durum",
+      "changesOnDate": "Bu tarihteki değişiklikler",
+      "noChanges": "Kayıtlı değişiklik yok"
+    },
+    "diagnosis": {
+      "registeredConditions": "Tanı konmuş durumlar",
+      "registerConditions": "Durum kaydet",
+      "noConditions": "Kayıtlı durum yok",
+      "startDiagnosis": "Bir diş seçin ve mevcut durumları ekleyin",
+      "generalConditions": "Genel durumlar",
+      "readyToCreatePlan": "Tanı tamamlandı mı?",
+      "createPlan": "Tedavi Planı Oluştur",
+      "continuePlan": "\"{name}\" Planına Devam Et",
+      "selectPlan": "Plan seçin",
+      "continue": "Devam et",
+      "odontogramTab": "Odontogram"
+    },
+    "plans": {
+      "title": "Tedavi Planları",
+      "create": "Yeni Plan",
+      "backToList": "Planlara dön",
+      "treatments": "Plan Tedavileri",
+      "addTreatment": "Tedavi Ekle",
+      "total": "Toplam",
+      "activate": "Planı Etkinleştir",
+      "generateBudget": "Teklif Oluştur",
+      "empty": "Tedavi planı yok",
+      "emptyDescription": "Hastanın tedavilerini düzenlemek için bir plan oluşturun",
+      "createFirst": "İlk planı oluştur",
+      "active": "Aktif Planlar",
+      "drafts": "Taslaklar",
+      "completed": "Tamamlanan",
+      "closed": "Kapalı",
+      "other": "Diğer",
+      "noItems": "Planda tedavi yok",
+      "markComplete": "Tamamlandı olarak işaretle",
+      "removeItem": "Plandan kaldır",
+      "sessions": {
+        "progress": "{done}/{total} seans",
+        "markDone": "Seansı tamamlandı işaretle",
+        "cancel": "Seansı iptal et",
+        "markedDone": "Seans tamamlandı olarak işaretlendi",
+        "cancelled": "Seans iptal edildi",
+        "untitled": "Seans {n}"
+      },
+      "unknownTreatment": "Tedavi",
+      "odontogram": "Odontogram",
+      "pending": "bekliyor",
+      "dragToReorder": "Sıralamak için sürükleyin",
+      "reorderHint": "Taşımak için Alt + ok tuşlarını kullanın",
+      "emptyDraft": {
+        "title": "Tedavileri planlayın",
+        "step1": "Alttaki çubuktan bir tedavi seçin",
+        "step2": "Odontogramda bir dişe tıklayın",
+        "step3": "Teklif ve randevuları oluşturmak için planı onaylayın"
+      },
+      "steps": {
+        "plan": "Plan",
+        "confirm": "Onayla",
+        "inProgress": "Devam ediyor"
+      },
+      "confirmCta": {
+        "titleWithItems": "Planı onayla",
+        "subtitleWithItems": "Onaylamak teklif oluşturmayı ve randevu planlamayı açar.",
+        "empty": "Planı onaylamak için en az bir tedavi ekleyin"
+      },
+      "ghostHint": "Plan onaylandıktan sonra kullanılabilir",
+      "addedToPlan": "Plana eklendi",
+      "addingToPlan": "Bu plana ekleniyor",
+      "cancelPlan": "Planı iptal et",
+      "locked": {
+        "title": "Plan kilitli",
+        "subtitle": "{number} numaralı teklif düzenlendi. Tedavileri düzenlemek için Yeniden aç (bekliyorsa) veya teklifi Yeniden müzakere et seçeneğini kullanın.",
+        "viewBudget": "Teklifi gör"
+      },
+      "removeItemConfirm": "{name} bu plandan kaldırılsın mı? Bu işlem geri alınamaz."
+    },
+    "tooth": "Diş"
+  },
+  "appointments": {
+    "title": "Ajanda",
+    "checkin": {
+      "qr": "Giriş QR kodu",
+      "hint": "Hasta giriş yapmak için bu kodu tarar. Oluşturulduktan 15 dakika sonra geçerliliğini yitirir.",
+      "copyLink": "Giriş bağlantısını kopyala",
+      "openTitle": "Klinik girişi",
+      "success": "Girişiniz yapıldı. Lütfen oturun.",
+      "invalid": "Bu giriş kodu geçersiz veya süresi dolmuş. Lütfen resepsiyondan yeni bir kod isteyin."
+    },
+    "create": "Yeni randevu",
+    "edit": "Randevuyu düzenle",
+    "today": "Bugün",
+    "tomorrow": "Yarın",
+    "yesterday": "Dün",
+    "week": "Hafta",
+    "prevWeek": "Önceki hafta",
+    "nextWeek": "Sonraki hafta",
+    "selectPatient": "Hasta seçin",
+    "selectProfessional": "Hekim seçin",
+    "openPatientFile": "Hasta dosyasını aç",
+    "patient": "Hasta",
+    "professional": "Hekim",
+    "cabinet": "Ünite",
+    "date": "Tarih",
+    "time": "Saat",
+    "startTime": "Başlangıç saati",
+    "duration": "Süre",
+    "treatmentType": "Tedavi türü",
+    "treatments": "Tedaviler",
+    "addTreatment": "Tedavi ekle",
+    "selectTreatment": "Tedavi seçin",
+    "estimatedDuration": "Tahmini süre",
+    "notes": "Notlar",
+    "hasNotes": "Notu var",
+    "status": {
+      "label": "Durum",
+      "scheduled": "Planlandı",
+      "confirmed": "Onaylandı",
+      "checked_in": "Bekleme salonunda",
+      "in_treatment": "Koltukta",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal edildi",
+      "no_show": "Gelmedi"
+    },
+    "scheduled": "Planlandı",
+    "confirmed": "Onaylandı",
+    "inProgress": "Devam ediyor",
+    "in_progress": "Devam ediyor",
+    "completed": "Tamamlandı",
+    "cancelled": "İptal edildi",
+    "noShow": "Gelmedi",
+    "no_show": "Gelmedi",
+    "transitions": {
+      "confirmed": "Onaylandı olarak işaretle",
+      "checked_in": "Geldi olarak işaretle",
+      "in_treatment": "Koltuğa al",
+      "completed": "Randevuyu bitir",
+      "cancelled": "Randevuyu iptal et",
+      "no_show": "Gelmedi olarak işaretle"
+    },
+    "timer": {
+      "startsIn": "{minutes} dk sonra başlıyor",
+      "startsInOverdue": "{minutes} dk gecikmeli",
+      "waiting": "{minutes} dk bekliyor",
+      "inTreatment": "{elapsed}/{planned} dk",
+      "completedAt": "{time} bitti",
+      "cancelledAt": "iptal edildi",
+      "noShowAt": "gelmedi"
+    },
+    "confirmTransitionTitle": "Durum değişikliğini onayla",
+    "confirmCancelMessage": "Bu randevu iptal edilsin mi? Değişiklik kaydedilecek.",
+    "confirmNoShowMessage": "Bu hasta gelmedi olarak işaretlensin mi? Değişiklik kaydedilecek.",
+    "noteLabel": "Not (isteğe bağlı)",
+    "transitionFailed": "Randevu durumu değiştirilemedi",
+    "when": "Ne zaman",
+    "whereWho": "Ünite ve hekim",
+    "followup": {
+      "title": "Randevu sonrası işlemler"
+    },
+    "created": "Randevu oluşturuldu",
+    "saved": "Randevu kaydedildi",
+    "updated": "Randevu güncellendi",
+    "conflict": "Bu saat dilimi zaten dolu",
+    "cancel": "Randevuyu iptal et",
+    "markCompleted": "Tamamlandı olarak işaretle",
+    "markNoShow": "Gelmedi",
+    "dailyView": "Gün",
+    "weeklyView": "Hafta",
+    "kanbanView": "Kanban",
+    "kanban": {
+      "upcoming": "Yaklaşan",
+      "waiting": "Bekleme salonu",
+      "inChair": "Koltukta",
+      "done": "Tamamlandı",
+      "missed": "Gelmedi / İptal",
+      "free": "Boş",
+      "inactive": "Pasif",
+      "empty": "Randevu yok",
+      "nextIn": "Sonraki {time}",
+      "subtitleCount": "{count} randevu",
+      "subtitleEmpty": "Randevu yok",
+      "subtitleWaiting": "{count} bekliyor · ort. {avg} dk",
+      "subtitleInChair": "{busy} dolu · {free} boş"
+    },
+    "cabinetAssignment": {
+      "assignLater": "Sonra ata",
+      "unassigned": "Atanmamış",
+      "assign": "Ünite ata",
+      "reassign": "Üniteyi yeniden ata",
+      "unassign": "Ünite atamasını kaldır",
+      "requiredForTreatment": "Tedaviye geçmeden önce bir ünite atayın"
+    },
+    "professionals": {
+      "strip": "Hekimler",
+      "state": {
+        "free": "Boş",
+        "in_treatment": "Koltukta",
+        "on_break": "Molada",
+        "off": "İzinli"
+      }
+    },
+    "noProfessionals": "Yapılandırılmış hekim yok",
+    "overlapWarning": "Çakışma tespit edildi",
+    "overlapProfessional": "Hekimin bu saatte {count} randevusu var",
+    "overlapCabinet": "Ünitenin bu saatte {count} randevusu var",
+    "selectDuration": "Süre seçin...",
+    "sendEmail": "E-posta gönder",
+    "sendConfirmationEmail": "Onay gönder",
+    "resendConfirmation": "Onayı yeniden gönder",
+    "sendReminderEmail": "Hatırlatma gönder",
+    "emailSent": "E-posta başarıyla gönderildi",
+    "automatic": "otomatik",
+    "selectPatientFirst": "Bekleyen tedavileri görmek için bir hasta seçin",
+    "noPendingTreatments": "Bekleyen tedavi yok",
+    "createPlanFirst": "Bu hasta için bir tedavi planı oluşturun",
+    "addTreatmentFromPlan": "Plandan tedavi ekle",
+    "selectPendingTreatment": "Bekleyen tedavi seçin",
+    "emptyDay": "Bu gün için randevu yok",
+    "noPatient": "Hasta yok",
+    "freeSlots": {
+      "byProfessional": "Hekim",
+      "byCabinet": "Ünite",
+      "freeSuffix": "boş",
+      "freeShort": "boş",
+      "noFreeTime": "Boş zaman yok",
+      "tapToBook": "Randevu için dokunun",
+      "tapToBookAria": "{time} saatinde {duration} boş zaman",
+      "nextFreeAt": "Sonraki {time}",
+      "gapsAtLeast": "≥ {min} dk {count} boşluk",
+      "minDuration": "Minimum",
+      "noFreeSlots": "Bugün boş saat yok",
+      "clinicClosed": "Klinik kapalı",
+      "professionalOff": "İzinli",
+      "onBreak": "Molada"
+    },
+    "actionsMenu": "Randevu işlemleri",
+    "sendMessage": "Mesaj gönder",
+    "resendConfirmationVia": "Onayı yeniden gönder ({channel})",
+    "sendReminderVia": "Hatırlatma gönder ({channel})",
+    "sendCancellationVia": "İptal bildirimi gönder ({channel})",
+    "loadError": "Randevular yüklenemedi",
+    "planAwaitingBudget": "Teklif kabul bekliyor"
+  },
+  "dashboard": {
+    "greetings": {
+      "morning": "Günaydın",
+      "afternoon": "İyi günler",
+      "evening": "İyi akşamlar"
+    },
+    "welcome": "DentalPin'e hoş geldiniz",
+    "welcomeMessage": "İlk hastanızı oluşturarak başlayın.",
+    "quickActions": {
+      "newAppointment": "Yeni randevu",
+      "newPatient": "Yeni hasta",
+      "search": "Hasta ara",
+      "searchPlaceholder": "Ad, telefon veya e-posta ile ara"
+    },
+    "timeline": {
+      "title": "Bugün",
+      "empty": "Bugün için planlanmış randevu yok",
+      "now": "Şimdi",
+      "openSchedule": "Ajandayı aç"
+    },
+    "todayKpi": {
+      "title": "Bugünkü randevular",
+      "completed": "tamamlandı",
+      "inProgress": "devam ediyor",
+      "upcoming": "yaklaşan",
+      "cancelled": "iptal",
+      "noShow": "gelmedi",
+      "empty": "Bugün randevu yok"
+    },
+    "inClinic": {
+      "title": "Şu an klinikte",
+      "inTreatment": "{n} koltukta",
+      "waiting": "{n} bekliyor",
+      "empty": "Klinikte kimse yok"
+    },
+    "unconfirmed": {
+      "title": "Yarın için onaylanmamış",
+      "empty": "Yarınki tüm randevular onaylandı",
+      "confirm": "Onayla",
+      "confirmError": "Onaylanamadı"
+    },
+    "overdue": {
+      "title": "Gecikmiş ödemeler",
+      "daysOverdue": "{n} gün gecikmiş | {n} gün gecikmiş",
+      "viewAll": "Tümünü gör",
+      "empty": "Gecikmiş fatura yok"
+    },
+    "recent": {
+      "title": "Son hastalar",
+      "empty": "Henüz hasta yok"
+    },
+    "weekGlance": {
+      "title": "Haftaya bakış",
+      "subtitle": "Son 7 gün ile önceki 7 gün",
+      "appointments": "Randevular",
+      "completed": "Tamamlanan",
+      "invoiced": "Faturalanan",
+      "empty": "Bu hafta veri yok"
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "subtitle": "Kliniğinizi, ekibinizi ve modüllerinizi yönetin.",
+    "allCategories": "Tüm kategoriler",
+    "navLabel": "Ayar kategorileri",
+    "attentionRequired": "İlgi gerekiyor",
+    "categories": {
+      "general": {
+        "label": "Genel",
+        "description": "Klinik profili, marka ve saat dilimi."
+      },
+      "workspace": {
+        "label": "Çalışma alanı",
+        "description": "Üniteler, çalışma saatleri ve müsaitlik."
+      },
+      "people": {
+        "label": "Kişiler",
+        "description": "Kullanıcılar, roller ve davetler."
+      },
+      "clinical": {
+        "label": "Klinik",
+        "description": "Katalog, tedavi varsayılanları ve şablonlar."
+      },
+      "billing": {
+        "label": "Faturalama ve vergi",
+        "description": "Fatura serileri, KDV ve vergi uyumluluğu."
+      },
+      "communications": {
+        "label": "İletişim",
+        "description": "Bildirimler, SMTP ve şablonlar."
+      },
+      "integrations": {
+        "label": "Entegrasyonlar",
+        "description": "Harici hizmetler ve sağlayıcılar."
+      },
+      "modules": {
+        "label": "Modüller",
+        "description": "Modülleri kurun, yükseltin ve kaldırın."
+      },
+      "account": {
+        "label": "Hesap",
+        "description": "Profiliniz, parolanız ve diliniz."
+      }
+    },
+    "supergroups": {
+      "clinicalSetup": {
+        "label": "Klinik kurulumu"
+      },
+      "clinicalManagement": {
+        "label": "Klinik yönetimi"
+      },
+      "financialConfiguration": {
+        "label": "Finansal yapılandırma"
+      },
+      "systemAddons": {
+        "label": "Sistem ve eklentiler"
+      },
+      "myPreferences": {
+        "label": "Tercihlerim"
+      }
+    },
+    "search": {
+      "placeholder": "Ayarlarda ara…",
+      "empty": "Bu aramayla eşleşen sonuç yok.",
+      "navigate": "gezin",
+      "open": "aç"
+    },
+    "locked": {
+      "title": "Bu bölüme erişiminiz yok",
+      "description": "Gerekli yetkileri vermesi için bir klinik yöneticisine başvurun."
+    },
+    "emptyCategory": {
+      "title": "Kullanılabilir seçenek yok",
+      "description": "Uyumlu modüller etkinleştirildiğinde ayarları burada görünecek."
+    },
+    "loadError": {
+      "description": "Bu düzenleyici yüklenemedi. Birkaç saniye sonra tekrar deneyin."
+    },
+    "comingSoon": {
+      "title": "Yakında",
+      "subtitle": "Bu bölüm üzerinde çalışıyoruz. Bu arada API üzerinden yönetebilirsiniz."
+    },
+    "onboarding": {
+      "title": "Klinik kurulumunu tamamlayın",
+      "subtitle": "İlk kurulumu tamamlamak için {count} bekleyen adımınız var.",
+      "dismiss": "Kapat",
+      "items": {
+        "clinicInfo": {
+          "label": "Klinik profilini tamamlayın",
+          "description": "Ad, vergi numarası ve adres tekliflerde ve faturalarda görünür."
+        },
+        "cabinets": {
+          "label": "En az bir ünite oluşturun",
+          "description": "Ünite olmadan randevu planlayamazsınız."
+        }
+      }
+    },
+    "cabinetsDescription": "Hastaların tedavi edildiği odalar veya üniteler.",
+    "usersDescription": "Bu kliniğe erişimi olan hesaplar ve rolleri.",
+    "profileDescription": "Bu klinikteki kişisel bilgileriniz.",
+    "clinic": "Klinik",
+    "profile": "Profil",
+    "clinicName": "Klinik adı",
+    "clinicInfo": "Klinik Bilgileri",
+    "clinicInfoDescription": "Bu bilgiler tekliflerde ve belgelerde görünecek",
+    "taxId": "Vergi no",
+    "legalName": "Yasal unvan",
+    "legalNameHelp": "Faturalama için tüzel kişinin yasal unvanı. Klinik adını kullanmak için boş bırakın.",
+    "street": "Adres",
+    "city": "Şehir",
+    "postalCode": "Posta Kodu",
+    "country": "Ülke",
+    "countryPlaceholder": "Bir ülke seçin",
+    "countrySearchPlaceholder": "Ülke ara…",
+    "phone": "Telefon",
+    "timezone": "Saat dilimi",
+    "timezoneHelp": "Tüm programlar ve randevular bu saat dilimine göre yorumlanır.",
+    "currency": "Para birimi",
+    "currencyHelp": "Tekliflerde, faturalarda ve katalogda kullanılan klinik geneli para birimi.",
+    "editClinicInfo": "Bilgileri düzenle",
+    "clinicUpdated": "Klinik bilgileri güncellendi",
+    "clinicUpdateError": "Bilgiler güncellenirken hata oluştu",
+    "cabinets": "Üniteler",
+    "language": "Dil",
+    "languageDescription": "Tercih ettiğiniz dili seçin",
+    "users": "Klinik Kullanıcıları",
+    "newUser": "Yeni Kullanıcı",
+    "createUser": "Kullanıcı Oluştur",
+    "editUser": "Kullanıcıyı Düzenle",
+    "deleteUser": "Kullanıcıyı Sil",
+    "deleteUserConfirm": "Şu kullanıcıyı kaldırmak istediğinizden emin misiniz:",
+    "deleteUserNote": "Kullanıcı bu kliniğe erişimini kaybeder ancak hesabı silinmez.",
+    "noUsers": "Kayıtlı kullanıcı yok",
+    "youTag": "(siz)",
+    "userActive": "Kullanıcı aktif",
+    "isProfessional": "Hekim olarak çalışıyor",
+    "isProfessionalHelp": "Ajandada görünür, çalışma saatleri vardır ve tedavi atanabilir. Bir yönetici de hekim olarak çalışabilir.",
+    "userInactiveNote": "(Giriş yapamaz)",
+    "saveChanges": "Değişiklikleri Kaydet",
+    "noCabinets": "Yapılandırılmış ünite yok",
+    "addCabinet": "Ekle",
+    "newCabinet": "Yeni Ünite",
+    "editCabinet": "Üniteyi Düzenle",
+    "deleteCabinet": "Üniteyi Sil",
+    "deleteCabinetConfirm": "Şu üniteyi silmek istediğinizden emin misiniz:",
+    "deleteCabinetNote": "Bu ünitedeki mevcut randevular etkilenmez.",
+    "createCabinet": "Ünite Oluştur",
+    "roles": {
+      "admin": "Yönetici",
+      "dentist": "Diş hekimi",
+      "hygienist": "Diş hijyenisti",
+      "assistant": "Asistan",
+      "receptionist": "Resepsiyonist"
+    },
+    "errors": {
+      "loadUsers": "Kullanıcılar yüklenirken hata oluştu",
+      "createUser": "Kullanıcı oluşturulurken hata oluştu",
+      "updateUser": "Kullanıcı güncellenirken hata oluştu",
+      "deleteUser": "Kullanıcı silinirken hata oluştu",
+      "emailExists": "Bu e-posta zaten kayıtlı",
+      "userNotFound": "Kullanıcı bulunamadı",
+      "operationNotAllowed": "İşleme izin verilmiyor",
+      "invalidData": "Geçersiz veri",
+      "inviteLink": "Erişim bağlantısı oluşturulamadı"
+    },
+    "messages": {
+      "userCreated": "Kullanıcı başarıyla oluşturuldu",
+      "userUpdated": "Kullanıcı başarıyla güncellendi",
+      "userDeleted": "Kullanıcı klinikten kaldırıldı"
+    },
+    "modules": {
+      "title": "Modüller",
+      "subtitle": "Klinik modüllerini kurun, kaldırın ve yükseltin.",
+      "description": "Kliniğinizde hangi modüllerin aktif olduğunu yönetin.",
+      "searchPlaceholder": "Modül ara…",
+      "filterState": "Durum",
+      "deps": "Bağımlılıklar",
+      "noDeps": "Bağımlılık yok",
+      "state": {
+        "installed": "Kurulu",
+        "uninstalled": "Kurulu değil",
+        "toInstall": "Kurulum bekliyor",
+        "toUpgrade": "Yükseltme bekliyor",
+        "toRemove": "Kaldırma bekliyor",
+        "disabled": "Devre dışı",
+        "error": "Hata"
+      },
+      "category": {
+        "official": "Resmi",
+        "community": "Topluluk"
+      },
+      "actions": {
+        "install": "Kur",
+        "uninstall": "Kaldır",
+        "upgrade": "Yükselt",
+        "apply": "Değişiklikleri uygula",
+        "viewDetails": "Ayrıntılar",
+        "force": "Zorla kaldır"
+      },
+      "confirmInstall": {
+        "title": "{name} kurulsun mu?",
+        "message": "Modül kurulum için planlanacak ve değişiklikler uygulandıktan sonra aktif olacak.",
+        "scheduled": "Şu bağımlılıklar da kurulacak:"
+      },
+      "confirmUninstall": {
+        "title": "{name} kaldırılsın mı?",
+        "warning": "Modül tabloları silinecek. Verilerin kurtarılabilmesi için önce bir pg_dump yedeği alınır.",
+        "forceHint": "Bağımlı modülleri yok sayar. Yalnızca ne yaptığınızı biliyorsanız kullanın."
+      },
+      "confirmUpgrade": {
+        "title": "{name} yükseltilsin mi?",
+        "message": "Değişiklikler uygulandığında modül diskteki manifest sürümüne yükseltilecek."
+      },
+      "confirmApply": {
+        "title": "Değişiklikleri uygula",
+        "message": "Sunucu yeniden başlatılacak. Bekleyen işlemler çalışırken oturum kısa süreliğine kesilebilir."
+      },
+      "pending": {
+        "banner": "Bekleyen değişiklikler:",
+        "apply": "Değişiklikleri uygula"
+      },
+      "doctor": {
+        "banner": "Modül sisteminde sorunlar tespit edildi.",
+        "orphans": "sahipsiz modül",
+        "missingDeps": "eksik bağımlılık",
+        "manifestErrors": "manifest hatası",
+        "errored": "hatalı modül"
+      },
+      "detail": {
+        "state": "Durum",
+        "category": "Kategori",
+        "installedAt": "Kurulma tarihi",
+        "lastChange": "Son değişiklik",
+        "baseRevision": "Temel revizyon",
+        "appliedRevision": "Uygulanan revizyon",
+        "manifest": "Manifestin tamamı",
+        "errorMessage": "Hata mesajı",
+        "operationLog": "İşlem günlüğü",
+        "noOperations": "Kayıtlı işlem yok."
+      },
+      "restart": {
+        "inProgress": "Sunucu yeniden başlatılıyor…",
+        "done": "Değişiklikler uygulandı",
+        "failed": "Değişiklikler uygulanamadı",
+        "timeout": "Sunucu beklenirken zaman aşımı"
+      },
+      "toasts": {
+        "scheduled": "İşlem planlandı. Tamamlamak için değişiklikleri uygulayın.",
+        "applied": "Değişiklikler başarıyla uygulandı."
+      }
+    },
+    "invite": {
+      "linkTitle": "Erişim bağlantısı",
+      "linkHelp": "Parolasını belirlemesi için bu bağlantıyı {name} kişisine gönderin. {date} tarihinde geçerliliğini yitirir ve bir kez kullanılabilir.",
+      "copy": "Bağlantıyı kopyala",
+      "copied": "Bağlantı kopyalandı",
+      "whatsapp": "WhatsApp ile gönder",
+      "shareText": "Merhaba {name}, DentalPin erişim bağlantın burada. Açıp parolanı belirle: {url}",
+      "secretNote": "Bunu bir parola gibi koruyun: bağlantıya sahip olan herkes bu hesaba giriş yapabilir.",
+      "passwordOptionalHelp": "WhatsApp veya e-postayla gönderebileceğiniz bir erişim bağlantısı oluşturmak için boş bırakın.",
+      "passwordOptionalPlaceholder": "İsteğe bağlı",
+      "createAndLink": "Oluştur ve bağlantı üret",
+      "rowAction": "Erişim bağlantısı",
+      "setPasswordTitle": "Parolanızı belirleyin",
+      "setPasswordSubtitle": "DentalPin'e davet edildiniz. Giriş yapmak için parolanızı oluşturun.",
+      "setPasswordSubmit": "Kaydet ve giriş yap",
+      "invalidToken": "Bu bağlantı geçersiz veya zaten kullanılmış. Klinik yöneticinizden yeni bir bağlantı isteyin."
+    }
+  },
+  "selector": {
+    "recentPatients": "Son hastalar",
+    "commonTreatments": "Sık tedaviler",
+    "noRecentPatients": "Son hasta yok",
+    "noCommonTreatments": "Sık tedavi yok",
+    "noMatches": "Eşleşme yok",
+    "typeToSearch": "Aramak için yazın..."
+  },
+  "density": {
+    "switchToCompact": "Sıkışık görünüm",
+    "switchToComfortable": "Rahat görünüm"
+  },
+  "patientSelector": {
+    "createOption": "\"{query}\" hastasını oluştur",
+    "createOptionEmpty": "Yeni hasta oluştur",
+    "newBadge": "Yeni",
+    "duplicateWarning": "{name} bu telefonla zaten kayıtlı",
+    "useExisting": "Bu hastayı kullan",
+    "createForm": {
+      "title": "Yeni hasta",
+      "back": "Aramaya dön",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "phone": "Telefon",
+      "phoneHint": "Daha sonra hasta kaydına ekleyebilirsiniz.",
+      "submit": "Oluştur ve seç",
+      "cancel": "İptal",
+      "errorGeneric": "Hasta oluşturulamadı. Tekrar deneyin."
+    }
+  },
+  "common": {
+    "save": "Kaydet",
+    "add": "Ekle",
+    "cancel": "İptal",
+    "clear": "Temizle",
+    "close": "Kapat",
+    "delete": "Sil",
+    "comingSoon": "Yakında",
+    "edit": "Düzenle",
+    "change": "değişiklik | değişiklik",
+    "back": "Geri",
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "success": "Başarılı",
+    "completed": "Tamamlandı",
+    "retry": "Tekrar dene",
+    "refresh": "Yenile",
+    "hide": "Gizle",
+    "forbidden": "Erişim reddedildi",
+    "confirm": "Onayla",
+    "yes": "Evet",
+    "no": "Hayır",
+    "actions": "İşlemler",
+    "viewDetails": "Ayrıntıları gör",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "previousYear": "Önceki yıl",
+    "nextYear": "Sonraki yıl",
+    "undo": "Geri al",
+    "undone": "Geri alındı",
+    "added": "Eklendi",
+    "removed": "Kaldırıldı",
+    "page": "Sayfa {current} / {total}",
+    "noData": "Veri yok",
+    "noValue": "değer yok",
+    "noResults": "Sonuç yok",
+    "search": "Ara...",
+    "selectAll": "Tümü",
+    "deselectAll": "Hiçbiri",
+    "all": "Tümü",
+    "required": "Bu alan zorunludur",
+    "invalidEmail": "Geçersiz e-posta",
+    "networkError": "Bağlantı hatası",
+    "serverError": "Sunucu hatası",
+    "notFound": "Bulunamadı",
+    "offline": "Çevrimdışı — veriler güncel olmayabilir",
+    "inactive": "Pasif",
+    "name": "Ad",
+    "color": "Renk",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "E-posta",
+    "password": "Parola",
+    "passwordPlaceholder": "En az 8 karakter",
+    "role": "Rol",
+    "readOnly": "Salt okunur",
+    "createdBy": "Oluşturan",
+    "date": "Tarih",
+    "upload": "Yükle",
+    "uploading": "Yükleniyor…",
+    "maxFileSize": "en fazla 10 MB",
+    "durationMinutes": "{value} dk",
+    "days": {
+      "sunday": "Pazar",
+      "monday": "Pazartesi",
+      "tuesday": "Salı",
+      "wednesday": "Çarşamba",
+      "thursday": "Perşembe",
+      "friday": "Cuma",
+      "saturday": "Cumartesi"
+    },
+    "now": "Şimdi",
+    "today": "Bugün",
+    "tomorrow": "Yarın",
+    "yesterday": "Dün",
+    "copied": "Panoya kopyalandı",
+    "copy": "Kopyala",
+    "copyFailed": "Kopyalanamadı",
+    "download": "İndir",
+    "remove": "Kaldır",
+    "default": "Varsayılan"
+  },
+  "cabinet": {
+    "toast": {
+      "created": "Ünite oluşturuldu",
+      "updated": "Ünite güncellendi",
+      "deleted": "Ünite silindi",
+      "duplicateName": "Bu ada sahip bir ünite zaten var",
+      "notFound": "Ünite bulunamadı",
+      "createFailed": "Ünite oluşturulamadı",
+      "updateFailed": "Ünite güncellenemedi",
+      "deleteFailed": "Ünite silinemedi"
+    }
+  },
+  "professionals": {
+    "toast": {
+      "loadFailed": "Hekimler yüklenemedi"
+    }
+  },
+  "lists": {
+    "empty": {
+      "title": "Sonuç yok",
+      "description": "Tüm kayıtları görmek için filtreleri değiştirin veya temizleyin."
+    },
+    "resultCount": "{total} içinden {shown}",
+    "filter": {
+      "title": "Filtreler",
+      "more": "Filtreler",
+      "moreCount": "Filtreler ({count})",
+      "clear": "Temizle",
+      "apply": "Uygula",
+      "date": "Tarihler",
+      "dateFrom": "Başlangıç",
+      "dateTo": "Bitiş",
+      "searchPlaceholder": "Ara...",
+      "noResults": "Eşleşme yok",
+      "all": "Tümü"
+    },
+    "sort": {
+      "label": "Sırala",
+      "asc": "Artan",
+      "desc": "Azalan"
+    },
+    "datePreset": {
+      "today": "Bugün",
+      "last7": "Son 7 gün",
+      "last30": "Son 30 gün",
+      "thisMonth": "Bu ay",
+      "thisQuarter": "Çeyrek",
+      "thisYear": "Yıl",
+      "custom": "Özel"
+    },
+    "truncatedWarning": "Sonuçlar kısaltıldı (>1000). Filtreleri daraltın."
+  },
+  "shared": {
+    "totals": "Toplamlar",
+    "info": "Ayrıntılar",
+    "moreActions": "Diğer işlemler",
+    "criticalBanner": {
+      "dismiss": "Uyarıyı kapat"
+    },
+    "collect": {
+      "amountLabel": "Tahsil edilecek tutar",
+      "methodLabel": "Ödeme yöntemi",
+      "dateLabel": "Ödeme tarihi",
+      "today": "Bugün",
+      "quickFull": "Tamamı",
+      "optionalDetails": "Referans veya not ekle (isteğe bağlı)",
+      "referenceLabel": "Referans",
+      "referencePlaceholder": "ör. POS işlem numarası",
+      "notesLabel": "Dahili notlar",
+      "submit": "Tahsil et",
+      "cancel": "İptal"
+    }
+  },
+  "validation": {
+    "required": "Bu alan zorunludur",
+    "email": "Geçerli bir e-posta girin",
+    "minLength": "En az {min} karakter",
+    "maxLength": "En fazla {max} karakter",
+    "phone": "Geçerli bir telefon numarası girin"
+  },
+  "time": {
+    "minutes": "{n} dk",
+    "hours": "{n} saat | {n} saat"
+  },
+  "calendar": {
+    "today": "Bugün",
+    "prevWeek": "Önceki hafta",
+    "nextWeek": "Sonraki hafta",
+    "monday": "Pazartesi",
+    "tuesday": "Salı",
+    "wednesday": "Çarşamba",
+    "thursday": "Perşembe",
+    "friday": "Cuma",
+    "saturday": "Cumartesi",
+    "sunday": "Pazar"
+  },
+  "catalog": {
+    "title": "Tedavi Kataloğu",
+    "description": "Tedavileri, fiyatlandırmayı ve vergi yapılandırmasını yönetin",
+    "items": "Tedaviler",
+    "categories": "Kategoriler",
+    "noItems": "Katalogda tedavi yok",
+    "searchPlaceholder": "Kod veya ada göre ara...",
+    "code": "Kod",
+    "name": "Ad",
+    "category": "Kategori",
+    "price": "Fiyat",
+    "defaultPrice": "Temel Fiyat",
+    "costPrice": "Maliyet Fiyatı",
+    "currency": "Para birimi",
+    "vatType": "KDV Türü",
+    "vatRate": "KDV %",
+    "duration": "Süre",
+    "system": "Sistem",
+    "newItem": "Yeni Tedavi",
+    "editItem": "Tedaviyi Düzenle",
+    "deleteItem": "Tedaviyi Sil",
+    "deleteItemConfirm": "\"{name}\" tedavisini silmek istediğinizden emin misiniz?",
+    "deleteItemNote": "Bu işlem geri alınamaz.",
+    "pricing": "Fiyatlandırma",
+    "scheduling": "Planlama",
+    "characteristics": "Özellikler",
+    "scope": "Kapsam",
+    "requiresAppointment": "Randevu gerektirir",
+    "isDiagnostic": "Teşhis amaçlı",
+    "requiresSurfaces": "Yüzey gerektirir",
+    "materialNotes": "Malzeme notları",
+    "materialNotesPlaceholder": "Gerekli malzemeler veya sarf malzemeleri...",
+    "active": "Aktif",
+    "vatTypes": {
+      "exempt": "Muaf",
+      "reduced": "İndirimli",
+      "standard": "Standart"
+    },
+    "scopeTypes": {
+      "tooth": "Diş",
+      "multi_tooth": "Çok dişli",
+      "global_mouth": "Tüm ağız",
+      "global_arch": "Çene başına"
+    },
+    "pricingStrategy": {
+      "label": "Fiyatlandırma stratejisi",
+      "help": "Tedavi uygulandığında fiyatın nasıl hesaplanacağı",
+      "flat": "Sabit (tek fiyat)",
+      "per_tooth": "Diş başına (× diş sayısı)",
+      "per_surface": "Yüzey başına (kademeli)",
+      "per_role": "Role göre (köprü: ayak/gövde)"
+    },
+    "surfacePrices": {
+      "title": "Yüzey sayısına göre fiyatlar",
+      "help": "1–5 yüzey için fiyat tanımlayın. Bir dişte yüzey seçildiğinde eşleşen kademe kullanılır. Tanımlanmamış kademeler en yakın alt dolu kademeye düşer.",
+      "tier": "{n} yüzey"
+    },
+    "sessions": {
+      "title": "Seanslar (kısmi faturalama)",
+      "help": "Bu tedavinin hangi adlandırılmış adımlarda yapılıp faturalanacağını tanımlayın (ör. kron: 'Ölçü' + 'Yerleştirme'). Toplam temel fiyata eşit olmalıdır.",
+      "label": "Etiket",
+      "labelPlaceholder": "ör. Ölçü",
+      "price": "Tutar",
+      "add": "Seans ekle",
+      "sumStatus": "Toplam {sum} € · Genel toplam {total} €"
+    },
+    "categoryCreated": "Kategori oluşturuldu",
+    "categoryUpdated": "Kategori güncellendi",
+    "categoryDeleted": "Kategori silindi",
+    "categoryKeyExists": "Bu anahtara sahip bir kategori zaten var",
+    "categoryCreateFailed": "Kategori oluşturulurken hata oluştu",
+    "categoryUpdateFailed": "Kategori güncellenirken hata oluştu",
+    "categoryDeleteFailed": "Kategori silinirken hata oluştu",
+    "cannotModifySystemCategory": "Sistem kategorisi değiştirilemez",
+    "cannotDeleteSystemCategory": "Sistem kategorisi silinemez",
+    "itemCreated": "Tedavi oluşturuldu",
+    "itemUpdated": "Tedavi güncellendi",
+    "itemDeleted": "Tedavi silindi",
+    "itemCodeExists": "Bu koda sahip bir tedavi zaten var",
+    "categoryNotFound": "Kategori bulunamadı",
+    "itemCreateFailed": "Tedavi oluşturulurken hata oluştu",
+    "itemUpdateFailed": "Tedavi güncellenirken hata oluştu",
+    "itemDeleteFailed": "Tedavi silinirken hata oluştu",
+    "cannotModifySystemItem": "Sistem tedavisi değiştirilemez",
+    "systemItemHint": "Sistem tedavisi: kod, kategori, fiyatlandırma stratejisi ve kapsam kilitlidir; fiyat, maliyet, KDV, adlar, süre, seanslar ve durum düzenlenebilir.",
+    "cannotDeleteSystemItem": "Sistem tedavisi silinemez",
+    "odontogramMapping": "Odontogram Görselleştirmesi",
+    "odontogramMappingDescription": "Hasta şemasında görünmesi için bu tedaviyi bir odontogram görselleştirme türüyle ilişkilendirin.",
+    "odontogramType": "Tedavi türü",
+    "clinicalCategory": "Klinik kategori",
+    "noOdontogramMapping": "İlişki yok",
+    "odontogramMappingHint": "Tedavi özellikleri seçilen türe göre otomatik olarak ayarlanacak.",
+    "selectCategory": "Kategori seçin...",
+    "selectVatType": "KDV türü seçin...",
+    "selectScope": "Kapsam seçin...",
+    "selectOdontogramType": "Tür seçin...",
+    "selectClinicalCategory": "Kategori seçin...",
+    "expandAll": "Tümünü genişlet",
+    "collapseAll": "Tümünü daralt",
+    "unnamed": "Adsız",
+    "activeHint": "Teklif ve planlarda kullanılabilir",
+    "tabs": {
+      "general": "Genel",
+      "pricing": "Fiyatlandırma",
+      "scheduling": "Planlama",
+      "clinical": "Klinik"
+    },
+    "onboarding": {
+      "label": "Tedavi kataloğu",
+      "description": "Tedavi olmadan teklif veya plan olmaz. Varsayılan kataloğu yükleyin veya kendinizinkini oluşturun.",
+      "createOwn": "Kendim oluşturacağım"
+    },
+    "manageCategories": "Kategorileri yönet",
+    "newCategory": "Yeni kategori",
+    "categoryName": "Ad",
+    "categoryNamePlaceholder": "ör. Ortodonti",
+    "categoryOrder": "Sıra",
+    "noCategories": "Kategori yok. Bir tane oluşturun veya varsayılan kataloğu yükleyin.",
+    "inactiveCategories": "Pasif kategoriler",
+    "reactivate": "Yeniden etkinleştir",
+    "deleteCategoryConfirm": "Kategori devre dışı bırakılacak; tedavileri korunur. Devam edilsin mi?",
+    "systemCategoryNote": "Sistem kategorileri düzenlenemez veya silinemez.",
+    "loadDefaults": "Varsayılan kataloğu yükle",
+    "loadDefaultsHint": "Klinik ülkesi için KDV türleri, kategoriler ve referans tedaviler. Yalnızca eksik satırlar eklenir.",
+    "defaultsLoaded": "Katalog yüklendi: {categories} kategori, {items} tedavi, {vat_types} KDV türü",
+    "defaultsFailed": "Varsayılan katalog yüklenemedi",
+    "loadError": "Tedavi kataloğu yüklenemedi"
+  },
+  "placeholders": {
+    "selectRole": "Rol seçin..."
+  },
+  "vatTypes": {
+    "title": "KDV Türleri",
+    "description": "Tedaviler için kullanılabilen KDV türlerini yönetin",
+    "name": "Ad",
+    "rate": "Oran",
+    "default": "Varsayılan",
+    "system": "Sistem",
+    "active": "Aktif",
+    "new": "Yeni KDV Türü",
+    "edit": "KDV Türünü Düzenle",
+    "delete": "KDV Türünü Sil",
+    "setAsDefault": "Varsayılan yap",
+    "showInactive": "Pasifleri göster",
+    "noItems": "Yapılandırılmış KDV türü yok",
+    "namePlaceholder": "Ör.: İndirimli (%10)",
+    "systemNote": "Sistem KDV türlerinin yalnızca varsayılan durumu değiştirilebilir.",
+    "deleteConfirm": "Şu KDV türünü silmek istediğinizden emin misiniz:",
+    "deleteNote": "Bu KDV türünü kullanan tedaviler etkilenmez.",
+    "created": "KDV türü oluşturuldu",
+    "updated": "KDV türü güncellendi",
+    "deleted": "KDV türü silindi",
+    "loadError": "KDV türleri yüklenirken hata oluştu",
+    "createError": "KDV türü oluşturulurken hata oluştu",
+    "updateError": "KDV türü güncellenirken hata oluştu",
+    "deleteError": "KDV türü silinirken hata oluştu"
+  },
+  "treatmentPlans": {
+    "title": "Tedavi Planları",
+    "description": "Hastaların tedavi planlarını yönetin",
+    "new": "Yeni plan",
+    "create": "Tedavi planı oluştur",
+    "edit": "Planı düzenle",
+    "view": "Planı gör",
+    "delete": "Planı sil",
+    "noItems": "Bu planda tedavi yok",
+    "noPlans": "Bu hastanın tedavi planı yok",
+    "noPlansHint": "Diş şemasında tedavileri işaretleyin ve bunları düzenlemek için bir plan oluşturun",
+    "createFirst": "İlk planı oluştur",
+    "empty": "Kayıtlı tedavi planı yok",
+    "emptyAction": "İlk planı oluştur",
+    "searchPlaceholder": "Numara, hasta veya başlığa göre ara...",
+    "planNumber": "Numara",
+    "patient": "Hasta",
+    "untitled": "Başlıksız",
+    "untitledPlan": "Başlıksız plan",
+    "itemCount": "{count} tedavi | {count} tedavi",
+    "treatments": "tedavi",
+    "progress": "İlerleme",
+    "pendingTreatments": "Bekleyen tedaviler",
+    "completedTreatments": "Tamamlanan tedaviler",
+    "linkedBudget": "Bağlı teklif",
+    "unknownTreatment": "Bilinmeyen tedavi",
+    "globalTreatment": "Genel tedavi",
+    "activePlan": "Aktif plan",
+    "otherPlans": "Diğer planlar",
+    "viewAllPlans": "Plan geçmişini gör",
+    "activate": "Etkinleştir",
+    "generateBudget": "Teklif oluştur",
+    "scheduleAppointment": "Randevu ver",
+    "status": {
+      "draft": "Taslak",
+      "pending": "Bekliyor",
+      "active": "Aktif",
+      "completed": "Tamamlandı",
+      "closed": "Kapalı",
+      "archived": "Arşivlendi"
+    },
+    "fields": {
+      "title": "Başlık",
+      "titlePlaceholder": "Ör.: Tam ağız rehabilitasyonu",
+      "assignedProfessional": "Atanan hekim",
+      "selectProfessional": "Hekim seçin",
+      "diagnosisNotes": "Tanı notları",
+      "diagnosisNotesPlaceholder": "Tanı ve klinik gözlemler...",
+      "internalNotes": "Dahili notlar",
+      "internalNotesPlaceholder": "Yalnızca personelin görebileceği notlar..."
+    },
+    "modal": {
+      "subtitle": "Hasta tedavilerini düzenleyin",
+      "titleHint": "İsteğe bağlı - planı tanımlamaya yardımcı olur",
+      "additionalNotes": "Ek notlar",
+      "quickTip": "Planı oluşturduktan sonra odontogramdan veya katalogdan tedavi ekleyebilirsiniz.",
+      "createButton": "Plan oluştur"
+    },
+    "actions": {
+      "activate": "Planı etkinleştir",
+      "confirm": "Planı onayla",
+      "complete": "Tamamlandı işaretle",
+      "generateBudget": "Teklif oluştur",
+      "linkBudget": "Teklif bağla",
+      "syncBudget": "Teklifi eşitle",
+      "cancelPlan": "Planı iptal et",
+      "reopen": "Yeniden aç",
+      "close": "Planı kapat",
+      "reactivate": "Planı yeniden etkinleştir",
+      "logContact": "İletişimi kaydet"
+    },
+    "items": {
+      "title": "Tedaviler",
+      "add": "Tedavi ekle",
+      "addSelected": "{count} tedavi ekle | {count} tedavi ekle",
+      "remove": "Tedaviyi kaldır",
+      "empty": "Bu planda tedavi yok",
+      "assignedProfessional": "Atanan diş hekimi",
+      "assignedProfessionalAriaLabel": "Bu tedavinin atanan diş hekimini değiştir",
+      "useUsersPlanDoctor": "Planın diş hekimini kullan",
+      "noProfessional": "Atanmış diş hekimi yok",
+      "inactiveProfessional": "Pasif hekim",
+      "cascadeReassign": {
+        "title": "Bekleyen tedaviler yeniden atansın mı?",
+        "body": "Planın diş hekimini değiştirdiniz. {count} bekleyen tedavi {previousName} adına atanmıştı. Bunlar da yeni diş hekimine atansın mı?",
+        "confirm": "Evet, bekleyenleri yeniden ata",
+        "cancel": "Hayır, olduğu gibi kalsın"
+      }
+    },
+    "filters": {
+      "allStatuses": "Tüm durumlar"
+    },
+    "confirmations": {
+      "delete": "Bu tedavi planı silinsin mi?",
+      "completeItem": "Tedavi tamamlandı olarak işaretlensin mi?",
+      "completeItemDescription": "Bu işlem geri alınamaz.",
+      "activateTitle": "Tedavi planı onaylansın mı?",
+      "activateDescription": "Onaylamak teklif oluşturmayı ve randevu planlamayı açar. Sonrasında tedavi eklemeye veya tamamlamaya devam edebilirsiniz.",
+      "unlockTitle": "Plan değiştirilsin mi?",
+      "unlockIntro": "Bu plan için {number} numaralı teklif zaten düzenlendi. Değiştirmek için mevcut teklif iptal edilmelidir.",
+      "unlockConsequence1": "{number} numaralı teklif iptal edilecek ve hasta için artık geçerli olmayacak.",
+      "unlockConsequence2": "Plana tedavi ekleyebilir, düzenleyebilir veya kaldırabilirsiniz.",
+      "unlockConsequence3": "Değişiklikleri bitirdiğinizde yeni bir teklif oluşturmanız gerekecek.",
+      "unlockConsequence4": "İptal edilen teklif izlenebilirlik için geçmişte saklanır.",
+      "cancelTitle": "Tedavi planı iptal edilsin mi?",
+      "cancelDescription": "Plan iptal durumuna geçecek ve yapılmamış planlı tedaviler odontogramdan kaldırılacak. Plan geçmişi saklanır."
+    },
+    "messages": {
+      "created": "Tedavi planı oluşturuldu",
+      "updated": "Tedavi planı güncellendi",
+      "deleted": "Tedavi planı silindi",
+      "itemsAdded": "Tedaviler plana eklendi"
+    },
+    "itemCompleted": "Tedavi tamamlandı",
+    "budgetGenerated": "Teklif oluşturuldu",
+    "created": "Tedavi planı oluşturuldu",
+    "updated": "Tedavi planı güncellendi",
+    "statusUpdated": "Plan durumu güncellendi",
+    "deleted": "Tedavi planı silindi",
+    "budgetLinked": "Teklif plana bağlandı",
+    "budgetSynced": "Teklif eşitlendi",
+    "errors": {
+      "load": "Tedavi planları yüklenirken hata oluştu",
+      "create": "Tedavi planı oluşturulurken hata oluştu",
+      "update": "Tedavi planı güncellenirken hata oluştu",
+      "delete": "Tedavi planı silinirken hata oluştu"
+    },
+    "notes": {
+      "title": "Klinik notlar",
+      "empty": "Henüz klinik not yok",
+      "addNote": "Not ekle",
+      "edit": "Notu düzenle",
+      "delete": "Notu sil",
+      "attachments": "Ekler",
+      "author": "Yazar",
+      "createdAt": "Oluşturulma",
+      "templatePicker": "Şablonlar",
+      "bodyPlaceholder": "Klinik notu yazın…",
+      "saved": "Not kaydedildi",
+      "deleted": "Not silindi"
+    },
+    "completionNudge": {
+      "title": "Tedaviyi tamamla",
+      "description": "Tamamlandı olarak işaretlemeden önce bu ziyarette olanları kaydeden bir klinik not ekleyin.",
+      "completeWithNote": "Notla tamamla",
+      "skip": "Notu atla",
+      "skipConfirm": "Klinik not olmadan tamamlansın mı?"
+    },
+    "visitNote": {
+      "title": "Ziyaret klinik notu",
+      "save": "Notu kaydet",
+      "empty": "Henüz ziyaret notu yok",
+      "saved": "Not kaydedildi"
+    },
+    "clinicalNotesTab": "Klinik notlar",
+    "filterBy": {
+      "plan": "Plan",
+      "item": "Tedavi",
+      "visit": "Ziyaret",
+      "all": "Tümü"
+    },
+    "byPlan": {
+      "empty": "Bu hastanın hiçbir tedavi planında klinik notu yok",
+      "planNotesLabel": "Plan notları",
+      "noNotesForTreatment": "Bu tedavi için not yok",
+      "noNotesForPlan": "Bu planda not yok"
+    },
+    "noteTemplates": {
+      "endo": {
+        "singleVisit": "Endodonti — tek seans",
+        "multiVisit": "Endodonti — çok seans"
+      },
+      "perio": {
+        "scaling": "Diş taşı temizliği / kök yüzeyi düzleştirme"
+      },
+      "implant": {
+        "placement": "İmplant yerleştirme"
+      },
+      "general": {
+        "followUp": "Genel takip"
+      }
+    },
+    "closureReason": {
+      "rejected_by_patient": "Hasta tarafından reddedildi",
+      "expired": "Süresi doldu",
+      "cancelled_by_clinic": "Klinik tarafından iptal edildi",
+      "patient_abandoned": "Hasta bıraktı",
+      "other": "Diğer neden"
+    },
+    "confirmed": "Plan onaylandı",
+    "reopened": "Plan yeniden açıldı",
+    "closed": "Plan kapatıldı",
+    "reactivated": "Plan yeniden etkinleştirildi",
+    "contactLogged": "İletişim kaydedildi",
+    "modals": {
+      "confirm": {
+        "title": "Planı onayla",
+        "description": "Plan Bekliyor durumuna geçecek ve otomatik olarak taslak bir teklif oluşturulacak. Onaylandıktan sonra tedaviler salt okunur olur.",
+        "submit": "Planı onayla"
+      },
+      "reopen": {
+        "title": "Planı düzenleme için yeniden aç",
+        "description": "Bu işlem mevcut teklifi iptal eder. Tedavileri düzenleyebilmeniz için plan Taslak durumuna döner.",
+        "submit": "Yeniden aç"
+      },
+      "close": {
+        "title": "Planı kapat",
+        "description": "Kapatma nedenini seçin. Bekleyen tedaviler arşivlenecek.",
+        "reasonLabel": "Neden",
+        "noteLabel": "Not (isteğe bağlı)",
+        "submit": "Planı kapat"
+      },
+      "reactivate": {
+        "title": "Kapalı planı yeniden etkinleştir",
+        "description": "{date} tarihinde «{reason}» nedeniyle kapatılan plan yeniden etkinleştirilecek. Devam edilsin mi?",
+        "submit": "Yeniden etkinleştir"
+      },
+      "contactLog": {
+        "title": "İletişimi kaydet",
+        "description": "Plan durumunu değiştirmeden temas noktasını kaydeder.",
+        "channelLabel": "Kanal",
+        "noteLabel": "Not (isteğe bağlı)",
+        "submit": "Kaydet"
+      }
+    },
+    "newBudgetHint": {
+      "text": "Bu hastanın teklifsiz {plan} planı var. Bağlı kalmaları için teklifi plandan oluşturun.",
+      "cta": "Planı aç"
+    },
+    "viewDraftBudget": "Teklif {number} (taslak)",
+    "followup": {
+      "subtitle": "Ziyaretteki şu planlı tedaviler yapıldı olarak işaretlenmedi:",
+      "markPerformed": "Yapıldı olarak işaretle",
+      "marked": "Yapıldı olarak işaretlenen: {count}."
+    }
+  },
+  "pipeline": {
+    "title": "Plan akışı",
+    "description": "Tedavi akışını yönetin.",
+    "tabs": {
+      "por_presupuestar": "Teklif verilecek",
+      "esperando_paciente": "Hasta bekleniyor",
+      "sin_cita": "Randevusuz",
+      "sin_proxima_cita": "Sonraki randevu yok",
+      "cerrados": "Kapalı",
+      "listado": "Liste"
+    },
+    "row": {
+      "patient": "Hasta",
+      "plan": "Plan",
+      "budget": "Teklif",
+      "items": "Tedaviler",
+      "daysIn": "{n} gündür bu durumda",
+      "nextAppt": "Sonraki randevu",
+      "noNextAppt": "Randevu yok",
+      "noBudget": "Teklif yok"
+    },
+    "actions": {
+      "open": "Aç",
+      "send": "Gönder",
+      "remind": "Yeniden gönder",
+      "schedule": "Randevu ver",
+      "scheduleNext": "Sonrakini planla",
+      "reactivate": "Yeniden etkinleştir",
+      "call": "Ara",
+      "whatsapp": "WhatsApp",
+      "markContacted": "İletişime geçildi",
+      "acceptInClinic": "Klinikte kabul et"
+    },
+    "search": "Ad veya numaraya göre ara…",
+    "empty": "Bu sekmede satır yok.",
+    "loading": "Yükleniyor…"
+  },
+  "budget": {
+    "title": "Teklifler",
+    "description": "Hastalar için tedavi tekliflerini yönetin",
+    "new": "Yeni teklif",
+    "edit": "Teklifi düzenle",
+    "view": "Teklifi gör",
+    "delete": "Teklifi sil",
+    "duplicate": "Yeni sürüm oluştur",
+    "noItems": "Teklif yok",
+    "empty": "Kayıtlı teklif yok",
+    "emptyAction": "İlk teklifi oluştur",
+    "linkedToPlan": "Plana bağlı",
+    "searchPlaceholder": "Numara veya hastaya göre ara...",
+    "budgetNumber": "Numara",
+    "version": "Sürüm",
+    "treatmentPlan": "Tedavi planı",
+    "patient": "Hasta",
+    "selectPatient": "Hasta seçin",
+    "selectPatientHint": "Bu teklif için hastayı arayıp seçin",
+    "professional": "Hekim",
+    "validFrom": "Geçerlilik başlangıcı",
+    "validUntil": "Geçerlilik sonu",
+    "validUntilHint": "Süresiz teklif için boş bırakın",
+    "noExpiry": "Son geçerlilik tarihi yok",
+    "createAndAddItems": "Oluştur ve tedavi ekle",
+    "subtotal": "Ara toplam",
+    "totalDiscount": "Toplam indirim",
+    "totalTax": "Toplam KDV",
+    "total": "Toplam",
+    "globalDiscount": "Genel indirim",
+    "discountType": "İndirim türü",
+    "discountValue": "İndirim değeri",
+    "percentage": "Yüzde",
+    "absolute": "Tutar",
+    "internalNotes": "Dahili notlar",
+    "internalNotesPlaceholder": "Yalnızca personelin görebileceği notlar...",
+    "patientNotes": "Hasta notları",
+    "patientNotesPlaceholder": "Teklifte görünecek notlar...",
+    "status": {
+      "title": "Durum",
+      "draft": "Taslak",
+      "sent": "Gönderildi",
+      "partially_accepted": "Kısmen kabul edildi",
+      "accepted": "Kabul edildi",
+      "in_progress": "Devam ediyor",
+      "completed": "Tamamlandı",
+      "invoiced": "Faturalandı",
+      "rejected": "Reddedildi",
+      "expired": "Süresi doldu",
+      "cancelled": "İptal edildi"
+    },
+    "itemStatus": {
+      "pending": "Bekliyor",
+      "accepted": "Kabul edildi",
+      "rejected": "Reddedildi",
+      "in_progress": "Devam ediyor",
+      "completed": "Tamamlandı"
+    },
+    "actions": {
+      "send": "Hastaya gönder",
+      "accept": "Teklifi kabul et",
+      "acceptPartial": "Seçilenleri kabul et",
+      "reject": "Reddet",
+      "cancel": "Teklifi iptal et",
+      "duplicate": "Yeni sürüm oluştur",
+      "downloadPdf": "PDF indir",
+      "previewPdf": "PDF önizleme",
+      "startTreatment": "Tedaviye başla",
+      "completeTreatment": "Tedaviyi tamamla",
+      "renegotiate": "Yeniden müzakere et",
+      "acceptInClinic": "Klinikte kabul et",
+      "resend": "Yeniden gönder",
+      "sendReminder": "Hatırlatma gönder",
+      "setPublicCode": "Erişim kodu belirle",
+      "unlockPublic": "Erişimin kilidini aç"
+    },
+    "items": {
+      "title": "Tedaviler",
+      "add": "Tedavi ekle",
+      "remove": "Tedaviyi kaldır",
+      "edit": "Tedaviyi düzenle",
+      "empty": "Bu teklifte tedavi yok",
+      "singular": "tedavi",
+      "plural": "tedavi",
+      "addFromCatalog": "Katalogdan ekle",
+      "addFromOdontogram": "Diş şemasından ekle",
+      "treatment": "Tedavi",
+      "searchCatalog": "Tedavi kataloğunda ara...",
+      "unitPrice": "Birim fiyat",
+      "quantity": "Miktar",
+      "discount": "İndirim",
+      "lineTotal": "Satır toplamı",
+      "tooth": "Diş",
+      "toothNumber": "Diş numarası",
+      "toothNumberPlaceholder": "Ör.: 11, 21, 36...",
+      "surfaces": "Yüzeyler",
+      "notes": "Notlar",
+      "notesPlaceholder": "Bu tedaviyle ilgili notlar...",
+      "managedByPlan": "Bu teklifin satırları {plan} tedavi planından yönetilir."
+    },
+    "signature": {
+      "title": "Dijital imza",
+      "viewAction": "İmzayı gör",
+      "signedBy": "İmzalayan",
+      "signedAt": "İmza tarihi",
+      "methodLabel": "Yöntem",
+      "relationshipLabel": "Yakınlık",
+      "documentHash": "Belge hash'i (SHA-256)",
+      "hashHint": "Hash {short} — imzayı bu PDF'in birebir kendisine bağlar. Herhangi bir değişiklik imzayı geçersiz kılar.",
+      "downloadSignedPdf": "İmzalı PDF'i indir",
+      "downloadError": "İmzalı PDF indirilemedi.",
+      "notSigned": "Bu teklif için henüz imza alınmadı.",
+      "method": {
+        "drawn": "Elle çizilmiş imza",
+        "clickAccept": "Tıklayarak kabul",
+        "external": "Harici sağlayıcı"
+      },
+      "email": "E-posta",
+      "relationship": "Hastaya yakınlık",
+      "patient": "Hasta",
+      "guardian": "Yasal vasi",
+      "representative": "Temsilci",
+      "accept": "Teklifin koşullarını kabul ediyorum",
+      "signHere": "Buraya imzalayın",
+      "clear": "İmzayı temizle",
+      "loadError": "İmza durumu yüklenemedi"
+    },
+    "history": {
+      "title": "Değişiklik geçmişi",
+      "noChanges": "Kayıtlı değişiklik yok",
+      "actions": {
+        "created": "Teklif oluşturuldu",
+        "updated": "Teklif güncellendi",
+        "status_changed": "Durum değişti",
+        "item_added": "Tedavi eklendi",
+        "item_removed": "Tedavi kaldırıldı",
+        "signed": "Teklif imzalandı",
+        "sent": "Teklif gönderildi",
+        "duplicated": "Yeni sürüm oluşturuldu",
+        "deleted": "Teklif silindi",
+        "item_treatment_started": "Tedaviye başlandı",
+        "item_treatment_completed": "Tedavi tamamlandı"
+      }
+    },
+    "versions": {
+      "title": "Sürümler",
+      "current": "Güncel",
+      "viewVersion": "Sürümü gör"
+    },
+    "confirmations": {
+      "send": "Teklif hastaya gönderilsin mi?",
+      "sendDescription": "Teklif gönderildi olarak işaretlenecek.",
+      "reject": "Teklif reddedilsin mi?",
+      "rejectDescription": "Bu işlem geri alınamaz.",
+      "cancel": "Teklif iptal edilsin mi?",
+      "cancelDescription": "Bu işlem geri alınamaz.",
+      "resend": "Bu teklifin yeni bir sürümü oluşturulsun mu? Bağlı tedavi planı yeni sürümü izleyecek.",
+      "delete": "Teklif silinsin mi?",
+      "deleteDescription": "Bu işlem geri alınamaz."
+    },
+    "send": {
+      "description": "Teklifi e-posta veya WhatsApp ile gönderebilir ya da elle gönderildi (yazdırıldı veya elden verildi) olarak işaretleyebilirsiniz.",
+      "sendByEmail": "E-postayla gönder",
+      "willSendTo": "Gönderilecek adres",
+      "noPatientEmail": "Hastanın kayıtlı e-postası yok",
+      "customMessage": "Özel mesaj (isteğe bağlı)",
+      "customMessagePlaceholder": "Hasta için bir mesaj ekleyin...",
+      "manualNote": "Teklif herhangi bir mesaj gönderilmeden gönderildi olarak işaretlenecek.",
+      "sendEmail": "E-posta gönder",
+      "markAsSent": "Gönderildi olarak işaretle",
+      "sendByWhatsapp": "WhatsApp ile gönder",
+      "sendWhatsapp": "WhatsApp gönder",
+      "willSendToPhone": "WhatsApp ile gönderilecek numara"
+    },
+    "messages": {
+      "created": "Teklif oluşturuldu",
+      "updated": "Teklif güncellendi",
+      "deleted": "Teklif silindi",
+      "sent": "Teklif gönderildi",
+      "sentByEmail": "Teklif e-postayla gönderildi",
+      "sentManually": "Teklif gönderildi olarak işaretlendi",
+      "accepted": "Teklif kabul edildi",
+      "rejected": "Teklif reddedildi",
+      "cancelled": "Teklif iptal edildi",
+      "duplicated": "Yeni sürüm oluşturuldu",
+      "resent": "Önceki tekliften yeni sürüm oluşturuldu",
+      "itemAdded": "Tedavi eklendi",
+      "itemUpdated": "Tedavi güncellendi",
+      "itemRemoved": "Tedavi kaldırıldı",
+      "treatmentStarted": "Tedaviye başlandı",
+      "treatmentCompleted": "Tedavi tamamlandı",
+      "sentByWhatsapp": "Teklif WhatsApp ile gönderildi"
+    },
+    "errors": {
+      "load": "Teklifler yüklenirken hata oluştu",
+      "create": "Teklif oluşturulurken hata oluştu",
+      "update": "Teklif güncellenirken hata oluştu",
+      "delete": "Teklif silinirken hata oluştu",
+      "send": "Teklif gönderilirken hata oluştu",
+      "accept": "Teklif kabul edilirken hata oluştu",
+      "reject": "Teklif reddedilirken hata oluştu",
+      "notFound": "Teklif bulunamadı",
+      "onlyDraft": "Yalnızca taslak teklifler düzenlenebilir"
+    },
+    "filters": {
+      "allStatuses": "Tüm durumlar",
+      "status": "Durum",
+      "paymentStatus": "Durum",
+      "professional": "Hekim",
+      "validity": "Geçerlilik",
+      "validityValid": "Geçerli",
+      "validityExpiringSoon": "7 gün içinde doluyor",
+      "validityExpired": "Süresi doldu",
+      "dateFrom": "Başlangıç",
+      "dateTo": "Bitiş",
+      "showExpired": "Süresi dolanları göster",
+      "advanced": "Gelişmiş filtreler",
+      "clear": "Filtreleri temizle"
+    },
+    "sortFields": {
+      "createdAt": "Oluşturulma",
+      "validUntil": "Geçerlilik sonu",
+      "total": "Toplam",
+      "status": "Durum",
+      "budgetNumber": "Numara"
+    },
+    "validity": {
+      "expired": "Süresi doldu",
+      "expiresIn": "{days} gün içinde doluyor"
+    },
+    "pdf": {
+      "generating": "PDF oluşturuluyor...",
+      "downloadError": "PDF indirilirken hata oluştu"
+    },
+    "modals": {
+      "renegotiate": {
+        "title": "Teklifi yeniden müzakere et",
+        "description": "Bu işlem mevcut teklifi iptal eder ve tedavileri ayarlayabilmeniz için planı Taslak durumuna geri açar.",
+        "submit": "Yeniden müzakere et"
+      },
+      "acceptInClinic": {
+        "title": "Teklifi klinikte kabul et",
+        "description": "Hastanın kabulünü kaydedin. İsteğe bağlı olarak tablet üzerinden imza alabilirsiniz.",
+        "signerLabel": "İmzalayanın adı soyadı",
+        "captureSignature": "İmza al",
+        "submit": "Kabul edildi olarak işaretle"
+      },
+      "setPublicCode": {
+        "title": "Erişim kodu belirle",
+        "description": "Bu hastanın kayıtlı telefonu veya doğum tarihi yok. 4-6 haneli bir kod belirleyin ve hastaya sözlü olarak iletin. Kodu e-postaya EKLEMEYİN.",
+        "codeLabel": "Kod (4-6 hane)",
+        "submit": "Kodu kaydet"
+      }
+    },
+    "publicLink": {
+      "action": "Bağlantıyı paylaş",
+      "title": "Hasta bağlantısı",
+      "help": "Bu bağlantıyı kopyalayıp hastayla WhatsApp veya e-posta üzerinden paylaşın. Teklifi görmeden önce bir doğrulama bilgisi istenecek.",
+      "copy": "Bağlantıyı kopyala",
+      "copied": "Kopyalandı!",
+      "whatsapp": "WhatsApp'ta aç",
+      "whatsappNoPhone": "Hastanın kayıtlı telefonu yok",
+      "whatsappGreeting": "Merhaba {name}, teklifiniz burada:",
+      "whatsappGreetingFallback": "Merhaba, teklifiniz burada:",
+      "preview": "Önizleme",
+      "statusSent": "Gönderildi",
+      "statusAccepted": "Kabul edildi",
+      "statusRejected": "Reddedildi",
+      "statusExpired": "Süresi doldu"
+    },
+    "public": {
+      "title": "Teklifiniz",
+      "intro": "{clinic} size bu teklifi gönderdi. Tedavileri gözden geçirip bir seçenek belirleyin.",
+      "greeting": "Merhaba, {name}",
+      "subtitle": "Size özel tedavi planınız",
+      "budgetNumber": "Teklif",
+      "issuedOn": "{date} tarihinde düzenlendi",
+      "items": "Dahil olan tedaviler",
+      "tooth": "Diş {number}",
+      "subtotal": "Ara toplam",
+      "discount": "İndirim",
+      "tax": "KDV",
+      "total": "Toplam",
+      "validUntil": "{date} tarihine kadar geçerli",
+      "trustSecure": "Güvenli bağlantı",
+      "trustEncrypted": "Şifreli veri",
+      "trustSignature": "Yasal olarak bağlayıcı imza",
+      "needHelp": "Yardım mı lazım? Kliniği arayın",
+      "noteFromClinic": "Klinikten mesaj",
+      "callClinic": "Kliniği ara",
+      "emailClinic": "E-posta gönder",
+      "cta_accept": "Kabul et ve imzala",
+      "cta_reject": "İlgilenmiyorum",
+      "expired": "Bu teklifin süresi doldu. Lütfen klinikle iletişime geçin.",
+      "locked": "Çok fazla denemeden sonra erişim kilitlendi. Lütfen kliniği arayın.",
+      "already_accepted": "Bu teklifi zaten kabul ettiniz. Klinik ilk randevunuzu planlamak için sizinle iletişime geçecek.",
+      "already_rejected": "Bu teklifi reddettiniz. Fikrinizi değiştirirseniz lütfen kliniği arayın.",
+      "download": {
+        "signedPdf": "İmzalı PDF'i indir",
+        "notSigned": "Bu teklife henüz imza eklenmedi.",
+        "error": "PDF indirilemedi. Lütfen tekrar deneyin.",
+        "reauthIntro": "Güvenliğiniz için imzalı PDF'i indirmek üzere kimliğinizi yeniden doğrulayın."
+      },
+      "verify": {
+        "title": "Kimliğinizi doğrulayın",
+        "intro": "Bilgilerinizi korumak için teklifinizi görmeden önce bir bilgiyi onaylayın.",
+        "phone_last4_label": "Telefonunuzun son 4 hanesi",
+        "dob_label": "Doğum tarihiniz",
+        "manual_code_label": "Kliniğin size verdiği kod",
+        "submit": "Devam et",
+        "invalid": "Bilgi hatalı. Lütfen tekrar deneyin.",
+        "locked": "Çok fazla denemeden sonra erişim kilitlendi. Lütfen kliniği arayın.",
+        "rate_limited": "Çok fazla deneme. 15 dakika bekleyin."
+      },
+      "accept": {
+        "title": "Kabul et ve imzala",
+        "signerLabel": "Adınız soyadınız",
+        "signatureLabel": "Buraya imzalayın (isteğe bağlı)",
+        "signatureClear": "Temizle",
+        "consent": "Bu teklifi kabul ediyor ve açıklanan tedaviye izin veriyorum.",
+        "submit": "Kabulü onayla",
+        "success": "Tamam! Klinik ilk randevunuzu planlamak için sizinle iletişime geçecek."
+      },
+      "reject": {
+        "title": "İlgilenmiyorum",
+        "intro": "Bu teklif neden size uygun değil?",
+        "reasonLabel": "Neden",
+        "noteLabel": "Yorum (isteğe bağlı)",
+        "submit": "Reddi onayla",
+        "success": "Kliniği bilgilendirdik.",
+        "reasons": {
+          "price": "Fiyat",
+          "time": "Zaman yetersizliği",
+          "second_opinion": "İkinci görüş",
+          "other": "Diğer neden"
+        }
+      }
+    },
+    "settings": {
+      "title": "Teklif ayarları",
+      "description": "Geçerlilik süresini, hatırlatmaları ve herkese açık bağlantı doğrulamasını yapılandırın.",
+      "cards": {
+        "expiry": {
+          "title": "Geçerlilik ve otomatik kapatma",
+          "description": "Bir teklifin süresi dolmadan ne kadar geçerli olduğu ve bekleyen planların ne zaman otomatik kapatılacağı."
+        },
+        "reminders": {
+          "title": "Otomatik hatırlatmalar",
+          "description": "Yanıt vermeyen hastalara 7 ve 14 gün sonra e-posta hatırlatmalarını açın/kapatın."
+        },
+        "publicLink": {
+          "title": "Herkese açık bağlantı ve doğrulama",
+          "description": "Hastaya gönderilen teklif bağlantısının korumasını yapılandırın."
+        }
+      },
+      "expiry": {
+        "validityDays": "Teklif geçerliliği (gün)",
+        "validityHelp": "Bu kadar gün yanıt gelmezse teklif Süresi doldu durumuna geçer (aralık 7-180).",
+        "autoCloseDays": "Planı otomatik kapatmadan önceki gün sayısı",
+        "autoCloseHelp": "Süresi dolmuş teklifi olan ve bu kadar gün işlem görmeyen planlar Kapalı durumuna geçer (aralık 7-180).",
+        "save": "Kaydet"
+      },
+      "reminders": {
+        "enabled": "7 ve 14 gün sonra otomatik hatırlatma gönder",
+        "enabledHelp": "Açıkken sistem bekleyen teklifler hakkında hastaya e-posta gönderir. Kapalıyken resepsiyon elle takip eder.",
+        "save": "Kaydet"
+      },
+      "publicLink": {
+        "authDisabled": "Herkese açık bağlantı doğrulamasını kapat",
+        "authDisabledHelp": "Açıkken hasta teklifi yalnızca bağlantıyla görür — telefon veya doğum tarihi sorulmaz. Bağlantı paylaşılırsa riski kabul edersiniz.",
+        "save": "Kaydet"
+      },
+      "saved": "Ayarlar kaydedildi"
+    }
+  },
+  "notifications": {
+    "communications": {
+      "language": {
+        "cardTitle": "İletişim dili",
+        "cardDescription": "Hastaya gösterilen teklif sayfasında, e-postalarda ve WhatsApp mesajlarında kullanılan dil.",
+        "title": "Hasta iletişim dili",
+        "label": "Dil",
+        "help": "Hastaya gösterilen teklif sayfasına ve otomatik e-posta/WhatsApp şablonlarına uygulanır. Personel arayüzü her kullanıcının kendi dil tercihini korur.",
+        "save": "Kaydet",
+        "saved": "Dil kaydedildi"
+      }
+    },
+    "title": "Bildirimler",
+    "description": "Klinik e-posta bildirimlerini yapılandırın",
+    "pageDescription": "Hangi bildirimlerin otomatik gönderileceğini ve hangilerinin elle gönderim gerektirdiğini yapılandırın.",
+    "autoVsManual": "Otomatik ve elle bildirimler",
+    "autoVsManualDescription": "Bir olay gerçekleştiğinde hangi bildirimlerin otomatik gönderileceğini ve hangilerinin kullanıcı tarafından elle gönderileceğini tanımlayın.",
+    "notificationType": "Bildirim türü",
+    "enabled": "Etkin",
+    "autoSend": "Otomatik gönder",
+    "options": "Seçenekler",
+    "hoursBefore": "sa önce",
+    "testConnection": "Bağlantıyı test et",
+    "testEmailTitle": "Test e-postası gönder",
+    "testEmailDescription": "Yapılandırmanın doğru çalıştığını doğrulamak için bir test e-postası göndereceğiz.",
+    "sendTestEmail": "Test gönder",
+    "test_email_sent": "Test e-postası başarıyla gönderildi",
+    "settings_saved": "Ayarlar kaydedildi",
+    "emailProvider": "E-posta sağlayıcısı",
+    "providerConfigured": "E-posta sağlayıcısı yapılandırıldı",
+    "providerNote": "E-posta sunucusu yapılandırması sunucu ortam değişkenlerinden yapılır.",
+    "infoTitle": "Bilgi",
+    "infoAutoSend": "Otomatik gönderim: Bildirim olay gerçekleştiğinde gönderilir (ör. randevu oluşturulduğunda).",
+    "infoManualSend": "Elle gönderim: İstediğiniz zaman bildirimi göndermek için bir düğme görünür.",
+    "infoDisabled": "Devre dışı: Bildirim gönderilmez ve gönderim seçeneği görünmez.",
+    "types": {
+      "appointment_confirmation": "Randevu onayı",
+      "appointment_confirmation_desc": "Randevu planlandığında onay e-postası",
+      "appointment_cancelled": "Randevu iptali",
+      "appointment_cancelled_desc": "Randevu iptal edildiğinde bildirim e-postası",
+      "appointment_reminder": "Randevu hatırlatması",
+      "appointment_reminder_desc": "Randevudan önce hatırlatma e-postası",
+      "budget_sent": "Teklif gönderimi",
+      "budget_sent_desc": "Teklif ayrıntılarını içeren e-posta",
+      "budget_accepted": "Teklif kabul edildi",
+      "budget_accepted_desc": "Teklif kabul edildiğinde onay e-postası",
+      "welcome": "Hoş geldiniz",
+      "welcome_desc": "Yeni hastalar için hoş geldiniz e-postası",
+      "invoice_sent": "Fatura gönderimi",
+      "invoice_sent_desc": "Fatura hastaya gönderildiğinde faturayı içeren mesaj",
+      "budget_reminder": "Teklif hatırlatması",
+      "budget_reminder_desc": "Yanıtlanmamış teklifler için takip (7 ve 14 gün)",
+      "recall_reminder": "Kontrol hatırlatması",
+      "recall_reminder_desc": "Periyodik kontrol randevusu almak için hatırlatma"
+    },
+    "sendConfirmation": "Onay gönder",
+    "sendReminder": "Hatırlatma gönder",
+    "sendCancellation": "İptal bildirimi gönder",
+    "sendBudget": "E-postayla gönder",
+    "sendAcceptance": "Onay gönder",
+    "sendWelcome": "Hoş geldiniz mesajı gönder",
+    "sendEmail": "E-posta gönder",
+    "errors": {
+      "fetch_failed": "Ayarlar yüklenirken hata oluştu",
+      "save_failed": "Ayarlar kaydedilirken hata oluştu",
+      "test_failed": "Test e-postası gönderilirken hata oluştu",
+      "send_failed": "Bildirim gönderilirken hata oluştu"
+    },
+    "smtp": {
+      "title": "E-posta sunucusu yapılandırması",
+      "description": "Kliniğinizden e-posta göndermek için SMTP sunucusunu yapılandırın. Her kliniğin kendi yapılandırması olabilir.",
+      "configure": "Yapılandır",
+      "provider": "Sağlayıcı",
+      "host": "Sunucu",
+      "port": "Port",
+      "username": "Kullanıcı adı",
+      "password": "Parola",
+      "passwordHint": "Mevcut parolayı korumak için boş bırakın",
+      "useTls": "TLS kullan",
+      "useSsl": "SSL kullan",
+      "fromEmail": "Gönderen e-posta",
+      "fromName": "Gönderen adı",
+      "security": "Güvenlik",
+      "testConnection": "Bağlantıyı test et",
+      "testConnectionTitle": "Kaydetmeden önce yapılandırmayı test edin",
+      "testEmailPlaceholder": "Test e-posta adresi",
+      "test_success": "SMTP bağlantısı başarılı. Test e-postası gönderildi.",
+      "test_failed": "SMTP bağlantı hatası",
+      "settings_saved": "SMTP ayarları kaydedildi",
+      "consoleNote": "Konsol modunda e-postalar gönderilmek yerine sunucu konsolunda gösterilir. Geliştirme için kullanışlıdır.",
+      "disabledNote": "E-posta devre dışıyken bu klinikten hiçbir e-posta bildirimi gönderilmez.",
+      "status": {
+        "not_configured": "Yapılandırılmadı",
+        "verified": "Doğrulandı ve çalışıyor",
+        "not_verified": "Yapılandırıldı ancak doğrulanmadı",
+        "disabled": "E-posta devre dışı",
+        "console": "Konsol modu (geliştirme)"
+      },
+      "errors": {
+        "fetch_failed": "SMTP ayarları yüklenirken hata oluştu",
+        "save_failed": "SMTP ayarları kaydedilirken hata oluştu",
+        "test_failed": "SMTP bağlantısı test edilirken hata oluştu"
+      }
+    },
+    "onboarding": {
+      "label": "E-posta gönderimi",
+      "description": "Randevu onaylarını ve teklifleri e-postayla göndermek için göndericiyi ayarlayın."
+    },
+    "channels": {
+      "cardTitle": "Kanallar",
+      "cardDescription": "Kliniğin hastalara nasıl ulaştığı: otomatik mesajların kullandığı kanal ve personelin gördüğü Gönder düğmeleri.",
+      "preferredLabel": "Tercih edilen kanal",
+      "preferredHelp": "Otomatik mesajlar için kullanılır (yeni randevu, hatırlatma, hoş geldiniz…).",
+      "fallbackLabel": "Diğer kanala geç",
+      "fallbackHelp": "Tercih edilen kanal gönderemezse mesajı atlamak yerine diğer kullanılabilir kanalı dene.",
+      "manualLabel": "Şunlar için Gönder düğmesi göster…",
+      "manualHelp": "Resepsiyonun randevularda, tekliflerde ve faturalarda hangi Gönder düğmelerini göreceği.",
+      "manualAtLeastOne": "En az bir kanal seçin.",
+      "email": "E-posta",
+      "whatsapp": "WhatsApp",
+      "whatsappUnavailableHint": "Kliniğin numarası bağlanana kadar WhatsApp kullanılamaz.",
+      "whatsappConnect": "WhatsApp bağla (Kapso)",
+      "noEmail": "Hastanın kayıtlı e-postası yok",
+      "noPhone": "Hastanın kayıtlı telefonu yok",
+      "sms": "SMS",
+      "smsUnavailableHint": "Bir SMS sağlayıcısı yapılandırılana kadar SMS kullanılamaz.",
+      "smsConnect": "Yapılandır",
+      "smsDailyLimitLabel": "Günlük SMS limiti",
+      "smsDailyLimitHelp": "Klinik için günde en fazla giden SMS sayısı."
+    },
+    "channelSent": {
+      "email": "E-posta başarıyla gönderildi",
+      "whatsapp": "WhatsApp mesajı başarıyla gönderildi",
+      "sms": "SMS mesajı başarıyla gönderildi"
+    },
+    "prefs": {
+      "title": "Bildirim tercihleri",
+      "description": "Bu hastaya hangi kanallardan ulaşılabileceği. Bir kanaldan çıkış, zorunlu gönderimlerde bile o kanalı engeller.",
+      "saved": "Tercihler kaydedildi"
+    }
+  },
+  "invoice": {
+    "title": "Faturalar",
+    "description": "Faturaları ve faturalamayı yönetin",
+    "new": "Yeni fatura",
+    "edit": "Faturayı düzenle",
+    "view": "Faturayı gör",
+    "delete": "Faturayı sil",
+    "noItems": "Fatura yok",
+    "empty": "Kayıtlı fatura yok",
+    "emptyAction": "İlk faturayı oluştur",
+    "searchPlaceholder": "Numara veya hastaya göre ara...",
+    "notFound": "Fatura bulunamadı",
+    "draftNoNumber": "Taslak",
+    "details": "Ayrıntılar",
+    "invoiceNumber": "Fatura numarası",
+    "patient": "Hasta",
+    "searchPatient": "Hasta ara",
+    "searchPatientPlaceholder": "Ada göre ara...",
+    "professional": "Hekim",
+    "billingData": "Fatura bilgileri",
+    "billingName": "Fatura adı",
+    "taxId": "Vergi no",
+    "billingEmail": "Fatura e-postası",
+    "billingAddress": "Fatura adresi",
+    "billingDataComplete": "Tamam",
+    "billingDataIncomplete": "Eksik",
+    "billingDataIncompleteHint": "Hastanın bazı fatura bilgileri eksik.",
+    "editPatientBilling": "Hasta bilgilerini düzenle",
+    "fromPatient": "Hastadan",
+    "editInPatient": "Profilde düzenle",
+    "billingFromPatientHint": "Bu bilgiler hasta kaydından gelir. Değiştirmek için hastanın fatura bilgilerini düzenleyin.",
+    "paymentTerms": "Ödeme koşulları",
+    "linkedToBudget": "Teklife bağlı",
+    "selectPatient": "Hasta seçin",
+    "noBillingData": "Fatura bilgisi yok",
+    "street": "Sokak",
+    "city": "Şehir",
+    "postalCode": "Posta kodu",
+    "province": "İl",
+    "country": "Ülke",
+    "linkedBudget": "Bağlı teklif",
+    "creditNoteFor": "Alacak dekontu:",
+    "paymentTermDays": "Ödeme vadesi (gün)",
+    "dueDate": "Vade tarihi",
+    "issueDate": "Düzenleme tarihi",
+    "subtotal": "Ara toplam",
+    "discount": "İndirim",
+    "tax": "Vergi",
+    "total": "Toplam",
+    "paid": "Ödenen",
+    "balance": "Bakiye",
+    "balanceDue": "Kalan bakiye",
+    "overdue": "Vadesi geçmiş",
+    "overdueDays": "{n} gün gecikmiş",
+    "info": {
+      "issueDate": "Düzenleme tarihi",
+      "dueDate": "Vade tarihi",
+      "issuedBy": "Düzenleyen",
+      "createdBy": "Oluşturan",
+      "createdAt": "Oluşturulma",
+      "budget": "Teklif",
+      "creditNoteFor": "Alacak dekontu:"
+    },
+    "criticalBanner": {
+      "aeatRejected": {
+        "title": "AEAT bu faturayı reddetti",
+        "cta": "Düzelt ve yeniden gönder"
+      },
+      "billingIncomplete": {
+        "title": "Fatura bilgileri eksik",
+        "cta": "Bilgileri tamamla"
+      }
+    },
+    "collect": {
+      "title": "Faturayı tahsil et",
+      "submit": "Tahsil et",
+      "noteAppliedToInvoice": "bu faturaya uygulandı.",
+      "notePendingAfter": "Kalan bakiye",
+      "noteFullySettled": "Bu ödeme faturayı tamamen kapatır.",
+      "noteToInvoice": "bu faturaya uygulanır ve",
+      "noteExcessToOnAccount": "hasta hesabına alacak olarak geçer.",
+      "noteInvoiceSettled": "Bu fatura zaten ödendi.",
+      "noteToOnAccount": "hasta hesabına alacak olarak geçecek."
+    },
+    "tooth": "Diş",
+    "vat": "KDV",
+    "internalNotes": "Dahili notlar",
+    "internalNotesPlaceholder": "Yalnızca personelin görebileceği notlar...",
+    "publicNotes": "Açık notlar",
+    "publicNotesPlaceholder": "Faturada görünecek notlar...",
+    "items": "Kalemler",
+    "addItem": "Kalem ekle",
+    "editItem": "Kalemi düzenle",
+    "selectTreatment": "Tedavi",
+    "searchCatalog": "Katalogda tedavi ara...",
+    "itemDescription": "Açıklama",
+    "itemPrice": "Birim fiyat",
+    "itemQuantity": "Miktar",
+    "selectVatType": "KDV türü seçin",
+    "summary": "Özet",
+    "createDraft": "Taslak oluştur",
+    "createFromBudget": "Tekliften fatura oluştur",
+    "notes": "Notlar",
+    "status": {
+      "draft": "Taslak",
+      "issued": "Düzenlendi",
+      "partial": "Kısmen ödendi",
+      "paid": "Ödendi",
+      "cancelled": "İptal edildi",
+      "voided": "Geçersiz kılındı"
+    },
+    "actions": {
+      "issue": "Faturayı düzenle",
+      "void": "Geçersiz kıl",
+      "recordPayment": "Ödeme kaydet",
+      "createCreditNote": "Alacak dekontu oluştur",
+      "downloadPdf": "PDF indir",
+      "previewPdf": "PDF önizleme",
+      "sendEmail": "E-postayla gönder"
+    },
+    "recordPayment": "Ödeme kaydet",
+    "paymentAmount": "Tutar",
+    "paymentMethod": "Ödeme yöntemi",
+    "paymentDate": "Ödeme tarihi",
+    "paymentReference": "Referans",
+    "paymentReferencePlaceholder": "İşlem numarası, makbuz...",
+    "paymentNotes": "Ödeme notları",
+    "paymentVoided": "Ödeme geçersiz kılındı",
+    "createCreditNote": "Alacak dekontu oluştur",
+    "creditNoteReason": "Alacak dekontu nedeni",
+    "creditNoteReasonPlaceholder": "Alacak dekontunun nedenini açıklayın...",
+    "creditNoteInfo": "Faturanın tam tutarı için bir alacak dekontu oluşturulacak.",
+    "prompts": {
+      "voidPaymentReason": "Bu ödemeyi geçersiz kılma nedenini girin"
+    },
+    "payments": {
+      "title": "Ödemeler",
+      "void": "Ödemeyi geçersiz kıl",
+      "amount": "Tutar",
+      "method": "Ödeme yöntemi",
+      "date": "Tarih",
+      "reference": "Referans",
+      "notes": "Notlar",
+      "noPayments": "Kayıtlı ödeme yok",
+      "voided": "Ödeme geçersiz kılındı",
+      "voidReason": "Geçersiz kılma nedeni",
+      "voidReasonPlaceholder": "Bu ödemeyi geçersiz kılma nedeni...",
+      "methods": {
+        "cash": "Nakit",
+        "card": "Kart",
+        "bank_transfer": "Havale/EFT",
+        "direct_debit": "Otomatik ödeme",
+        "insurance": "Sigorta",
+        "other": "Diğer"
+      }
+    },
+    "creditNote": {
+      "title": "Alacak dekontu",
+      "create": "Alacak dekontu oluştur",
+      "reason": "Neden",
+      "reasonPlaceholder": "Alacak dekontunun nedeni...",
+      "selectItems": "Düzeltilecek kalemleri seçin",
+      "originalInvoice": "Asıl fatura"
+    },
+    "history": {
+      "title": "Geçmiş",
+      "noChanges": "Kayıtlı değişiklik yok",
+      "actions": {
+        "created": "Fatura oluşturuldu",
+        "updated": "Fatura güncellendi",
+        "issued": "Fatura düzenlendi",
+        "voided": "Fatura geçersiz kılındı",
+        "payment_recorded": "Ödeme kaydedildi",
+        "payment_voided": "Ödeme geçersiz kılındı",
+        "credit_note_created": "Alacak dekontu oluşturuldu"
+      }
+    },
+    "fromBudget": "Tekliften fatura oluştur",
+    "selectItems": "Faturalanacak kalemleri seçin",
+    "selectItemsHint": "Faturalamak istediğiniz teklif kalemlerini seçin",
+    "availableQuantity": "Mevcut",
+    "quantityToInvoice": "Faturalanacak miktar",
+    "alreadyInvoiced": "Zaten faturalandı",
+    "remaining": "Kalan",
+    "noItemsAvailable": "Faturalanacak kalem yok",
+    "allItemsInvoiced": "Tüm kalemler faturalandı",
+    "series": {
+      "title": "Fatura serisi",
+      "prefix": "Ön ek",
+      "type": "Tür",
+      "currentNumber": "Mevcut numara",
+      "resetYearly": "Yıllık sıfırla",
+      "default": "Varsayılan"
+    },
+    "filters": {
+      "allStatuses": "Durum",
+      "overdueOnly": "Vadesi geçmiş",
+      "dateFrom": "Başlangıç",
+      "dateTo": "Bitiş"
+    },
+    "sortFields": {
+      "created": "Oluşturulma",
+      "issueDate": "Düzenleme tarihi",
+      "dueDate": "Vade tarihi",
+      "total": "Toplam"
+    },
+    "overdueByDays": "{days} gün gecikmiş",
+    "pdf": {
+      "generating": "PDF oluşturuluyor...",
+      "downloadError": "PDF indirilirken hata oluştu"
+    },
+    "reports": {
+      "title": "Faturalama raporları",
+      "summary": "Özet",
+      "overdue": "Vadesi geçmiş",
+      "overdueInvoices": "Vadesi geçmiş faturalar",
+      "byPaymentMethod": "Ödeme yöntemine göre",
+      "byProfessional": "Hekime göre",
+      "vatSummary": "KDV özeti",
+      "gaps": "Numaralandırma boşlukları",
+      "period": "Dönem",
+      "from": "Başlangıç",
+      "to": "Bitiş",
+      "refresh": "Yenile",
+      "totalInvoiced": "Toplam faturalanan",
+      "totalCollected": "Toplam tahsil edilen",
+      "totalPaid": "Toplam ödenen",
+      "totalPending": "Toplam bekleyen",
+      "pending": "Kalan bakiye",
+      "invoices": "fatura",
+      "paid": "ödendi",
+      "payments": "ödeme",
+      "noGaps": "Numaralandırmada boşluk yok",
+      "gapsFound": "Numaralandırmada {count} boşluk bulundu",
+      "gapsDetected": "Numaralandırmada boşluk tespit edildi",
+      "missingNumbers": "Eksik numaralar:",
+      "noData": "Seçilen dönem için veri yok",
+      "noOverdue": "Vadesi geçmiş fatura yok",
+      "daysOverdue": "gün gecikmiş",
+      "vatType": "KDV türü",
+      "base": "Matrah",
+      "tax": "Vergi",
+      "thisMonth": "Bu ay",
+      "thisQuarter": "Bu çeyrek",
+      "thisYear": "Bu yıl",
+      "lastMonth": "Geçen ay",
+      "lastQuarter": "Geçen çeyrek",
+      "lastYear": "Geçen yıl"
+    },
+    "confirmations": {
+      "issue": "Fatura düzenlensin mi?",
+      "issueDescription": "Düzenlendikten sonra fatura değiştirilemez. Yalnızca ödeme kaydedilebilir veya alacak dekontu oluşturulabilir.",
+      "void": "Fatura geçersiz kılınsın mı?",
+      "voidDescription": "Bu işlem geri alınamaz.",
+      "delete": "Fatura silinsin mi?",
+      "deleteDescription": "Bu işlem geri alınamaz."
+    },
+    "messages": {
+      "created": "Fatura oluşturuldu",
+      "updated": "Fatura güncellendi",
+      "deleted": "Fatura silindi",
+      "issued": "Fatura düzenlendi",
+      "voided": "Fatura geçersiz kılındı",
+      "itemAdded": "Kalem eklendi",
+      "itemUpdated": "Kalem güncellendi",
+      "sentByEmail": "Fatura e-postayla gönderildi",
+      "sentManually": "Fatura gönderildi olarak işaretlendi",
+      "sentByWhatsapp": "Fatura WhatsApp ile gönderildi",
+      "creditNoteCreated": "Alacak dekontu oluşturuldu",
+      "paymentRecorded": "Ödeme kaydedildi"
+    },
+    "send": {
+      "title": "Faturayı gönder",
+      "description": "Faturayı e-posta veya WhatsApp ile gönderebilir ya da elle gönderildi (yazdırıldı veya elden teslim edildi) olarak işaretleyebilirsiniz.",
+      "sendByEmail": "E-postayla gönder",
+      "willSendTo": "Gönderilecek adres",
+      "noPatientEmail": "Hastanın e-posta adresi yok",
+      "customMessage": "Özel mesaj (isteğe bağlı)",
+      "customMessagePlaceholder": "Hasta için bir mesaj ekleyin...",
+      "manualNote": "Fatura herhangi bir mesaj gönderilmeden gönderildi olarak işaretlenecek.",
+      "sendEmail": "E-posta gönder",
+      "markAsSent": "Gönderildi olarak işaretle",
+      "sendByWhatsapp": "WhatsApp ile gönder",
+      "sendWhatsapp": "WhatsApp gönder",
+      "willSendToPhone": "WhatsApp ile gönderilecek numara"
+    },
+    "errors": {
+      "load": "Faturalar yüklenirken hata oluştu",
+      "create": "Fatura oluşturulurken hata oluştu",
+      "update": "Fatura güncellenirken hata oluştu",
+      "delete": "Fatura silinirken hata oluştu",
+      "issue": "Fatura düzenlenirken hata oluştu",
+      "void": "Fatura geçersiz kılınırken hata oluştu",
+      "recordPayment": "Ödeme kaydedilirken hata oluştu",
+      "voidPayment": "Ödeme geçersiz kılınırken hata oluştu",
+      "createCreditNote": "Alacak dekontu oluşturulurken hata oluştu",
+      "send": "Fatura gönderilirken hata oluştu",
+      "creditNoteReasonRequired": "Alacak dekontu nedeni zorunludur",
+      "notFound": "Fatura bulunamadı",
+      "canOnlyDeleteDraft": "Yalnızca taslak faturalar silinebilir",
+      "patientRequired": "Hasta zorunludur",
+      "itemsRequired": "En az bir kalem gereklidir",
+      "itemRequired": "Açıklama ve fiyat zorunludur",
+      "selectCatalogItem": "Lütfen katalogdan bir tedavi seçin",
+      "cannotEdit": "Yalnızca taslak faturalar düzenlenebilir"
+    },
+    "newItemsPending": "Kaydedilmeyi bekleyen yeni kalemler",
+    "linkedPlan": "Tedavi planı"
+  },
+  "reports": {
+    "title": "Raporlar",
+    "subtitle": "Klinik analizleri ve istatistikleri",
+    "viewReports": "Raporları gör",
+    "noAccess": "Hiçbir rapora erişiminiz yok",
+    "dashboard": {
+      "title": "Gösterge paneli",
+      "subtitle": "Kliniğinize genel bakış",
+      "period": "Dönem",
+      "snapshotBadge": "Bugün",
+      "snapshotTooltip": "Tarih aralığından etkilenmez",
+      "vsPrev": "önceki döneme göre",
+      "empty": {
+        "noData": "Bu aralıkta veri yok"
+      },
+      "drilldown": {
+        "title": "Ayrıntıya in",
+        "payments": "Ödemeler"
+      },
+      "kpi": {
+        "cashCollected": "Tahsil edilen nakit",
+        "cashCollectedHint": "{count} ödeme",
+        "patientAdvance": "Hasta alacağı",
+        "patientAdvanceHint": "Dağıtılmamış avanslar",
+        "production": "Üretim",
+        "productionHint": "{count} tedavi",
+        "byMethod": "Ödeme yöntemine göre",
+        "methodCount": "{count} ödeme",
+        "total": "Toplam",
+        "newPatients": "Yeni hastalar",
+        "newPatientsHint": "Toplam randevuların %{rate}'i",
+        "appointmentFunnel": "Gelmeme oranı",
+        "funnelHint": "%{completed} tamamlandı",
+        "avgCollectedTicket": "Ort. tahsilat tutarı",
+        "avgTicketHint": "{count} ödeme üzerinden",
+        "aging": "Alacak yaşlandırma"
+      },
+      "charts": {
+        "cashOverTime": "Zaman içinde tahsilat",
+        "productionByDoctor": "Hekime göre üretim",
+        "refunded": "İadeler"
+      },
+      "production": {
+        "unassigned": "Atanmamış",
+        "others": "Diğerleri",
+        "treatmentCount": "{count} tedavi"
+      },
+      "aging": {
+        "bucket0_30": "0-30 gün",
+        "bucket31_60": "31-60 gün",
+        "bucket61_90": "61-90 gün",
+        "bucket90plus": "90+ gün",
+        "empty": "Bekleyen alacak yok",
+        "patientCount": "{count} hasta"
+      }
+    },
+    "billing": {
+      "title": "Faturalama",
+      "description": "Gelir, ödemeler, KDV ve vadesi geçmiş faturalar",
+      "summary": "Özet",
+      "overdue": "Vadesi geçmiş",
+      "overdueInvoices": "Vadesi geçmiş faturalar",
+      "byPaymentMethod": "Ödeme yöntemine göre",
+      "byProfessional": "Hekime göre",
+      "vatSummary": "KDV özeti",
+      "gaps": "Numaralandırma boşlukları",
+      "period": "Dönem",
+      "from": "Başlangıç",
+      "to": "Bitiş",
+      "refresh": "Yenile",
+      "totalInvoiced": "Toplam faturalanan",
+      "totalCollected": "Toplam tahsil edilen",
+      "pending": "Kalan bakiye",
+      "invoices": "fatura",
+      "paid": "ödendi",
+      "payments": "ödeme",
+      "gapsDetected": "Numaralandırmada boşluk tespit edildi",
+      "missingNumbers": "Eksik numaralar:",
+      "noData": "Seçilen dönem için veri yok",
+      "noOverdue": "Vadesi geçmiş fatura yok",
+      "invoiceAging": "Fatura yaşlandırma",
+      "invoiceAgingDescription": "Dilim başına bekleyen düzenlenmiş toplamlar. Vadesi gelmemiş faturalar ayrı tutulur.",
+      "notDue": "Vadesi gelmemiş",
+      "issuedTrend": "Düzenleme eğilimi",
+      "daysOverdue": "gün gecikmiş",
+      "vatType": "KDV türü",
+      "base": "Matrah",
+      "tax": "Vergi",
+      "thisMonth": "Bu ay",
+      "thisQuarter": "Bu çeyrek",
+      "thisYear": "Bu yıl",
+      "lastMonth": "Geçen ay",
+      "lastQuarter": "Geçen çeyrek",
+      "lastYear": "Geçen yıl"
+    },
+    "budgets": {
+      "title": "Teklifler",
+      "description": "Kabul oranları, hekim analizi ve tedaviler",
+      "comingSoonDescription": "Teklif raporları yakında kullanılabilir olacak. Kabul oranlarını, hekime göre teklifleri ve en çok talep edilen tedavileri analiz edebileceksiniz.",
+      "features": {
+        "acceptanceRate": "Kabul oranı",
+        "acceptanceRateDesc": "Kabul edilen ve reddedilen tekliflerin yüzdesi",
+        "byProfessional": "Hekime göre",
+        "byProfessionalDesc": "Her hekimin oluşturduğu teklifler",
+        "byTreatment": "Tedaviye göre",
+        "byTreatmentDesc": "En çok teklif verilen tedaviler",
+        "averageValue": "Ortalama değer",
+        "averageValueDesc": "Ortalama teklif tutarı"
+      },
+      "labels": {
+        "totalCreated": "Toplam oluşturulan",
+        "accepted": "Kabul edilen",
+        "rejected": "reddedilen",
+        "pending": "bekleyen",
+        "completed": "Tamamlanan",
+        "acceptanceRate": "Kabul oranı",
+        "averageValue": "Ortalama değer",
+        "byStatus": "Duruma göre",
+        "topTreatments": "En çok teklif verilen tedaviler",
+        "treatment": "Tedavi",
+        "occurrences": "Sayı",
+        "quantity": "Miktar"
+      }
+    },
+    "scheduling": {
+      "title": "Ajanda",
+      "description": "İlk ziyaretler, çalışılan saatler ve doluluk",
+      "comingSoonDescription": "Ajanda raporları yakında kullanılabilir olacak. İlk ziyaretleri, hekim başına saatleri ve iptal oranlarını analiz edebileceksiniz.",
+      "features": {
+        "firstVisits": "İlk ziyaretler",
+        "firstVisitsDesc": "Dönem başına yeni hastalar",
+        "hoursWorked": "Çalışılan saatler",
+        "hoursWorkedDesc": "Hekim başına süre",
+        "cancellations": "İptaller",
+        "cancellationsDesc": "İptal ve gelmeme oranları",
+        "cabinetUtilization": "Ünite doluluğu",
+        "cabinetUtilizationDesc": "Her ünitenin kullanımı"
+      },
+      "labels": {
+        "totalAppointments": "Toplam randevu",
+        "completionRate": "Tamamlanma oranı",
+        "completed": "tamamlandı",
+        "cancellationRate": "İptal oranı",
+        "cancelled": "iptal",
+        "noShowRate": "Gelmeme oranı",
+        "noShows": "gelmedi",
+        "newPatients": "yeni hasta",
+        "firstVisitRate": "İlk ziyaret oranı",
+        "ofTotalAppointments": "toplam randevuların",
+        "appointmentsInPeriod": "Dönemdeki randevular",
+        "excludingCancelled": "iptaller hariç",
+        "appointments": "randevu",
+        "byDayOfWeek": "Haftanın gününe göre",
+        "statusBreakdown": "Durum dağılımı",
+        "pending": "bekleyen"
+      },
+      "analytics": {
+        "funnel": "Durum hunisi",
+        "funnelDesc": "Dönemdeki randevuların duruma göre dağılımı",
+        "waitingTimes": "Bekleme süreleri",
+        "waitingTimesDesc": "Hastanın gelişi ile koltuğa alınması arasındaki dakika",
+        "punctuality": "Hasta dakikliği",
+        "punctualityDesc": "Planlanan saat ile gerçek geliş arasındaki fark",
+        "durationVariance": "Planlanan ve gerçek süre",
+        "durationVarianceDesc": "Planlanan süre ile gerçek koltuk süresinin karşılaştırması",
+        "samples": "Örnek",
+        "average": "Ortalama",
+        "median": "Medyan",
+        "p90": "P90",
+        "avgDelta": "Ort. fark",
+        "medianDelta": "Medyan fark",
+        "onTime": "% zamanında",
+        "avgOverrun": "Ort. aşım",
+        "overrunCount": "Aşım sayısı",
+        "underCount": "Erken bitiş sayısı",
+        "completionRate": "Tamamlanma",
+        "noShowRate": "Gelmeme",
+        "cancellationRate": "İptal",
+        "punctuality_early": "Erken (<-5)",
+        "punctuality_on_time": "Zamanında (±5)",
+        "punctuality_late_short": "Geç (5-15)",
+        "punctuality_late_long": "Geç (>15)"
+      },
+      "tabs": {
+        "overview": "Genel bakış",
+        "activity": "Etkinlik",
+        "quality": "Kalite"
+      },
+      "hero": {
+        "inPeriod": "dönemde"
+      },
+      "filters": {
+        "cabinet": "Ünite",
+        "professional": "Hekim",
+        "custom": "Özel aralık",
+        "all": "Tümü",
+        "clear": "Filtreleri temizle"
+      },
+      "empty": {
+        "title": "Bu dönem için veri yok",
+        "desc": "Daha geniş bir tarih aralığı deneyin veya filtreleri kaldırın."
+      }
+    },
+    "loadError": "Rapor verileri yüklenemedi"
+  },
+  "invoiceSeries": {
+    "title": "Fatura Serileri",
+    "description": "Fatura ön eklerini ve numaralandırmayı yapılandırın",
+    "regularInvoices": "Faturalar",
+    "creditNotes": "Alacak Dekontları",
+    "new": "Yeni seri",
+    "newTitle": "Yeni {type} serisi",
+    "editTitle": "Seriyi düzenle",
+    "prefix": "Ön ek",
+    "prefixHint": "ör. FAT, IAD. Yıl otomatik olarak eklenir.",
+    "descriptionLabel": "Açıklama",
+    "descriptionPlaceholder": "İsteğe bağlı seri açıklaması...",
+    "nextNumber": "Sonraki numara",
+    "preview": "Önizleme",
+    "resetYearly": "Yıllık sıfırlama",
+    "resetYearlyLabel": "Numaralandırmayı her yıl sıfırla",
+    "setAsDefault": "Varsayılan yap",
+    "activeLabel": "Aktif seri",
+    "showInactive": "Pasifleri göster",
+    "noItems": "Yapılandırılmış seri yok",
+    "resetCounter": "Sayacı sıfırla",
+    "currentNumber": "Mevcut numara",
+    "seriesPrefix": "Seri ön eki",
+    "newNumber": "Yeni numara",
+    "newNumberHint": "Numara bu serideki mevcut en yüksek numaradan büyük olmalıdır.",
+    "resetWarningTitle": "Uyarı",
+    "resetWarning": "Bu işlem denetim günlüğüne kaydedilecek ve geri alınamaz.",
+    "confirmReset": "Sayacı sıfırla",
+    "created": "Seri başarıyla oluşturuldu",
+    "saved": "Seri başarıyla güncellendi",
+    "resetSuccess": "Sayaç başarıyla sıfırlandı",
+    "onboarding": {
+      "label": "Fatura serisi",
+      "description": "İlk faturayı düzenlemek için gereklidir (ör. FAT-2026-0001)."
+    }
+  },
+  "documents": {
+    "title": "Belgeler",
+    "add": "Ekle",
+    "edit": "Belgeyi Düzenle",
+    "upload": "Belge Yükle",
+    "uploading": "Yükleniyor...",
+    "empty": "Henüz belge yok",
+    "uploadFirst": "İlk belgeyi yükle",
+    "types": {
+      "consent": "Onam",
+      "id_scan": "Kimlik Belgesi",
+      "insurance": "Sigorta",
+      "report": "Rapor",
+      "referral": "Sevk",
+      "other": "Diğer"
+    },
+    "fields": {
+      "type": "Tür",
+      "title": "Başlık",
+      "titlePlaceholder": "Belge başlığı",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "İsteğe bağlı notlar"
+    },
+    "dropzone": {
+      "hint": "Bir dosyayı buraya sürükleyip bırakın veya seçmek için tıklayın"
+    },
+    "filter": {
+      "allTypes": "Tüm türler"
+    },
+    "deleteConfirm": {
+      "title": "Belgeyi Sil",
+      "message": "Bu belgeyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+    },
+    "fetchError": "Belgeler yüklenirken hata oluştu",
+    "uploadSuccess": "Belge başarıyla yüklendi",
+    "uploadError": "Belge yüklenirken hata oluştu",
+    "downloadError": "Belge indirilirken hata oluştu",
+    "deleteSuccess": "Belge silindi",
+    "deleteError": "Belge silinirken hata oluştu",
+    "updateSuccess": "Belge güncellendi",
+    "updateError": "Belge güncellenirken hata oluştu",
+    "viewer": {
+      "loading": "Belge yükleniyor...",
+      "error": "Belge yüklenemedi",
+      "downloadInstead": "Bunun yerine indir",
+      "unsupported": "Bu dosya türü için önizleme kullanılamıyor",
+      "zoomOut": "Uzaklaştır",
+      "zoomIn": "Yakınlaştır",
+      "resetZoom": "%100'e sıfırla",
+      "zoomHint": "Yakınlaştırmak için Ctrl + kaydırma"
+    },
+    "typeDesc": {
+      "consent": "İmzalı belge",
+      "id_scan": "Kimlik / pasaport",
+      "insurance": "Poliçe veya kart",
+      "report": "Klinik rapor",
+      "referral": "Sevk yazısı",
+      "other": "Sınıflandırılmamış"
+    },
+    "errors": {
+      "mime": "Dosya türüne izin verilmiyor. Yalnızca PDF, JPG veya PNG.",
+      "size": "Dosya 10 MB'ı aşıyor."
+    },
+    "pdfPreviewHint": "Önizleme yüklemeden sonra kullanılabilir",
+    "uploadHelp": "Doğru kategoride görünmesi için dosyayı sınıflandırın."
+  },
+  "photoGallery": {
+    "title": "Hasta galerisi",
+    "add": "Fotoğraf ekle",
+    "empty": "Henüz fotoğraf yok",
+    "uploadFirst": "İlkini yükleyin",
+    "showingOf": "{total} içinden {count} gösteriliyor",
+    "upload": "Fotoğraf yükle",
+    "uploadHelp": "Doğru kategoride görünmesi için sınıflandırın",
+    "dropHere": "Bir fotoğrafı buraya sürükleyin veya tıklayın",
+    "category": "Tür",
+    "subtype": "Görünüm",
+    "titlePlaceholder": "Frontal ağız içi — 02/05",
+    "capturedAt": "Tarih",
+    "exifHint": "EXIF'ten otomatik",
+    "cat": {
+      "all": "Tümü",
+      "intraoral": "Ağız içi",
+      "extraoral": "Ağız dışı",
+      "xray": "Röntgen",
+      "clinical": "Önce/Sonra",
+      "other": "Diğer"
+    },
+    "catDesc": {
+      "intraoral": "Ağız içi",
+      "extraoral": "Yüz ve profil",
+      "xray": "Radyolojik görüntü",
+      "clinical": "Tedavi karşılaştırması",
+      "other": "Sınıflandırılmamış"
+    },
+    "sub": {
+      "frontal": "Frontal",
+      "lateral_left": "Sol lateral",
+      "lateral_right": "Sağ lateral",
+      "occlusal_upper": "Üst okluzal",
+      "occlusal_lower": "Alt okluzal",
+      "palatal": "Palatinal",
+      "lingual": "Lingual",
+      "smile": "Gülümseme",
+      "rest": "İstirahat",
+      "frontal_face": "Frontal",
+      "profile_left": "Sol profil",
+      "profile_right": "Sağ profil",
+      "three_quarter_left": "3/4 sol",
+      "three_quarter_right": "3/4 sağ",
+      "panoramic": "Panoramik",
+      "periapical": "Periapikal",
+      "bitewing": "Bitewing",
+      "ceph_lat": "Sefalometrik lateral",
+      "ceph_pa": "Sefalometrik PA",
+      "cbct": "CBCT",
+      "occlusal_xray": "Okluzal röntgen",
+      "before": "Önce",
+      "after": "Sonra",
+      "progress": "İlerleme",
+      "reference": "Referans",
+      "portrait": "Portre",
+      "document_scan": "Belge",
+      "model_photo": "Model"
+    },
+    "compare": {
+      "before": "Önce",
+      "after": "Sonra"
+    },
+    "pair": {
+      "pickHint": "Eşleştirilecek fotoğrafı seçin:",
+      "noCandidates": "Kullanılabilir fotoğraf yok. Önce başka bir fotoğraf yükleyin.",
+      "paired": "Eşleştirildi",
+      "exitCompare": "Karşılaştırmadan çık",
+      "compare": "Karşılaştır",
+      "unpair": "Kaldır",
+      "pair": "Önce/sonra eşleştir"
+    }
+  },
+  "help": {
+    "label": "Yardım",
+    "openHelp": "Yardımı aç",
+    "drawerTitle": "Bu sayfa için yardım",
+    "unavailable": "Bu sayfa için henüz bağlamsal yardım yok.",
+    "openFullManual": "Kılavuzun tamamını aç"
+  },
+  "charts": {
+    "trend": {
+      "ariaLabel": "{count} noktalı eğilim"
+    },
+    "donut": {
+      "ariaLabel": "Halka grafik, {count} dilim"
+    }
+  }
+}

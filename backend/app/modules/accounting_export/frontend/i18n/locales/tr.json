@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "accountingExport": "Muhasebe dışa aktarımı"
+  },
+  "accountingExport": {
+    "title": "Muhasebe dışa aktarımı",
+    "subtitle": "Dönemin faturalarını ve ödemelerini muhasebecinize iletmek için indirin.",
+    "period": "Dönem",
+    "from": "Başlangıç",
+    "to": "Bitiş",
+    "presets": {
+      "currentMonth": "Bu ay",
+      "previousMonth": "Geçen ay",
+      "currentQuarter": "Bu çeyrek",
+      "previousQuarter": "Geçen çeyrek",
+      "yearToDate": "Yılbaşından bugüne",
+      "custom": "Özel"
+    },
+    "actions": {
+      "preview": "Önizleme",
+      "download": "İndir (.zip)"
+    },
+    "counters": {
+      "invoices": "Faturalar",
+      "payments": "Ödemeler",
+      "base": "Matrah",
+      "total": "Toplam"
+    },
+    "cols": {
+      "numero": "Numara",
+      "fecha_emision": "Tarih",
+      "cliente": "Müşteri",
+      "nif": "Vergi no",
+      "base": "Matrah",
+      "cuota_iva": "KDV",
+      "total": "Toplam",
+      "estado": "Durum"
+    }
+  }
+}

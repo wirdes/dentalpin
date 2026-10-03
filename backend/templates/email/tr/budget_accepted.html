@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Teklif kabul edildi - {{ clinic_name | default('DentalPin') }}{% endblock %}
+
+{% block content %}
+<h2>Teklif kabul edildi</h2>
+
+<p>Merhaba {{ patient_name }},</p>
+
+<p><strong>{{ clinic_name | default('DentalPin') }}</strong> kliniğinden aldığınız <strong>#{{ budget_number }}</strong> numaralı teklif kabul edildi.</p>
+
+<div class="info-box">
+    <div class="info-row">
+        <div class="label">Teklif</div>
+        <div class="value">#{{ budget_number }}</div>
+    </div>
+    <div class="info-row">
+        <div class="label">Kabul tarihi</div>
+        <div class="value">{{ accepted_date }}</div>
+    </div>
+    <div class="info-row">
+        <div class="label">Toplam</div>
+        <div class="value" style="font-size: 18px; font-weight: 700;">{{ total }}</div>
+    </div>
+</div>
+
+<p>İlgili randevuları planlamak için kısa süre içinde sizinle iletişime geçeceğiz.</p>
+{% endblock %}
